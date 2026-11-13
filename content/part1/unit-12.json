@@ -1,0 +1,886 @@
+{
+  "unit": 12,
+  "title": "Enzyme kinetics and mechanisms",
+  "outcomes": [
+    "Main mechanisms of catalysis",
+    "Enzyme kinetics – Michaelis–Menten equation",
+    "Enzymatic inhibition",
+    "Effects of pH and temperature on enzyme activity"
+  ],
+  "summary": {
+    "overview": "Enzymes speed up reactions by lowering the activation energy (ΔG‡); they never change the equilibrium. Kinetics describes how fast an enzyme works (Vmax, kcat), how well it binds its substrate (Km), and how inhibitors change these values.",
+    "sections": [
+      {
+        "heading": "How enzymes catalyse",
+        "points": [
+          "Enzymes lower ΔG‡ only. ΔG°′ and K′eq are unchanged, so equilibrium is simply reached faster.",
+          "Binding energy holds reactants close together and correctly oriented, and the active site binds the transition state more tightly than the substrate.",
+          "Acid–base catalysis: residues such as His, Asp and Glu donate or remove protons.",
+          "Covalent catalysis: a transient enzyme–substrate bond, e.g. the Schiff base in Class I aldolase.",
+          "Metal-ion catalysis: orienting the substrate, redox, and shielding charge, e.g. Mg²⁺–ATP in kinases."
+        ]
+      },
+      {
+        "heading": "Michaelis–Menten kinetics",
+        "points": [
+          "v0 = Vmax[S] / (Km + [S]). Measure initial rates, while [P] ≈ 0.",
+          "Km = [S] at which v0 = ½Vmax. As a rough guide, a lower Km means tighter binding.",
+          "kcat is the turnover number; Vmax = kcat[E]t.",
+          "kcat/Km measures catalytic efficiency; its diffusion limit is ≈ 10⁸–10⁹ M⁻¹s⁻¹.",
+          "Lineweaver–Burk plot (1/v0 vs 1/[S]): y-intercept = 1/Vmax, x-intercept = −1/Km, slope = Km/Vmax."
+        ]
+      },
+      {
+        "heading": "Inhibition",
+        "points": [
+          "Competitive: binds the active site of free E. Km rises, Vmax is unchanged, and the lines meet on the y-axis. High [S] overcomes it.",
+          "Uncompetitive: binds ES only. Km and Vmax both fall, and the lines are parallel.",
+          "Mixed: binds both E and ES. Vmax falls, Km changes, and the lines meet left of the y-axis. Non-competitive is the special case where Km is unchanged.",
+          "Irreversible: covalent inactivation (e.g. organophosphates on acetylcholinesterase) removes active enzyme, so Vmax falls."
+        ]
+      },
+      {
+        "heading": "Two substrates, pH and temperature",
+        "points": [
+          "Sequential mechanisms (a ternary complex forms) give intersecting lines; ping-pong mechanisms give parallel lines.",
+          "The pH optimum reflects the ionisation state of catalytic and binding groups; extremes of pH denature the enzyme.",
+          "The rate rises with temperature until the protein denatures."
+        ]
+      }
+    ],
+    "keyTerms": [
+      {
+        "term": "ΔG‡ (activation energy)",
+        "definition": "Energy barrier to reach the transition state; enzymes lower it."
+      },
+      {
+        "term": "Km",
+        "definition": "Substrate concentration giving half of Vmax."
+      },
+      {
+        "term": "Vmax",
+        "definition": "Maximum rate when the enzyme is saturated; Vmax = kcat[E]t."
+      },
+      {
+        "term": "kcat",
+        "definition": "Turnover number: substrate molecules converted per active site per second."
+      },
+      {
+        "term": "kcat/Km",
+        "definition": "Specificity constant, a measure of catalytic efficiency."
+      },
+      {
+        "term": "Lineweaver–Burk plot",
+        "definition": "Double-reciprocal plot of 1/v0 against 1/[S]."
+      },
+      {
+        "term": "Competitive inhibitor",
+        "definition": "Competes with the substrate for the active site; raises apparent Km."
+      },
+      {
+        "term": "Uncompetitive inhibitor",
+        "definition": "Binds the ES complex only; lowers both Km and Vmax."
+      },
+      {
+        "term": "Ping-pong mechanism",
+        "definition": "First product leaves before the second substrate binds."
+      }
+    ],
+    "examTips": [
+      "Km is not the same as Kd: they are equal only when k2 ≪ k−1.",
+      "Read Vmax changes from the y-intercept and Km changes from the x-intercept. Competitive inhibition leaves 1/Vmax unchanged.",
+      "Parallel Lineweaver–Burk lines mean uncompetitive inhibition OR a ping-pong mechanism; check what was varied.",
+      "Enzymes never make an unfavourable reaction favourable; they only reach equilibrium faster."
+    ]
+  },
+  "questions": [
+    {
+      "id": "u12-q001",
+      "type": "mcq",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzyme kinetics – Michaelis–Menten equation",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Which definition of Km is always true for an enzyme that follows Michaelis–Menten kinetics?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The substrate concentration at which v0 = ½ Vmax",
+          "correct": true,
+          "why": "Setting [S] = Km in v0 = Vmax[S]/(Km + [S]) gives v0 = Vmax/2, whatever the mechanism."
+        },
+        {
+          "id": "b",
+          "text": "The dissociation constant of the ES complex",
+          "correct": false,
+          "why": "Km equals Kd only when k2 ≪ k−1; in general Km = (k−1 + k2)/k1."
+        },
+        {
+          "id": "c",
+          "text": "The maximum rate reached when the enzyme is saturated",
+          "correct": false,
+          "why": "That is Vmax."
+        },
+        {
+          "id": "d",
+          "text": "The number of substrate molecules converted per enzyme per second",
+          "correct": false,
+          "why": "That is kcat, the turnover number."
+        }
+      ]
+    },
+    {
+      "id": "u12-q002",
+      "type": "mcq",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzyme kinetics – Michaelis–Menten equation",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "An enzyme obeys Michaelis–Menten kinetics. At [S] = 4 Km, what is v0 as a fraction of Vmax?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.80",
+          "correct": true,
+          "why": "v0/Vmax = [S]/(Km + [S]) = 4Km/5Km = 0.80."
+        },
+        {
+          "id": "b",
+          "text": "0.25",
+          "correct": false,
+          "why": "This inverts the ratio; 0.25 would be v0/Vmax at [S] = Km/3."
+        },
+        {
+          "id": "c",
+          "text": "0.50",
+          "correct": false,
+          "why": "Half of Vmax is reached at [S] = Km, not 4 Km."
+        },
+        {
+          "id": "d",
+          "text": "1.00",
+          "correct": false,
+          "why": "Vmax is only approached asymptotically; it is never reached at a finite [S]."
+        }
+      ]
+    },
+    {
+      "id": "u12-q003",
+      "type": "mcq",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Main mechanisms of catalysis",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Which quantity does an enzyme change for the reaction it catalyses?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The activation free energy, ΔG‡",
+          "correct": true,
+          "why": "Enzymes speed up reactions by lowering ΔG‡, mainly by binding the transition state more tightly than the substrate."
+        },
+        {
+          "id": "b",
+          "text": "The standard free-energy change, ΔG°′",
+          "correct": false,
+          "why": "ΔG°′ depends only on the initial and final states, which the enzyme does not change."
+        },
+        {
+          "id": "c",
+          "text": "The equilibrium constant, K′eq",
+          "correct": false,
+          "why": "K′eq is fixed by ΔG°′; an enzyme speeds up both directions equally."
+        },
+        {
+          "id": "d",
+          "text": "The final ratio of product to substrate at equilibrium",
+          "correct": false,
+          "why": "This is K′eq again; enzymes only reach equilibrium faster."
+        }
+      ]
+    },
+    {
+      "id": "u12-q004",
+      "type": "mcq",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzyme kinetics – Michaelis–Menten equation",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Two substrates compete for the same enzyme. Which parameter best predicts which substrate will be converted faster when both are at low concentration?",
+      "options": [
+        {
+          "id": "a",
+          "text": "kcat/Km (the specificity constant)",
+          "correct": true,
+          "why": "At [S] ≪ Km, v0 ≈ (kcat/Km)[E]t[S], so kcat/Km sets the relative rates; its upper limit is diffusion (10⁸–10⁹ M⁻¹s⁻¹)."
+        },
+        {
+          "id": "b",
+          "text": "kcat alone (the turnover number)",
+          "correct": false,
+          "why": "kcat describes the saturated enzyme; at low [S], binding (Km) matters as much as turnover."
+        },
+        {
+          "id": "c",
+          "text": "Km alone (the substrate affinity)",
+          "correct": false,
+          "why": "A low Km means good binding, but a slow kcat could still make conversion slow."
+        },
+        {
+          "id": "d",
+          "text": "Vmax (the maximum velocity)",
+          "correct": false,
+          "why": "Vmax depends on enzyme concentration and describes saturating, not low, [S]."
+        }
+      ]
+    },
+    {
+      "id": "u12-q005",
+      "type": "mcq",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzyme kinetics – Michaelis–Menten equation",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "A Lineweaver–Burk plot cuts the x-axis at −0.5 mM⁻¹ and the y-axis at 0.02 min/µmol. What are Km and Vmax?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Km = 2 mM; Vmax = 50 µmol/min",
+          "correct": true,
+          "why": "x-intercept = −1/Km, so Km = 2 mM; y-intercept = 1/Vmax, so Vmax = 50 µmol/min."
+        },
+        {
+          "id": "b",
+          "text": "Km = 0.5 mM; Vmax = 0.02 µmol/min",
+          "correct": false,
+          "why": "The intercepts are reciprocals and must be inverted."
+        },
+        {
+          "id": "c",
+          "text": "Km = 50 mM; Vmax = 2 µmol/min",
+          "correct": false,
+          "why": "This swaps the two intercepts: the x-axis gives Km and the y-axis gives Vmax."
+        },
+        {
+          "id": "d",
+          "text": "Km = −2 mM; Vmax = 50 µmol/min",
+          "correct": false,
+          "why": "The x-intercept is −1/Km; Km itself is positive."
+        }
+      ]
+    },
+    {
+      "id": "u12-q006",
+      "type": "mcq",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzymatic inhibition",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Lineweaver–Burk lines measured with and without an inhibitor meet on the y-axis. What type of inhibition is this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Competitive: apparent Km increases, Vmax unchanged",
+          "correct": true,
+          "why": "Same y-intercept (1/Vmax) but a steeper slope (αKm/Vmax): high [S] can outcompete the inhibitor."
+        },
+        {
+          "id": "b",
+          "text": "Uncompetitive: apparent Km and Vmax both decrease",
+          "correct": false,
+          "why": "Uncompetitive inhibition gives parallel lines."
+        },
+        {
+          "id": "c",
+          "text": "Mixed: the lines meet to the left of the y-axis",
+          "correct": false,
+          "why": "Mixed inhibition changes Vmax, so the y-intercept moves."
+        },
+        {
+          "id": "d",
+          "text": "Irreversible: Vmax decreases while Km is unchanged",
+          "correct": false,
+          "why": "Lowering Vmax would raise the y-intercept; here the y-intercept is unchanged."
+        }
+      ]
+    },
+    {
+      "id": "u12-q007",
+      "type": "mcq",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzymatic inhibition",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "An inhibitor binds only to the ES complex. Which kinetic pattern results?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Apparent Vmax and Km both fall by the same factor; Lineweaver–Burk lines are parallel",
+          "correct": true,
+          "why": "Uncompetitive: Vmax/α′ and Km/α′, so the slope Km/Vmax stays the same and the lines are parallel."
+        },
+        {
+          "id": "b",
+          "text": "Apparent Km rises while Vmax is unchanged; the lines meet on the y-axis",
+          "correct": false,
+          "why": "That is competitive inhibition, where the inhibitor binds free E."
+        },
+        {
+          "id": "c",
+          "text": "Vmax falls while Km is unchanged; the Lineweaver–Burk lines meet on the x-axis",
+          "correct": false,
+          "why": "That is pure non-competitive inhibition (a special case of mixed), where the inhibitor binds E and ES equally."
+        },
+        {
+          "id": "d",
+          "text": "No change, because the substrate is already bound when the inhibitor arrives",
+          "correct": false,
+          "why": "Binding to ES blocks catalysis, so it does inhibit."
+        }
+      ]
+    },
+    {
+      "id": "u12-q008",
+      "type": "mcq",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzymatic inhibition",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "A dog has drunk antifreeze (ethylene glycol). Fomepizole is given: it binds the active site of alcohol dehydrogenase, which would otherwise convert ethylene glycol into toxic metabolites. What is its effect on ADH kinetics for ethylene glycol?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Apparent Km increases; Vmax unchanged",
+          "correct": true,
+          "why": "Fomepizole is a competitive inhibitor. By raising the apparent Km, it slows ethylene glycol oxidation at the substrate concentrations found in the body."
+        },
+        {
+          "id": "b",
+          "text": "Vmax decreases; Km unchanged",
+          "correct": false,
+          "why": "That pattern fits pure non-competitive or irreversible inhibition, not an active-site competitor."
+        },
+        {
+          "id": "c",
+          "text": "Km and Vmax both decrease",
+          "correct": false,
+          "why": "That is uncompetitive inhibition, which needs the inhibitor to bind the ES complex."
+        },
+        {
+          "id": "d",
+          "text": "kcat increases, so ethylene glycol is cleared faster",
+          "correct": false,
+          "why": "Inhibitors do not increase kcat; the aim is to slow formation of toxic metabolites."
+        }
+      ]
+    },
+    {
+      "id": "u12-q009",
+      "type": "mcq",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzymatic inhibition",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "general",
+      "stem": "Organophosphate insecticides covalently modify the active-site serine of acetylcholinesterase in poisoned livestock. Measured on the remaining active enzyme, what kinetic change does this produce?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vmax decreases while Km is unchanged, and adding more substrate cannot reverse it",
+          "correct": true,
+          "why": "Irreversible inactivation removes enzyme molecules, lowering [E]t and so Vmax; the surviving enzyme still has its normal Km."
+        },
+        {
+          "id": "b",
+          "text": "Km increases while Vmax is unchanged, and excess acetylcholine restores activity",
+          "correct": false,
+          "why": "That describes reversible competitive inhibition; a covalent adduct does not dissociate."
+        },
+        {
+          "id": "c",
+          "text": "Km and Vmax both decrease, with parallel Lineweaver–Burk lines",
+          "correct": false,
+          "why": "That is uncompetitive inhibition, which needs reversible binding to ES."
+        },
+        {
+          "id": "d",
+          "text": "No change in kinetics; only the enzyme's half-life changes",
+          "correct": false,
+          "why": "Losing active enzyme directly reduces the maximum rate."
+        }
+      ]
+    },
+    {
+      "id": "u12-q010",
+      "type": "mcq",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzymatic inhibition",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Which statement about mixed inhibition is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It binds both E and ES, Vmax decreases, and Lineweaver–Burk lines meet left of the y-axis",
+          "correct": true,
+          "why": "Mixed inhibitors bind a site away from the active site, on both E and ES; non-competitive is the special case where Km is unchanged."
+        },
+        {
+          "id": "b",
+          "text": "The inhibitor binds only the active site of free enzyme, and the lines meet on the y-axis",
+          "correct": false,
+          "why": "That describes competitive inhibition."
+        },
+        {
+          "id": "c",
+          "text": "The inhibitor binds only the ES complex, and the Lineweaver–Burk lines run parallel",
+          "correct": false,
+          "why": "That describes uncompetitive inhibition."
+        },
+        {
+          "id": "d",
+          "text": "Vmax is unchanged because high [S] displaces the inhibitor",
+          "correct": false,
+          "why": "Mixed inhibitors also bind ES, so substrate cannot fully overcome them and Vmax falls."
+        }
+      ]
+    },
+    {
+      "id": "u12-q011",
+      "type": "mcq",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Main mechanisms of catalysis",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why are transition-state analogues often far more potent inhibitors than substrate analogues?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Active sites are complementary to the transition state, so they bind its mimics more tightly than substrate",
+          "correct": true,
+          "why": "Pauling's idea: extra interactions with the transition state lower ΔG‡, and analogues capture that extra binding energy."
+        },
+        {
+          "id": "b",
+          "text": "Transition-state analogues bind covalently to the enzyme, so they are not released from the active site",
+          "correct": false,
+          "why": "Most are reversible, non-covalent inhibitors; their potency comes from complementarity."
+        },
+        {
+          "id": "c",
+          "text": "They bind an allosteric site distinct from the active site, which locks the enzyme in its inactive T state",
+          "correct": false,
+          "why": "They bind the active site, because they mimic the transition state formed there."
+        },
+        {
+          "id": "d",
+          "text": "They increase ΔG′° of the reaction, making it thermodynamically unfavourable for the enzyme to catalyse",
+          "correct": false,
+          "why": "Inhibitors do not change the thermodynamics of the reaction."
+        }
+      ]
+    },
+    {
+      "id": "u12-q012",
+      "type": "mcq",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Main mechanisms of catalysis",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Histidine is a common general acid–base catalyst in active sites. What property makes it especially suitable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Its imidazole pKa (≈ 6) is close to physiological pH, so it can donate or accept protons",
+          "correct": true,
+          "why": "Near pH 7, significant fractions are protonated and unprotonated, so His can shuttle protons in both directions."
+        },
+        {
+          "id": "b",
+          "text": "It is the only amino acid with an ionisable side chain, so it is the only one that can move protons",
+          "correct": false,
+          "why": "Asp, Glu, Lys, Arg, Cys and Tyr also have ionisable side chains used in catalysis."
+        },
+        {
+          "id": "c",
+          "text": "Its side chain is permanently positively charged at all pH values",
+          "correct": false,
+          "why": "A permanently charged group cannot both donate and accept protons; that describes Arg more closely."
+        },
+        {
+          "id": "d",
+          "text": "It forms transient disulfide bonds with the substrate that hold it in place during catalysis",
+          "correct": false,
+          "why": "Disulfides involve Cys, and they are not part of acid–base catalysis."
+        }
+      ]
+    },
+    {
+      "id": "u12-q013",
+      "type": "mcq",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Main mechanisms of catalysis",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Class I aldolase forms a Schiff base between an active-site lysine and its substrate. Which catalytic strategy is this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Covalent catalysis",
+          "correct": true,
+          "why": "A transient covalent enzyme–substrate bond (Lys ε-amino group to the carbonyl) changes the reaction pathway."
+        },
+        {
+          "id": "b",
+          "text": "Metal-ion catalysis",
+          "correct": false,
+          "why": "Class I aldolase uses no metal; zinc-dependent Class II aldolases are found mainly in microbes."
+        },
+        {
+          "id": "c",
+          "text": "Proximity effects only",
+          "correct": false,
+          "why": "Proximity helps, but forming a covalent intermediate is the defining feature here."
+        },
+        {
+          "id": "d",
+          "text": "Allosteric activation",
+          "correct": false,
+          "why": "Allostery involves effector binding at a separate site, not a covalent link to the substrate."
+        }
+      ]
+    },
+    {
+      "id": "u12-q014",
+      "type": "mcq",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Main mechanisms of catalysis",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Kinases use Mg²⁺–ATP rather than free ATP as their substrate. What is the main catalytic role of the Mg²⁺?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It shields the negative charges of the phosphates and orients ATP for nucleophilic attack",
+          "correct": true,
+          "why": "Metal ions bind substrates in a set orientation and stabilise developing negative charge; they act electrostatically."
+        },
+        {
+          "id": "b",
+          "text": "It is reduced to Mg⁺ and drives the phosphoryl transfer",
+          "correct": false,
+          "why": "Mg²⁺ is not redox active in biology; redox roles belong to transition metals such as Fe and Cu."
+        },
+        {
+          "id": "c",
+          "text": "It forms a covalent bond with the γ-phosphate that is transferred to the enzyme",
+          "correct": false,
+          "why": "Mg²⁺ coordinates the phosphates; it is not covalently transferred."
+        },
+        {
+          "id": "d",
+          "text": "It is a tightly bound prosthetic group, making the kinase a metalloenzyme",
+          "correct": false,
+          "why": "Mg²⁺ binds loosely from solution, so kinases are metal-activated enzymes rather than metalloenzymes."
+        }
+      ]
+    },
+    {
+      "id": "u12-q015",
+      "type": "mcq",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Effects of pH and temperature on enzyme activity",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Why do many enzymes show a bell-shaped pH–activity curve with a clear optimum?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Catalytic and binding groups must be in the right ionisation state, and extreme pH denatures the protein",
+          "correct": true,
+          "why": "Moving away from the optimum protonates or deprotonates key residues (and the substrate); at extremes, folding is lost."
+        },
+        {
+          "id": "b",
+          "text": "pH changes ΔG°′ of the reaction, and the optimum is where ΔG°′ is most negative",
+          "correct": false,
+          "why": "The pH optimum reflects the enzyme's ionisation state, not reaction thermodynamics."
+        },
+        {
+          "id": "c",
+          "text": "H⁺ ions are a cofactor needed by most enzymes, so activity peaks where the H⁺ supply is just right",
+          "correct": false,
+          "why": "H⁺ is not a general cofactor; the effect works through ionisable groups."
+        },
+        {
+          "id": "d",
+          "text": "Enzymes are soluble only at their pH optimum, so at other pH values they precipitate out of solution",
+          "correct": false,
+          "why": "Solubility is not what limits activity across the physiological pH range."
+        }
+      ]
+    },
+    {
+      "id": "u12-q016",
+      "type": "mcq",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Effects of pH and temperature on enzyme activity",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "A serum enzyme assay validated at 37 °C is accidentally run at 60 °C, and the measured activity is much lower. What is the best explanation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The enzyme is denatured by heat, and loss of its native fold outweighs the faster rate expected",
+          "correct": true,
+          "why": "Activity rises with temperature until the protein unfolds; above that point, inactivation dominates."
+        },
+        {
+          "id": "b",
+          "text": "Higher temperature lowers reaction rates, because the molecules move too fast to bind",
+          "correct": false,
+          "why": "Below the denaturation point, rates increase with temperature."
+        },
+        {
+          "id": "c",
+          "text": "Km decreases at high temperature, so the enzyme becomes saturated and slows to a minimum",
+          "correct": false,
+          "why": "Saturation would raise v0 towards Vmax, not lower it."
+        },
+        {
+          "id": "d",
+          "text": "Heat converts the active enzyme back into its inactive zymogen by re-joining the cleaved peptide",
+          "correct": false,
+          "why": "Zymogen activation is an irreversible proteolytic cleavage; heat cannot reverse it."
+        }
+      ]
+    },
+    {
+      "id": "u12-q017",
+      "type": "mcq",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzyme kinetics – Michaelis–Menten equation",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why are kinetic measurements made on the initial velocity v0?",
+      "options": [
+        {
+          "id": "a",
+          "text": "[S] is known and barely changed, and too little product has formed for reverse reaction or inhibition",
+          "correct": true,
+          "why": "The derivation assumes [P] ≈ 0 and a steady state of ES, which holds only early in the reaction."
+        },
+        {
+          "id": "b",
+          "text": "The enzyme is not yet fully folded at later times, so only early rates reflect its true activity",
+          "correct": false,
+          "why": "The enzyme is folded and active throughout the assay."
+        },
+        {
+          "id": "c",
+          "text": "v0 is equal to Vmax, so it gives the enzyme's maximum rate directly from a single measurement",
+          "correct": false,
+          "why": "v0 depends on [S]; it approaches Vmax only at saturating [S]."
+        },
+        {
+          "id": "d",
+          "text": "Km changes as the reaction proceeds, so it can only be measured before the substrate starts to run out",
+          "correct": false,
+          "why": "Km is a constant; the measured rate drifts because [S] falls and [P] rises."
+        }
+      ]
+    },
+    {
+      "id": "u12-q018",
+      "type": "mcq",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzyme kinetics – Michaelis–Menten equation",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "For a two-substrate enzyme, 1/v0 versus 1/[A] is plotted at several fixed [B], giving a set of parallel lines. What does this indicate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A ping-pong (double-displacement) mechanism",
+          "correct": true,
+          "why": "The first product leaves before the second substrate binds, so changing [B] gives parallel lines."
+        },
+        {
+          "id": "b",
+          "text": "An ordered sequential (ternary-complex) mechanism",
+          "correct": false,
+          "why": "Sequential mechanisms form a ternary complex and give lines that intersect."
+        },
+        {
+          "id": "c",
+          "text": "A random sequential (ternary-complex) mechanism",
+          "correct": false,
+          "why": "Random sequential is also a ternary-complex mechanism with intersecting lines."
+        },
+        {
+          "id": "d",
+          "text": "Competitive inhibition of substrate A by substrate B",
+          "correct": false,
+          "why": "That would give lines meeting on the y-axis, not parallel lines."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "u12-f001",
+      "type": "flashcard",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzyme kinetics – Michaelis–Menten equation",
+      "source": "slides",
+      "front": "Michaelis–Menten equation?",
+      "back": "v0 = Vmax[S] / (Km + [S])"
+    },
+    {
+      "id": "u12-f002",
+      "type": "flashcard",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzyme kinetics – Michaelis–Menten equation",
+      "source": "slides",
+      "front": "Lineweaver–Burk equation and intercepts?",
+      "back": "1/v0 = (Km/Vmax)(1/[S]) + 1/Vmax. y-intercept = 1/Vmax; x-intercept = −1/Km; slope = Km/Vmax."
+    },
+    {
+      "id": "u12-f003",
+      "type": "flashcard",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzyme kinetics – Michaelis–Menten equation",
+      "source": "slides",
+      "front": "kcat?",
+      "back": "Turnover number: substrate molecules converted per active site per second at saturation. Vmax = kcat[E]t."
+    },
+    {
+      "id": "u12-f004",
+      "type": "flashcard",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzyme kinetics – Michaelis–Menten equation",
+      "source": "slides",
+      "front": "kcat/Km and its upper limit?",
+      "back": "Specificity constant (catalytic efficiency). Limited by diffusion to ≈ 10⁸–10⁹ M⁻¹s⁻¹ (e.g. acetylcholinesterase, fumarase)."
+    },
+    {
+      "id": "u12-f005",
+      "type": "flashcard",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzymatic inhibition",
+      "source": "slides",
+      "front": "Competitive inhibition: Km, Vmax, LB plot?",
+      "back": "Apparent Km increases (αKm), Vmax unchanged, lines meet on the y-axis."
+    },
+    {
+      "id": "u12-f006",
+      "type": "flashcard",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzymatic inhibition",
+      "source": "slides",
+      "front": "Uncompetitive inhibition: Km, Vmax, LB plot?",
+      "back": "Binds ES only. Km and Vmax both fall by α′, slope Km/Vmax unchanged, lines parallel."
+    },
+    {
+      "id": "u12-f007",
+      "type": "flashcard",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzymatic inhibition",
+      "source": "slides",
+      "front": "Mixed inhibition: Km, Vmax, LB plot?",
+      "back": "Binds E and ES. Vmax falls, Km changes, lines meet left of the y-axis. Non-competitive = special case with Km unchanged."
+    },
+    {
+      "id": "u12-f008",
+      "type": "flashcard",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Enzymatic inhibition",
+      "source": "general",
+      "front": "Irreversible inhibitor: kinetic effect? Veterinary example?",
+      "back": "Removes active enzyme, so Vmax falls and Km is unchanged; it cannot be overcome by substrate. Example: organophosphates acting on acetylcholinesterase."
+    },
+    {
+      "id": "u12-f009",
+      "type": "flashcard",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Main mechanisms of catalysis",
+      "source": "slides",
+      "front": "Three main mechanisms of catalysis?",
+      "back": "Acid–base (proton donation and abstraction), covalent (transient enzyme–substrate bond), metal ion (orientation, redox, charge shielding)."
+    },
+    {
+      "id": "u12-f010",
+      "type": "flashcard",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Main mechanisms of catalysis",
+      "source": "slides",
+      "front": "Do enzymes change ΔG°′ or K′eq?",
+      "back": "No. They lower ΔG‡ only, reaching the same equilibrium faster."
+    },
+    {
+      "id": "u12-f011",
+      "type": "flashcard",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Main mechanisms of catalysis",
+      "source": "slides",
+      "front": "Metalloenzyme vs metal-activated enzyme?",
+      "back": "Metalloenzyme: tightly bound, usually a transition metal (Fe²⁺, Zn²⁺). Metal-activated: loosely binds Na⁺, K⁺ or Mg²⁺ from solution."
+    },
+    {
+      "id": "u12-f012",
+      "type": "flashcard",
+      "unit": 12,
+      "part": 1,
+      "outcome": "Effects of pH and temperature on enzyme activity",
+      "source": "slides",
+      "front": "Why do enzymes have pH and temperature optima?",
+      "back": "pH: ionisation of catalytic and binding groups, with denaturation at extremes. Temperature: the rate rises until heat denatures the protein."
+    }
+  ]
+}

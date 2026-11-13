@@ -1,0 +1,710 @@
+{
+  "unit": 9,
+  "title": "Fibrous proteins",
+  "outcomes": [
+    "Features of fibrous proteins",
+    "α-Keratin",
+    "Collagen",
+    "Silk fibroin"
+  ],
+  "summary": {
+    "overview": "Fibrous proteins are long, insoluble structural proteins built from one repeating type of secondary structure. α-Keratin (coiled α-helices, many disulfides) gives hair and horn their strength; collagen (a Gly–X–Y triple helix) gives tendons their tensile strength; silk fibroin (stacked β-sheets) is strong and flexible but does not stretch.",
+    "sections": [
+      {
+        "heading": "General features",
+        "points": [
+          "Long strands or sheets made of simple repeating secondary-structure elements, which give strength and/or flexibility.",
+          "Insoluble in water: hydrophobic residues inside AND on the surface are buried when many chains pack into supramolecular complexes."
+        ]
+      },
+      {
+        "heading": "α-Keratin",
+        "points": [
+          "Found in mammals: hair, wool, nails, horn, hooves and the outer skin; part of the intermediate-filament family.",
+          "Two right-handed α-helices wind around each other into a left-handed coiled coil, like a rope.",
+          "The helix–helix contact surface is hydrophobic (Ala, Val, Leu, Ile, Met, Phe).",
+          "Disulfide cross-links add strength. The hardest keratin, rhinoceros horn, has about 18% Cys.",
+          "Permanent waving: reduce the disulfides, set the hair in curls, then re-oxidise to form new disulfides in the new positions."
+        ]
+      },
+      {
+        "heading": "Collagen",
+        "points": [
+          "Gives strength to tendons, cartilage, bone matrix and cornea; tensile strength is greater than steel wire of the same cross-section.",
+          "Each chain is a left-handed helix with about 3 residues per turn (not an α-helix). Three chains supertwist into a right-handed triple helix.",
+          "The repeating sequence is Gly–X–Y, where X is often Pro and Y often 4-hydroxyproline (4-Hyp). The chain is about 35% Gly, 11% Ala and 21% Pro + Hyp.",
+          "Gly must sit at every third position because only its tiny side chain fits in the crowded centre of the triple helix.",
+          "Prolyl and lysyl hydroxylases need vitamin C. Without it, under-hydroxylated collagen is unstable, causing scurvy in humans, guinea pigs, other primates and fruit bats.",
+          "Covalent cross-links between Lys, hydroxylysine and His residues increase with age, making connective tissue stiffer and more brittle.",
+          "Gelatin is denatured collagen; it is poor in essential amino acids, so it has little nutritional value."
+        ]
+      },
+      {
+        "heading": "Silk fibroin",
+        "points": [
+          "Made by insects and spiders. It consists of antiparallel β-sheets rich in Ala and Gly, whose small side chains let the sheets pack closely and interlock.",
+          "Stabilised by H-bonds and van der Waals contacts, with no covalent cross-links, which makes it flexible.",
+          "It does not stretch, because the β-strands are already almost fully extended."
+        ]
+      }
+    ],
+    "keyTerms": [
+      {
+        "term": "Fibrous protein",
+        "definition": "Elongated, insoluble structural protein built from a repeating secondary structure."
+      },
+      {
+        "term": "Coiled coil",
+        "definition": "Two α-helices twisted around each other, as in α-keratin."
+      },
+      {
+        "term": "Triple helix",
+        "definition": "Three left-handed collagen chains supertwisted in a right-handed sense."
+      },
+      {
+        "term": "Gly–X–Y repeat",
+        "definition": "Collagen's sequence motif: Gly every third residue, X often Pro, Y often 4-Hyp."
+      },
+      {
+        "term": "4-Hydroxyproline",
+        "definition": "Post-translationally hydroxylated Pro that stabilises collagen (needs vitamin C)."
+      },
+      {
+        "term": "Scurvy",
+        "definition": "Vitamin C deficiency causing defective collagen, fragile capillaries and bleeding."
+      },
+      {
+        "term": "Silk fibroin",
+        "definition": "β-Sheet protein rich in Ala and Gly; strong, flexible and non-stretchy."
+      }
+    ],
+    "examTips": [
+      "Keratin = α-helix coiled coil + disulfides; collagen = triple helix with Gly every 3rd residue; silk = β-sheet.",
+      "Collagen chains are LEFT-handed helices with a RIGHT-handed supertwist; keratin is the opposite (right-handed helices, left-handed supertwist).",
+      "Vitamin C is needed to hydroxylate Pro and Lys in collagen, not to make the chains.",
+      "Wool stretches (helices extend); silk doesn't (sheets are already extended)."
+    ]
+  },
+  "questions": [
+    {
+      "id": "u9-q001",
+      "type": "mcq",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Features of fibrous proteins",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Why are fibrous proteins such as keratin and collagen insoluble in water?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They are rich in hydrophobic residues, inside and on the surface, buried by packing many chains together",
+          "correct": true,
+          "why": "Close packing hides the hydrophobic surfaces from water, producing insoluble fibres."
+        },
+        {
+          "id": "b",
+          "text": "They contain no amino acids, only long lipid chains, which repel water like the tails of a membrane",
+          "correct": false,
+          "why": "They are proteins made of amino acids."
+        },
+        {
+          "id": "c",
+          "text": "They are made mostly of charged residues, which bind each other so tightly that water can't get in",
+          "correct": false,
+          "why": "Highly charged proteins tend to be soluble."
+        },
+        {
+          "id": "d",
+          "text": "They are permanently denatured, so their unfolded chains clump together as soon as they are made",
+          "correct": false,
+          "why": "They are functional, folded proteins."
+        }
+      ]
+    },
+    {
+      "id": "u9-q002",
+      "type": "mcq",
+      "unit": 9,
+      "part": 1,
+      "outcome": "α-Keratin",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Which description of α-keratin structure is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Two right-handed α-helices wound into a left-handed coiled coil, joined by a hydrophobic surface",
+          "correct": true,
+          "why": "Ala, Val, Leu, Ile, Met and Phe line the interface, and disulfides cross-link neighbouring chains."
+        },
+        {
+          "id": "b",
+          "text": "Three left-handed helices wound into a right-handed triple helix, with Gly at every third residue",
+          "correct": false,
+          "why": "That describes collagen."
+        },
+        {
+          "id": "c",
+          "text": "Stacked antiparallel β-sheets rich in Ala and Gly, whose small side chains interlock tightly",
+          "correct": false,
+          "why": "That describes silk fibroin."
+        },
+        {
+          "id": "d",
+          "text": "A single compact globular domain with a hydrophobic core and a polar surface",
+          "correct": false,
+          "why": "Keratin is fibrous."
+        }
+      ]
+    },
+    {
+      "id": "u9-q003",
+      "type": "mcq",
+      "unit": 9,
+      "part": 1,
+      "outcome": "α-Keratin",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Rhinoceros horn is one of the hardest α-keratins, with about 18% of its residues being cysteine. Why does this make it so hard?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Many cysteines form covalent disulfide cross-links between keratin chains",
+          "correct": true,
+          "why": "More disulfide 'staples' make the fibre stiffer and harder."
+        },
+        {
+          "id": "b",
+          "text": "Cysteine makes the keratin helices left-handed, which packs them more tightly",
+          "correct": false,
+          "why": "Handedness comes from L-amino acid geometry, not Cys content."
+        },
+        {
+          "id": "c",
+          "text": "Cysteine is the most hydrophobic amino acid, so it excludes water from the horn",
+          "correct": false,
+          "why": "Cys's key role here is covalent disulfide formation."
+        },
+        {
+          "id": "d",
+          "text": "Cysteine forms extra peptide bonds between chains, joining them into one polymer",
+          "correct": false,
+          "why": "Cross-links between chains are disulfide, not peptide, bonds."
+        }
+      ]
+    },
+    {
+      "id": "u9-q004",
+      "type": "mcq",
+      "unit": 9,
+      "part": 1,
+      "outcome": "α-Keratin",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "How does a 'permanent wave' treatment curl hair?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A reducing agent breaks disulfides, the hair is set in curlers, then an oxidant forms new disulfides",
+          "correct": true,
+          "why": "Moving the covalent cross-links fixes the new shape."
+        },
+        {
+          "id": "b",
+          "text": "Heat breaks the peptide bonds in keratin and then re-forms them in new positions around the curler",
+          "correct": false,
+          "why": "Peptide bonds are not broken."
+        },
+        {
+          "id": "c",
+          "text": "Water dissolves the keratin, which then re-crystallises in a curled shape as the hair slowly dries",
+          "correct": false,
+          "why": "Keratin is insoluble in water."
+        },
+        {
+          "id": "d",
+          "text": "Collagen is added to the hair shaft, where it forms a triple helix that holds the curl in place",
+          "correct": false,
+          "why": "Hair is keratin; collagen plays no role."
+        }
+      ]
+    },
+    {
+      "id": "u9-q005",
+      "type": "mcq",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Collagen",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why must glycine occupy every third position in the collagen sequence (Gly–X–Y)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Its tiny side chain (H) is the only one that fits in the crowded centre of the triple helix",
+          "correct": true,
+          "why": "Any larger residue at these positions distorts the triple helix."
+        },
+        {
+          "id": "b",
+          "text": "Glycine forms disulfide bonds between the three chains, which holds the triple helix together",
+          "correct": false,
+          "why": "Glycine has no –SH group."
+        },
+        {
+          "id": "c",
+          "text": "Glycine is hydroxylated by a vitamin C-dependent enzyme, which lets it H-bond to the other chains",
+          "correct": false,
+          "why": "Pro and Lys are hydroxylated, not Gly."
+        },
+        {
+          "id": "d",
+          "text": "Glycine is the only chiral amino acid, so it alone gives the collagen chain its left-handed twist",
+          "correct": false,
+          "why": "Glycine is the only achiral standard amino acid."
+        }
+      ]
+    },
+    {
+      "id": "u9-q006",
+      "type": "mcq",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Collagen",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "How are collagen chains arranged in the triple helix?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Each chain is a left-handed helix (about 3 residues per turn); the three supertwist right-handedly",
+          "correct": true,
+          "why": "The opposite twisting of chain and supertwist gives great tensile strength."
+        },
+        {
+          "id": "b",
+          "text": "Each chain is a right-handed α-helix, and two of the chains wind into a left-handed coiled coil",
+          "correct": false,
+          "why": "That describes α-keratin."
+        },
+        {
+          "id": "c",
+          "text": "The three chains lie side by side as flat parallel β-sheets, held together by backbone H-bonds",
+          "correct": false,
+          "why": "That is closer to silk fibroin."
+        },
+        {
+          "id": "d",
+          "text": "A single chain folds back on itself into a compact globular domain with a hydrophobic core",
+          "correct": false,
+          "why": "Collagen is a three-chain fibrous protein."
+        }
+      ]
+    },
+    {
+      "id": "u9-q007",
+      "type": "mcq",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Collagen",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "A guinea pig fed only cereal pellets with no added vitamin C develops bleeding gums, a rough coat and painful joints. What is the biochemical defect?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prolyl and lysyl hydroxylases lack their vitamin C cofactor, so collagen's triple helix is unstable",
+          "correct": true,
+          "why": "Guinea pigs, like humans, cannot make ascorbate; without 4-Hyp collagen is weak, so capillaries are fragile (scurvy)."
+        },
+        {
+          "id": "b",
+          "text": "The collagen genes are deleted in guinea pigs, so no collagen is made unless vitamin C switches them on",
+          "correct": false,
+          "why": "The collagen genes are normal; the problem is post-translational modification."
+        },
+        {
+          "id": "c",
+          "text": "Glycine cannot be synthesised without vitamin C, so every third residue of collagen is missing",
+          "correct": false,
+          "why": "Glycine is non-essential and is not the issue."
+        },
+        {
+          "id": "d",
+          "text": "Disulfide bonds in keratin are reduced without vitamin C, so the skin and coat lose their strength",
+          "correct": false,
+          "why": "The connective-tissue defect lies in collagen."
+        }
+      ]
+    },
+    {
+      "id": "u9-q008",
+      "type": "mcq",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Collagen",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "A mutation replaces a single glycine in a Gly–X–Y repeat of type I collagen with a bulky residue, causing fragile bones. Why does one substitution have such a large effect?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The bulky side chain can't fit in the helix centre, so it disrupts packing of all three chains",
+          "correct": true,
+          "why": "This is the molecular basis of osteogenesis imperfecta-type defects."
+        },
+        {
+          "id": "b",
+          "text": "Glycine is needed for hydroxylation by vitamin C, so the whole chain is left under-hydroxylated",
+          "correct": false,
+          "why": "Hydroxylation targets Pro and Lys."
+        },
+        {
+          "id": "c",
+          "text": "The mutation changes collagen into a keratin-like protein, which cannot form bone matrix fibres",
+          "correct": false,
+          "why": "A point mutation does not change protein identity."
+        },
+        {
+          "id": "d",
+          "text": "Collagen does not need a regular sequence, so the mutation must have deleted the whole chain",
+          "correct": false,
+          "why": "The strict Gly–X–Y repeat is essential."
+        }
+      ]
+    },
+    {
+      "id": "u9-q009",
+      "type": "mcq",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Collagen",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why do tendons and skin become stiffer and more brittle in older animals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Covalent cross-links between Lys, hydroxylysine and His in collagen accumulate with age",
+          "correct": true,
+          "why": "More cross-links reduce flexibility."
+        },
+        {
+          "id": "b",
+          "text": "Collagen is gradually replaced by silk fibroin, which is stiffer and much less elastic",
+          "correct": false,
+          "why": "Mammals don't make fibroin."
+        },
+        {
+          "id": "c",
+          "text": "Glycine is slowly removed from collagen, so the chains can no longer slide",
+          "correct": false,
+          "why": "The sequence doesn't change with age."
+        },
+        {
+          "id": "d",
+          "text": "Vitamin C levels rise with age, so collagen becomes over-hydroxylated and rigid",
+          "correct": false,
+          "why": "The change is in cross-linking."
+        }
+      ]
+    },
+    {
+      "id": "u9-q010",
+      "type": "mcq",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Collagen",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "general",
+      "stem": "β-Aminopropionitrile, found in some Lathyrus (sweet pea) seeds, inhibits lysyl oxidase, the enzyme that starts collagen cross-linking. What would you expect in animals eating these seeds?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Weak connective tissue (bone deformities, weak blood vessels), as collagen can't be cross-linked",
+          "correct": true,
+          "why": "Triple helices still form, but without cross-links the fibres lack tensile strength (lathyrism)."
+        },
+        {
+          "id": "b",
+          "text": "Excessively rigid tendons and joints, because collagen fibres become over-cross-linked",
+          "correct": false,
+          "why": "Blocking cross-linking makes tissue weaker, not stiffer."
+        },
+        {
+          "id": "c",
+          "text": "Harder hooves and horns, because more keratin disulfides form when lysyl oxidase is blocked",
+          "correct": false,
+          "why": "Lysyl oxidase acts on collagen and elastin, not keratin disulfides."
+        },
+        {
+          "id": "d",
+          "text": "No visible effect, because collagen fibres are strong enough without any covalent cross-links",
+          "correct": false,
+          "why": "Cross-links are essential for collagen strength."
+        }
+      ]
+    },
+    {
+      "id": "u9-q011",
+      "type": "mcq",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Collagen",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Gelatin, made from collagen, is a poor protein source in an animal's diet. Why?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Its composition is dominated by Gly, Pro and Hyp and is low in several essential amino acids",
+          "correct": true,
+          "why": "Protein quality depends on supplying every essential amino acid."
+        },
+        {
+          "id": "b",
+          "text": "It cannot be digested by any protease in the gut, so it passes through the intestine unchanged",
+          "correct": false,
+          "why": "Gelatin is denatured collagen and is easily digested."
+        },
+        {
+          "id": "c",
+          "text": "It contains mainly D-amino acids, which animals cannot use to build their own proteins",
+          "correct": false,
+          "why": "Its amino acids are L-isomers."
+        },
+        {
+          "id": "d",
+          "text": "It is a carbohydrate, not a protein, so it supplies energy but no amino acids",
+          "correct": false,
+          "why": "Gelatin is a protein."
+        }
+      ]
+    },
+    {
+      "id": "u9-q012",
+      "type": "mcq",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Silk fibroin",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "What allows the β-sheets of silk fibroin to pack so closely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fibroin is rich in Ala and Gly, whose small side chains interlock between stacked sheets",
+          "correct": true,
+          "why": "Small R groups allow tight packing, stabilised by H-bonds and van der Waals contacts."
+        },
+        {
+          "id": "b",
+          "text": "It contains many disulfide cross-links, which pull the sheets tightly against each other",
+          "correct": false,
+          "why": "Fibroin has essentially no covalent cross-links, which is why it is flexible."
+        },
+        {
+          "id": "c",
+          "text": "It is rich in bulky Trp and Tyr residues, whose rings stack flat between neighbouring sheets",
+          "correct": false,
+          "why": "Bulky residues would prevent close packing."
+        },
+        {
+          "id": "d",
+          "text": "It forms α-helical coiled coils, which pack more closely than any other secondary structure",
+          "correct": false,
+          "why": "That is keratin; fibroin is β-sheet."
+        }
+      ]
+    },
+    {
+      "id": "u9-q013",
+      "type": "mcq",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Silk fibroin",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "Wool can be stretched to nearly twice its length when steamed, but silk barely stretches. What is the structural explanation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wool's α-helices can be pulled into extended chains; silk's β-strands are already almost fully extended",
+          "correct": true,
+          "why": "Secondary structure determines mechanical behaviour."
+        },
+        {
+          "id": "b",
+          "text": "Silk contains more disulfide bonds than wool, and these covalent cross-links stop its chains from sliding",
+          "correct": false,
+          "why": "Wool keratin is the disulfide-rich one."
+        },
+        {
+          "id": "c",
+          "text": "Wool is made of collagen, whose triple helix unwinds in steam and lets the fibre stretch to twice its length",
+          "correct": false,
+          "why": "Wool is α-keratin."
+        },
+        {
+          "id": "d",
+          "text": "Silk is a globular protein whose compact folded domains cannot be pulled apart without breaking the fibre",
+          "correct": false,
+          "why": "Silk fibroin is fibrous."
+        }
+      ]
+    },
+    {
+      "id": "u9-q014",
+      "type": "mcq",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Silk fibroin",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Silk is strong yet very flexible. Which feature explains its flexibility?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Its sheets are held only by weak non-covalent interactions, with no covalent cross-links",
+          "correct": true,
+          "why": "Sheets can slide slightly relative to each other without breaking."
+        },
+        {
+          "id": "b",
+          "text": "It is a coiled coil of α-helices that can stretch and spring back like a telephone cord",
+          "correct": false,
+          "why": "That is keratin."
+        },
+        {
+          "id": "c",
+          "text": "It contains 18% cysteine, whose disulfide bonds can break and re-form as the fibre bends",
+          "correct": false,
+          "why": "That is rhinoceros-horn keratin."
+        },
+        {
+          "id": "d",
+          "text": "It is a triple helix whose three chains can slide past each other when the fibre is bent",
+          "correct": false,
+          "why": "That is collagen."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "u9-f001",
+      "type": "flashcard",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Features of fibrous proteins",
+      "source": "slides",
+      "front": "Features of fibrous proteins?",
+      "back": "Long strands or sheets of one repeating secondary structure; strength or flexibility; insoluble (hydrophobic surfaces buried by packing)."
+    },
+    {
+      "id": "u9-f002",
+      "type": "flashcard",
+      "unit": 9,
+      "part": 1,
+      "outcome": "α-Keratin",
+      "source": "slides",
+      "front": "α-Keratin structure?",
+      "back": "Two right-handed α-helices in a left-handed coiled coil; hydrophobic interface; disulfide cross-links. Hair, wool, nails, horn."
+    },
+    {
+      "id": "u9-f003",
+      "type": "flashcard",
+      "unit": 9,
+      "part": 1,
+      "outcome": "α-Keratin",
+      "source": "slides",
+      "front": "How does a permanent wave work?",
+      "back": "Reduce the disulfides → set the curl → re-oxidise to form new disulfides."
+    },
+    {
+      "id": "u9-f004",
+      "type": "flashcard",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Collagen",
+      "source": "slides",
+      "front": "Collagen repeat and composition?",
+      "back": "Gly–X–Y (X often Pro, Y often 4-Hyp). About 35% Gly, 11% Ala, 21% Pro + Hyp."
+    },
+    {
+      "id": "u9-f005",
+      "type": "flashcard",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Collagen",
+      "source": "slides",
+      "front": "Collagen helix handedness?",
+      "back": "Each chain is a left-handed helix (~3 residues per turn); three chains form a right-handed supertwist (triple helix)."
+    },
+    {
+      "id": "u9-f006",
+      "type": "flashcard",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Collagen",
+      "source": "slides",
+      "front": "Why Gly at every 3rd position?",
+      "back": "Only Gly is small enough to fit in the crowded centre of the triple helix."
+    },
+    {
+      "id": "u9-f007",
+      "type": "flashcard",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Collagen",
+      "source": "slides",
+      "front": "Vitamin C and collagen?",
+      "back": "Vitamin C is the cofactor for prolyl and lysyl hydroxylases. Deficiency → unstable collagen → scurvy (humans, primates, guinea pigs, fruit bats)."
+    },
+    {
+      "id": "u9-f008",
+      "type": "flashcard",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Collagen",
+      "source": "slides",
+      "front": "Why does connective tissue stiffen with age?",
+      "back": "Covalent Lys, hydroxylysine and His cross-links accumulate in collagen."
+    },
+    {
+      "id": "u9-f009",
+      "type": "flashcard",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Silk fibroin",
+      "source": "slides",
+      "front": "Silk fibroin structure?",
+      "back": "Antiparallel β-sheets rich in Ala and Gly, packed closely; H-bonds and van der Waals; no covalent cross-links."
+    },
+    {
+      "id": "u9-f010",
+      "type": "flashcard",
+      "unit": 9,
+      "part": 1,
+      "outcome": "Silk fibroin",
+      "source": "slides",
+      "front": "Why is silk flexible but not stretchy?",
+      "back": "Flexible: only weak interactions between sheets. Not stretchy: the β-strands are already fully extended."
+    }
+  ]
+}

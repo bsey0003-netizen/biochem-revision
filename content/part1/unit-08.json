@@ -1,0 +1,762 @@
+{
+  "unit": 8,
+  "title": "3D structure of proteins",
+  "outcomes": [
+    "Secondary structure",
+    "Tertiary structure, domains and motifs",
+    "Forces stabilising protein structure",
+    "Quaternary structure",
+    "Folding, denaturation and chaperones"
+  ],
+  "summary": {
+    "overview": "A polypeptide folds into regular local shapes (secondary structure), packs these into a compact 3D form (tertiary structure) and may assemble with other chains (quaternary structure). Weak interactions plus disulfide bonds hold the native fold; chaperones help proteins fold, and misfolding causes disease.",
+    "sections": [
+      {
+        "heading": "Secondary structure",
+        "points": [
+          "α-Helix: a right-handed coil with side chains pointing outwards, stabilised by backbone H-bonds between the C=O of residue n and the N–H of residue n + 4. It is the main structure in keratins.",
+          "Proline breaks helices, because of its rigid ring and its lack of an N–H.",
+          "β-Sheet: almost fully extended strands joined by backbone H-bonds between strands. Strands can be parallel (same N→C direction) or antiparallel; one chain can fold back on itself.",
+          "β-Turns: about four residues that reverse the chain's direction. Pro and Gly are common here."
+        ]
+      },
+      {
+        "heading": "Tertiary structure, domains and motifs",
+        "points": [
+          "Tertiary structure is the full 3D fold of one chain; the primary structure determines it.",
+          "Globular proteins bury hydrophobic side chains inside and expose hydrophilic ones on the surface.",
+          "Motif (supersecondary structure): a recurring arrangement of helices and strands, found in many proteins.",
+          "Domain: an independently stable part of a chain, often with its own function (e.g. SH2 and SH3 domains for binding other proteins). A domain can contain several motifs."
+        ]
+      },
+      {
+        "heading": "Stabilising forces",
+        "points": [
+          "Disulfide bonds (covalent, Cys–Cys) increase resistance to denaturation, especially in extracellular proteins.",
+          "The hydrophobic effect, from burying non-polar side chains, is the major driving force for folding.",
+          "Hydrogen bonds involve the backbone and polar side chains such as Ser, Thr, Asn and Gln.",
+          "Ionic interactions (salt bridges) form between Asp/Glu (–COO⁻) and Lys/Arg (–NH3⁺)."
+        ]
+      },
+      {
+        "heading": "Quaternary structure",
+        "points": [
+          "Quaternary structure is the arrangement of two or more polypeptide subunits, which may be identical or different.",
+          "Subunits are held by non-covalent forces (H-bonds, ionic bonds, hydrophobic interactions), e.g. haemoglobin α2β2."
+        ]
+      },
+      {
+        "heading": "Folding, denaturation and chaperones",
+        "points": [
+          "Denaturation is loss of the native 3D shape; the sequence is unchanged. It can be reversible, but not always.",
+          "Causes: heat or radiation (break H-bonds, e.g. cooked egg white), strong acids or alkalis and high salt (break ionic bonds), heavy metals (bind carboxylates and precipitate proteins), and organic solvents and detergents (disrupt hydrophobic interactions; alcohol disinfects this way).",
+          "Chaperones help folding: Hsp70 binds nascent chains as they leave the ribosome; the Hsp60/Hsp10 chaperonin folds proteins inside its cavity using ATP.",
+          "Misfolded proteins are normally degraded. Some form insoluble amyloid fibres, as in Alzheimer's, Huntington's and Parkinson's diseases and in prion diseases such as scrapie and BSE."
+        ]
+      }
+    ],
+    "keyTerms": [
+      {
+        "term": "α-Helix",
+        "definition": "Coiled backbone stabilised by C=O(n)···H–N(n+4) hydrogen bonds."
+      },
+      {
+        "term": "β-Sheet",
+        "definition": "Extended strands linked side by side by backbone hydrogen bonds; parallel or antiparallel."
+      },
+      {
+        "term": "β-Turn",
+        "definition": "Four-residue structure that reverses chain direction; often contains Pro or Gly."
+      },
+      {
+        "term": "Motif",
+        "definition": "Recurring supersecondary arrangement of helices and/or strands."
+      },
+      {
+        "term": "Domain",
+        "definition": "Independently stable folded unit of a polypeptide, often with a distinct function."
+      },
+      {
+        "term": "Quaternary structure",
+        "definition": "Arrangement of multiple polypeptide subunits."
+      },
+      {
+        "term": "Denaturation",
+        "definition": "Loss of native 3D structure without breaking peptide bonds."
+      },
+      {
+        "term": "Chaperone",
+        "definition": "Protein that assists the folding of other proteins (e.g. Hsp70, Hsp60)."
+      },
+      {
+        "term": "Amyloid",
+        "definition": "Insoluble fibrous aggregate of a misfolded protein."
+      }
+    ],
+    "examTips": [
+      "α-Helix H-bonds run between backbone C=O and N–H, four residues apart; side chains point OUT.",
+      "Denaturation leaves the primary structure intact; peptide bonds break only under harsh, prolonged conditions.",
+      "The hydrophobic effect is the main driving force for folding; disulfides are the main COVALENT stabilisers.",
+      "Domain = independently stable unit; motif = recurring pattern of secondary elements."
+    ]
+  },
+  "questions": [
+    {
+      "id": "u8-q001",
+      "type": "mcq",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Secondary structure",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "What stabilises an α-helix?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hydrogen bonds between backbone C=O groups and N–H groups four residues further along",
+          "correct": true,
+          "why": "Every backbone C=O(n) bonds to N–H(n+4), with the side chains pointing outwards."
+        },
+        {
+          "id": "b",
+          "text": "Disulfide bonds between neighbouring residues, which link each turn of the helix to the next",
+          "correct": false,
+          "why": "Disulfides are side-chain cross-links, not the basis of helices."
+        },
+        {
+          "id": "c",
+          "text": "Ionic bonds between the side chains on adjacent strands, which hold the coil tightly together",
+          "correct": false,
+          "why": "Strands belong to β-sheets, and helix stability comes from backbone H-bonds."
+        },
+        {
+          "id": "d",
+          "text": "Hydrogen bonds between the side chains and the surrounding water molecules only",
+          "correct": false,
+          "why": "Helix H-bonds are internal to the backbone."
+        }
+      ]
+    },
+    {
+      "id": "u8-q002",
+      "type": "mcq",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Secondary structure",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "How does a β-sheet differ from an α-helix?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Its strands are almost fully extended and H-bond to neighbouring strands, parallel or antiparallel",
+          "correct": true,
+          "why": "In a sheet, the H-bonds run between strands rather than within a coil."
+        },
+        {
+          "id": "b",
+          "text": "It has no hydrogen bonds at all and is held together by disulfide bonds between strands",
+          "correct": false,
+          "why": "All the backbone C=O and N–H groups take part in inter-strand H-bonds."
+        },
+        {
+          "id": "c",
+          "text": "It can only form between two separate polypeptide chains, not within a single folded chain",
+          "correct": false,
+          "why": "A single chain can fold back on itself to form a sheet."
+        },
+        {
+          "id": "d",
+          "text": "It is the main structure in α-keratin, where its extended strands give hair its great strength",
+          "correct": false,
+          "why": "α-Keratin is mostly α-helix; silk fibroin is rich in β-sheet."
+        }
+      ]
+    },
+    {
+      "id": "u8-q003",
+      "type": "mcq",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Secondary structure",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Which two amino acids are especially common in β-turns?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Proline and glycine",
+          "correct": true,
+          "why": "Proline's kink and glycine's flexibility both suit tight turns that reverse chain direction."
+        },
+        {
+          "id": "b",
+          "text": "Leucine and isoleucine",
+          "correct": false,
+          "why": "These bulky hydrophobic residues prefer helices and buried positions."
+        },
+        {
+          "id": "c",
+          "text": "Lysine and arginine",
+          "correct": false,
+          "why": "These are not characteristic of turns."
+        },
+        {
+          "id": "d",
+          "text": "Cysteine and methionine",
+          "correct": false,
+          "why": "Sulphur-containing residues are not typical turn residues."
+        }
+      ]
+    },
+    {
+      "id": "u8-q004",
+      "type": "mcq",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Tertiary structure, domains and motifs",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "What is the difference between a protein domain and a motif?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A domain is an independently stable folded unit; a motif is a recurring arrangement of secondary structure",
+          "correct": true,
+          "why": "A domain can contain several motifs and can move as a unit."
+        },
+        {
+          "id": "b",
+          "text": "They are the same thing: both terms describe a region of a protein that binds a particular ligand",
+          "correct": false,
+          "why": "They describe different levels of organisation."
+        },
+        {
+          "id": "c",
+          "text": "A motif is a whole folded protein, whereas a domain is a single amino acid within the active site",
+          "correct": false,
+          "why": "Motifs are a few secondary elements; domains are larger folded units."
+        },
+        {
+          "id": "d",
+          "text": "Domains occur only in fibrous proteins, while motifs occur only in globular proteins such as enzymes",
+          "correct": false,
+          "why": "Domains are typical of globular proteins."
+        }
+      ]
+    },
+    {
+      "id": "u8-q005",
+      "type": "mcq",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Tertiary structure, domains and motifs",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "In a water-soluble globular protein, where are the polar and non-polar side chains usually found?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Non-polar side chains are buried inside; polar and charged side chains are on the surface",
+          "correct": true,
+          "why": "This arrangement maximises the hydrophobic effect and keeps the surface soluble."
+        },
+        {
+          "id": "b",
+          "text": "Non-polar side chains are on the surface, and polar ones are buried inside to H-bond together",
+          "correct": false,
+          "why": "This would make the protein insoluble and unstable in water."
+        },
+        {
+          "id": "c",
+          "text": "They are randomly distributed, because folding depends only on backbone hydrogen bonds",
+          "correct": false,
+          "why": "Folding sorts residues by polarity."
+        },
+        {
+          "id": "d",
+          "text": "The side chains point into a central water channel that runs through the folded protein",
+          "correct": false,
+          "why": "Globular proteins are compact, with a dry hydrophobic core."
+        }
+      ]
+    },
+    {
+      "id": "u8-q006",
+      "type": "mcq",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Forces stabilising protein structure",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Which interaction is considered the main driving force for the folding of globular proteins?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The hydrophobic effect",
+          "correct": true,
+          "why": "Burying non-polar side chains releases ordered water, a large entropy gain."
+        },
+        {
+          "id": "b",
+          "text": "Disulfide bonds",
+          "correct": false,
+          "why": "Disulfides stabilise the fold but form after it; many proteins have none."
+        },
+        {
+          "id": "c",
+          "text": "Peptide bonds",
+          "correct": false,
+          "why": "Peptide bonds make the chain (primary structure), not the fold."
+        },
+        {
+          "id": "d",
+          "text": "Covalent bonds to water",
+          "correct": false,
+          "why": "Water does not bond covalently to proteins during folding."
+        }
+      ]
+    },
+    {
+      "id": "u8-q007",
+      "type": "mcq",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Forces stabilising protein structure",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Many extracellular proteins, such as antibodies and digestive enzymes, contain several disulfide bonds. Why is this useful?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Covalent cross-links make the fold more resistant to denaturation outside the cell",
+          "correct": true,
+          "why": "Disulfides 'staple' parts of the chain together."
+        },
+        {
+          "id": "b",
+          "text": "Disulfides make proteins positively charged, which keeps them soluble in the blood plasma",
+          "correct": false,
+          "why": "Disulfide bonds are uncharged."
+        },
+        {
+          "id": "c",
+          "text": "Disulfides are the main force holding a protein together, so most proteins need them",
+          "correct": false,
+          "why": "Non-covalent forces dominate; disulfides add extra stability."
+        },
+        {
+          "id": "d",
+          "text": "Disulfides form peptide bonds between subunits, joining them into a single polypeptide chain",
+          "correct": false,
+          "why": "Disulfides link Cys side chains; they are not peptide bonds."
+        }
+      ]
+    },
+    {
+      "id": "u8-q008",
+      "type": "mcq",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Forces stabilising protein structure",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "A salt bridge in a protein is an interaction between which side chains?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A negatively charged Asp or Glu and a positively charged Lys or Arg",
+          "correct": true,
+          "why": "Opposite charges attract (ionic interaction)."
+        },
+        {
+          "id": "b",
+          "text": "Two cysteines, whose –SH groups are oxidised to form a bridge",
+          "correct": false,
+          "why": "Two cysteines form a covalent disulfide."
+        },
+        {
+          "id": "c",
+          "text": "Two leucines, whose non-polar side chains pack against each other",
+          "correct": false,
+          "why": "Leucines interact hydrophobically."
+        },
+        {
+          "id": "d",
+          "text": "Serine and water, sharing a hydrogen bond at the protein surface",
+          "correct": false,
+          "why": "This is an H-bond, not an ionic interaction."
+        }
+      ]
+    },
+    {
+      "id": "u8-q009",
+      "type": "mcq",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Quaternary structure",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Which statement about quaternary structure is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It describes how two or more polypeptide subunits are arranged, held mainly by non-covalent forces",
+          "correct": true,
+          "why": "Example: haemoglobin's α2β2 tetramer."
+        },
+        {
+          "id": "b",
+          "text": "Every protein has quaternary structure, even those that are made of only a single polypeptide chain",
+          "correct": false,
+          "why": "Monomeric proteins, such as myoglobin, have none."
+        },
+        {
+          "id": "c",
+          "text": "Its subunits are joined end to end by peptide bonds, forming one long continuous chain",
+          "correct": false,
+          "why": "Subunits are separate chains, usually joined non-covalently."
+        },
+        {
+          "id": "d",
+          "text": "It is another name for the amino acid sequence, read from the N-terminus to the C-terminus",
+          "correct": false,
+          "why": "That is primary structure."
+        }
+      ]
+    },
+    {
+      "id": "u8-q010",
+      "type": "mcq",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Folding, denaturation and chaperones",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "When egg white is cooked, its proteins coagulate. What has happened at the molecular level?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Heat has disrupted weak bonds, so the proteins unfolded (denatured) and aggregated; the sequence is unchanged",
+          "correct": true,
+          "why": "Denaturation destroys 3D shape, not primary structure."
+        },
+        {
+          "id": "b",
+          "text": "Heat has hydrolysed the peptide bonds into free amino acids, which then stick together as a solid",
+          "correct": false,
+          "why": "Normal cooking does not break peptide bonds."
+        },
+        {
+          "id": "c",
+          "text": "New peptide bonds have formed between neighbouring proteins, joining them into one huge polymer",
+          "correct": false,
+          "why": "Aggregation is non-covalent, not peptide-bond formation."
+        },
+        {
+          "id": "d",
+          "text": "The proteins have been converted into fats by the heat, which is why cooked egg white turns opaque",
+          "correct": false,
+          "why": "No chemical conversion to lipid occurs."
+        }
+      ]
+    },
+    {
+      "id": "u8-q011",
+      "type": "mcq",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Folding, denaturation and chaperones",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why does 70% ethanol work as a skin disinfectant before an injection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It disrupts hydrophobic interactions and H-bonding in bacterial proteins, denaturing them",
+          "correct": true,
+          "why": "Organic solvents unfold proteins, inactivating essential bacterial enzymes and structures."
+        },
+        {
+          "id": "b",
+          "text": "It breaks bacterial DNA into free nucleotides, so the bacteria can no longer make proteins",
+          "correct": false,
+          "why": "Ethanol mainly acts on proteins and membranes."
+        },
+        {
+          "id": "c",
+          "text": "It forms new disulfide bonds that lock bacterial proteins in place so that they cannot move",
+          "correct": false,
+          "why": "Ethanol is not an oxidant that creates disulfides."
+        },
+        {
+          "id": "d",
+          "text": "It provides a nutrient that bacteria cannot digest, so they starve on the surface of the skin",
+          "correct": false,
+          "why": "Ethanol kills bacteria by denaturation, not starvation."
+        }
+      ]
+    },
+    {
+      "id": "u8-q012",
+      "type": "mcq",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Folding, denaturation and chaperones",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "What is the role of the Hsp60/Hsp10 chaperonin system in mitochondria?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It encloses unfolded proteins in a cavity and helps them fold through repeated ATP-dependent cycles",
+          "correct": true,
+          "why": "Many mitochondrial proteins are imported unfolded and fold with chaperonin help."
+        },
+        {
+          "id": "b",
+          "text": "It degrades newly made proteins so that only the correctly folded copies leave the ribosome",
+          "correct": false,
+          "why": "Chaperones aid folding; degradation is done by proteases and the proteasome."
+        },
+        {
+          "id": "c",
+          "text": "It adds new peptide bonds to growing polypeptide chains as they enter the mitochondrial matrix",
+          "correct": false,
+          "why": "Peptide bonds are made by the ribosome."
+        },
+        {
+          "id": "d",
+          "text": "It works without any energy input, using only the hydrophobic effect to pull the chains into shape",
+          "correct": false,
+          "why": "Chaperonin cycles require ATP."
+        }
+      ]
+    },
+    {
+      "id": "u8-q013",
+      "type": "mcq",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Folding, denaturation and chaperones",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "general",
+      "stem": "Scrapie in sheep and BSE in cattle are caused by a normal cellular protein adopting an abnormal conformation. What does this illustrate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A protein with an unchanged sequence can misfold into insoluble β-rich amyloid that damages tissue",
+          "correct": true,
+          "why": "Prion diseases, like Alzheimer's, are protein-misfolding disorders; the misfolded form converts normal copies."
+        },
+        {
+          "id": "b",
+          "text": "These diseases are caused by a change in the protein's primary structure, as in sickle-cell disease",
+          "correct": false,
+          "why": "In infectious prion disease the sequence is the same; the conformation differs."
+        },
+        {
+          "id": "c",
+          "text": "Misfolded proteins are degraded harmlessly, so the damage comes from a separate virus",
+          "correct": false,
+          "why": "Amyloid aggregates resist degradation and accumulate."
+        },
+        {
+          "id": "d",
+          "text": "The proteins are denatured into random coils by the heat of the brain, so they lose their function",
+          "correct": false,
+          "why": "The abnormal form is a different, highly ordered aggregate."
+        }
+      ]
+    },
+    {
+      "id": "u8-q014",
+      "type": "mcq",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Folding, denaturation and chaperones",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Heavy-metal ions such as Pb²⁺ and Hg²⁺ are toxic partly because of their effect on proteins. What do they do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They bind carboxylate and thiol side chains, disrupting ionic interactions so that proteins precipitate",
+          "correct": true,
+          "why": "Denaturation and precipitation inactivate enzymes."
+        },
+        {
+          "id": "b",
+          "text": "They hydrolyse the peptide bonds in the protein, breaking it down into its free amino acids",
+          "correct": false,
+          "why": "They act on side-chain interactions, not the backbone."
+        },
+        {
+          "id": "c",
+          "text": "They act as chaperones that refold proteins into abnormal shapes that the cell cannot use",
+          "correct": false,
+          "why": "They disrupt, rather than assist, folding."
+        },
+        {
+          "id": "d",
+          "text": "They increase protein solubility so much that proteins leak out of cells and are lost in urine",
+          "correct": false,
+          "why": "They reduce net charge and solubility."
+        }
+      ]
+    },
+    {
+      "id": "u8-q015",
+      "type": "mcq",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Tertiary structure, domains and motifs",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "general",
+      "stem": "A purified enzyme is fully unfolded with urea and its disulfides reduced. After slowly removing the urea and re-oxidising, full activity returns. What does this show?",
+      "options": [
+        {
+          "id": "a",
+          "text": "All the information needed for the native 3D fold is contained in the amino acid sequence",
+          "correct": true,
+          "why": "This classic experiment (Anfinsen, ribonuclease) showed that primary structure determines tertiary structure."
+        },
+        {
+          "id": "b",
+          "text": "Urea creates new peptide bonds as it is removed, rebuilding the enzyme's active site",
+          "correct": false,
+          "why": "Urea disrupts non-covalent interactions; it makes no peptide bonds."
+        },
+        {
+          "id": "c",
+          "text": "Chaperones are always essential for folding, so some must have been present in the sample",
+          "correct": false,
+          "why": "This protein refolded without chaperones (though many proteins in cells need help)."
+        },
+        {
+          "id": "d",
+          "text": "Denaturation always permanently destroys proteins, so the enzyme must have been re-made",
+          "correct": false,
+          "why": "Here denaturation was reversible."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "u8-f001",
+      "type": "flashcard",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Secondary structure",
+      "source": "slides",
+      "front": "α-Helix: H-bond pattern and side-chain direction?",
+      "back": "Backbone H-bonds: C=O of residue n to N–H of residue n + 4. Side chains point outwards; Pro breaks helices."
+    },
+    {
+      "id": "u8-f002",
+      "type": "flashcard",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Secondary structure",
+      "source": "slides",
+      "front": "Parallel vs antiparallel β-sheet?",
+      "back": "Parallel: all strands run N→C in the same direction. Antiparallel: neighbouring strands alternate. Both are H-bonded between strands."
+    },
+    {
+      "id": "u8-f003",
+      "type": "flashcard",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Secondary structure",
+      "source": "slides",
+      "front": "β-Turn?",
+      "back": "About four residues that reverse chain direction; often contains Pro and Gly."
+    },
+    {
+      "id": "u8-f004",
+      "type": "flashcard",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Tertiary structure, domains and motifs",
+      "source": "slides",
+      "front": "Domain vs motif?",
+      "back": "Domain: independently stable unit, often with its own function. Motif: recurring arrangement of helices and strands (supersecondary structure)."
+    },
+    {
+      "id": "u8-f005",
+      "type": "flashcard",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Forces stabilising protein structure",
+      "source": "slides",
+      "front": "Four forces stabilising tertiary structure?",
+      "back": "Disulfide bonds (covalent), hydrophobic interactions, hydrogen bonds, ionic interactions (salt bridges)."
+    },
+    {
+      "id": "u8-f006",
+      "type": "flashcard",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Quaternary structure",
+      "source": "slides",
+      "front": "Quaternary structure?",
+      "back": "Arrangement of two or more subunits, held by non-covalent forces, e.g. haemoglobin α2β2."
+    },
+    {
+      "id": "u8-f007",
+      "type": "flashcard",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Folding, denaturation and chaperones",
+      "source": "slides",
+      "front": "Denaturation?",
+      "back": "Loss of native 3D shape with the sequence unchanged. Sometimes reversible (renaturation)."
+    },
+    {
+      "id": "u8-f008",
+      "type": "flashcard",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Folding, denaturation and chaperones",
+      "source": "slides",
+      "front": "Denaturing agents and what they disrupt?",
+      "back": "Heat or radiation: H-bonds. Strong acid or alkali and high salt: ionic bonds. Heavy metals: bind carboxylates and thiols. Organic solvents and detergents: hydrophobic interactions."
+    },
+    {
+      "id": "u8-f009",
+      "type": "flashcard",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Folding, denaturation and chaperones",
+      "source": "slides",
+      "front": "Hsp70 vs Hsp60/10?",
+      "back": "Hsp70: binds nascent chains leaving the ribosome to prevent premature folding. Hsp60/10: chaperonin cavity that folds proteins using ATP (e.g. in mitochondria)."
+    },
+    {
+      "id": "u8-f010",
+      "type": "flashcard",
+      "unit": 8,
+      "part": 1,
+      "outcome": "Folding, denaturation and chaperones",
+      "source": "slides",
+      "front": "Examples of protein-misfolding diseases?",
+      "back": "Alzheimer's, Huntington's and Parkinson's diseases (amyloid fibres); prion diseases such as scrapie and BSE."
+    }
+  ]
+}

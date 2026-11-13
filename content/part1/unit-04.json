@@ -1,0 +1,759 @@
+{
+  "unit": 4,
+  "title": "Thermodynamics & ATP",
+  "outcomes": [
+    "Laws of thermodynamics in living systems",
+    "Free energy, enthalpy and entropy",
+    "Standard free energy and the equilibrium constant",
+    "Actual free energy in the cell",
+    "ATP, phosphoryl transfer and coupled reactions"
+  ],
+  "summary": {
+    "overview": "Cells obey the laws of thermodynamics. Whether a reaction can proceed is decided by its actual free-energy change, ΔG, which depends on ΔG′° and on real concentrations. Unfavourable reactions are made to happen by coupling them to the hydrolysis of energy-rich molecules such as ATP.",
+    "sections": [
+      {
+        "heading": "Laws of thermodynamics",
+        "points": [
+          "1st law: energy is conserved. It can be transformed from one form to another but not created or destroyed.",
+          "2nd law: the entropy of the universe always increases.",
+          "Cells are open systems that exchange matter and energy with their surroundings and are never at equilibrium with them (e.g. the Na⁺/K⁺ gradients).",
+          "Cells create internal order by releasing heat and increasing entropy in their surroundings, so the 2nd law is not violated."
+        ]
+      },
+      {
+        "heading": "Free energy",
+        "points": [
+          "ΔG = ΔH − TΔS. G is the free energy available to do work, H is the heat content (enthalpy) and S is disorder (entropy).",
+          "Negative ΔG: exergonic and spontaneous. Positive ΔG: endergonic, so it needs an energy input.",
+          "Thermodynamically favourable is not the same as fast. Glucose + O2 (ΔG′° = −2840 kJ/mol) is stable until enzymes lower the activation barrier."
+        ]
+      },
+      {
+        "heading": "ΔG′° and K′eq",
+        "points": [
+          "ΔG′° is measured at 25 °C, pH 7, with all reactants and products at 1 M.",
+          "ΔG′° = −RT ln K′eq: K′eq > 1 gives a negative ΔG′°, K′eq = 1 gives zero, and K′eq < 1 gives a positive value.",
+          "At 25 °C, each 10-fold increase in K′eq makes ΔG′° about 5.7 kJ/mol more negative.",
+          "Example: phosphoglucomutase reaches 19 mM G6P and 1 mM G1P at equilibrium, so K′eq = 19 and ΔG′° ≈ −7.3 kJ/mol."
+        ]
+      },
+      {
+        "heading": "Actual ΔG in the cell",
+        "points": [
+          "ΔG = ΔG′° + RT ln Q, where Q is the mass-action ratio of the actual concentrations.",
+          "It is ΔG, not ΔG′°, that decides direction: a reaction with a positive ΔG′° can proceed if products are kept low.",
+          "Cellular ATP is kept far above equilibrium, so the actual ΔG of ATP hydrolysis (about −50 to −65 kJ/mol) is much more negative than ΔG′° (−30.5 kJ/mol).",
+          "The true substrate is Mg²⁺–ATP."
+        ]
+      },
+      {
+        "heading": "ATP and coupling",
+        "points": [
+          "ATP hydrolysis is favourable because it relieves charge repulsion, and the products are better solvated and resonance-stabilised.",
+          "ΔG′° values are additive. Glucose + Pi → G6P (+13.8) plus ATP → ADP + Pi (−30.5) gives an overall −16.7 kJ/mol.",
+          "Phosphoryl groups flow from compounds with a more negative ΔG′° of hydrolysis to those with a less negative one: PEP (−61.9) and 1,3-BPG (−49.3) can make ATP; glucose 6-phosphate (−13.8) cannot.",
+          "Phosphocreatine (−43.0) buffers ATP in muscle via creatine kinase. Thioesters such as acetyl-CoA are also high-energy acyl donors."
+        ]
+      }
+    ],
+    "keyTerms": [
+      {
+        "term": "Gibbs free energy (G)",
+        "definition": "Energy available to do work at constant temperature and pressure."
+      },
+      {
+        "term": "Enthalpy (H)",
+        "definition": "Heat content of a system."
+      },
+      {
+        "term": "Entropy (S)",
+        "definition": "Measure of randomness or disorder."
+      },
+      {
+        "term": "ΔG′°",
+        "definition": "Standard free-energy change at pH 7, 25 °C and 1 M concentrations; equal to −RT ln K′eq."
+      },
+      {
+        "term": "Mass-action ratio (Q)",
+        "definition": "[products]/[reactants] at the actual concentrations in the cell."
+      },
+      {
+        "term": "Exergonic",
+        "definition": "Reaction with a negative ΔG that releases free energy."
+      },
+      {
+        "term": "Energy coupling",
+        "definition": "Driving an endergonic reaction with an exergonic one through a shared intermediate."
+      },
+      {
+        "term": "Phosphoryl group transfer potential",
+        "definition": "Tendency of a compound to donate a phosphoryl group (more negative ΔG′° of hydrolysis = higher potential)."
+      }
+    ],
+    "examTips": [
+      "ΔG decides direction in the cell, not ΔG′°.",
+      "K′eq > 1 ⇔ ΔG′° negative; each factor of 10 ≈ 5.7 kJ/mol at 25 °C.",
+      "Favourable does not mean fast: rate depends on the activation barrier (ΔG‡).",
+      "Coupled reactions: just add the ΔG′° values of the two steps."
+    ]
+  },
+  "questions": [
+    {
+      "id": "u4-q001",
+      "type": "mcq",
+      "unit": 4,
+      "part": 1,
+      "outcome": "Laws of thermodynamics in living systems",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "A growing calf builds highly ordered tissues. How is this consistent with the second law of thermodynamics?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The calf releases heat and simpler, higher-entropy products, so the entropy of the universe still rises",
+          "correct": true,
+          "why": "The 2nd law applies to system plus surroundings; local order is paid for by greater disorder elsewhere."
+        },
+        {
+          "id": "b",
+          "text": "Living organisms are exempt from the second law, because their enzymes can reverse the flow of entropy",
+          "correct": false,
+          "why": "The laws of thermodynamics apply to all living systems."
+        },
+        {
+          "id": "c",
+          "text": "The calf creates new energy from its food, and this extra energy is used to build order in its tissues",
+          "correct": false,
+          "why": "The 1st law forbids creating energy; it is only transformed."
+        },
+        {
+          "id": "d",
+          "text": "The calf is a closed system at equilibrium with its environment, so its entropy does not need to change",
+          "correct": false,
+          "why": "Organisms are open systems that are never at equilibrium with their surroundings."
+        }
+      ]
+    },
+    {
+      "id": "u4-q002",
+      "type": "mcq",
+      "unit": 4,
+      "part": 1,
+      "outcome": "Laws of thermodynamics in living systems",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Why are living cells described as open thermodynamic systems?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They exchange both matter and energy with their surroundings",
+          "correct": true,
+          "why": "Cells take in nutrients and O2, release wastes and heat, and are never at equilibrium with their environment."
+        },
+        {
+          "id": "b",
+          "text": "They exchange energy with their surroundings but not matter",
+          "correct": false,
+          "why": "That describes a closed system."
+        },
+        {
+          "id": "c",
+          "text": "They exchange neither matter nor energy with their surroundings",
+          "correct": false,
+          "why": "That describes an isolated system."
+        },
+        {
+          "id": "d",
+          "text": "They are kept at chemical equilibrium with their surroundings",
+          "correct": false,
+          "why": "Being at equilibrium would mean death: no gradients and no net flux."
+        }
+      ]
+    },
+    {
+      "id": "u4-q003",
+      "type": "mcq",
+      "unit": 4,
+      "part": 1,
+      "outcome": "Free energy, enthalpy and entropy",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Using ΔG = ΔH − TΔS, which combination always gives a spontaneous (exergonic) process at any temperature?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ΔH negative and ΔS positive",
+          "correct": true,
+          "why": "Both terms then make ΔG negative regardless of T."
+        },
+        {
+          "id": "b",
+          "text": "ΔH positive and ΔS negative",
+          "correct": false,
+          "why": "Both terms then make ΔG positive at every temperature."
+        },
+        {
+          "id": "c",
+          "text": "ΔH positive and ΔS positive",
+          "correct": false,
+          "why": "This is spontaneous only when TΔS exceeds ΔH, i.e. at high enough temperature."
+        },
+        {
+          "id": "d",
+          "text": "ΔH negative and ΔS negative",
+          "correct": false,
+          "why": "This is spontaneous only at low enough temperature."
+        }
+      ]
+    },
+    {
+      "id": "u4-q004",
+      "type": "mcq",
+      "unit": 4,
+      "part": 1,
+      "outcome": "Free energy, enthalpy and entropy",
+      "bloom": "analyse",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "The oxidation of glucose by O2 has ΔG′° = −2840 kJ/mol, yet sugar can sit in air for years without burning. Why?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has a high activation barrier (ΔG‡); being thermodynamically favourable does not make it fast",
+          "correct": true,
+          "why": "ΔG decides whether a reaction can go; ΔG‡ decides how fast. Enzymes lower ΔG‡ so cells oxidise glucose step by step."
+        },
+        {
+          "id": "b",
+          "text": "The reaction is actually endergonic in air, because the O2 concentration there is too low to drive it",
+          "correct": false,
+          "why": "A ΔG′° of −2840 kJ/mol is strongly exergonic."
+        },
+        {
+          "id": "c",
+          "text": "Air contains no free oxygen at room temperature; O2 forms only once the sugar has been heated",
+          "correct": false,
+          "why": "Air is about 21% O2."
+        },
+        {
+          "id": "d",
+          "text": "K′eq for glucose oxidation is less than 1, so at equilibrium most of the glucose remains intact",
+          "correct": false,
+          "why": "A very negative ΔG′° means a very large K′eq."
+        }
+      ]
+    },
+    {
+      "id": "u4-q005",
+      "type": "mcq",
+      "unit": 4,
+      "part": 1,
+      "outcome": "Standard free energy and the equilibrium constant",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "A reaction has K′eq = 0.01. Starting with all components at 1 M, which way will it proceed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In reverse, because ΔG′° is positive",
+          "correct": true,
+          "why": "K′eq < 1 means ΔG′° = −RT ln K′eq > 0, so under standard conditions the reverse reaction is favoured."
+        },
+        {
+          "id": "b",
+          "text": "Forward, because ΔG′° is negative",
+          "correct": false,
+          "why": "A negative ΔG′° requires K′eq > 1."
+        },
+        {
+          "id": "c",
+          "text": "It is already at equilibrium",
+          "correct": false,
+          "why": "Only K′eq = 1 means standard conditions are already equilibrium."
+        },
+        {
+          "id": "d",
+          "text": "It cannot proceed in either direction",
+          "correct": false,
+          "why": "It moves in reverse until it reaches its equilibrium ratio."
+        }
+      ]
+    },
+    {
+      "id": "u4-q006",
+      "type": "mcq",
+      "unit": 4,
+      "part": 1,
+      "outcome": "Standard free energy and the equilibrium constant",
+      "bloom": "apply",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "Phosphoglucomutase is given 20 mM glucose 1-phosphate. At equilibrium there is 1 mM G1P and 19 mM G6P. What is ΔG′° (R = 8.315 J/mol·K, T = 298 K)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "About −7.3 kJ/mol",
+          "correct": true,
+          "why": "K′eq = 19/1 = 19; ΔG′° = −RT ln 19 = −(8.315 × 298 × 2.94) J/mol ≈ −7.3 kJ/mol."
+        },
+        {
+          "id": "b",
+          "text": "About +7.3 kJ/mol",
+          "correct": false,
+          "why": "Products are favoured (K′eq > 1), so the sign must be negative."
+        },
+        {
+          "id": "c",
+          "text": "About −3.2 kJ/mol",
+          "correct": false,
+          "why": "This uses log₁₀ instead of ln. With log₁₀ you must multiply by 2.303: ΔG′° = −2.303 RT log K′eq."
+        },
+        {
+          "id": "d",
+          "text": "0 kJ/mol, because the system is at equilibrium",
+          "correct": false,
+          "why": "ΔG = 0 at equilibrium, but ΔG′° is a constant calculated from K′eq."
+        }
+      ]
+    },
+    {
+      "id": "u4-q007",
+      "type": "mcq",
+      "unit": 4,
+      "part": 1,
+      "outcome": "Standard free energy and the equilibrium constant",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "At 25 °C, a reaction has K′eq = 1000. What is its approximate ΔG′°?",
+      "options": [
+        {
+          "id": "a",
+          "text": "−17.1 kJ/mol",
+          "correct": true,
+          "why": "ΔG′° = −2.303 RT log K′eq ≈ −5.7 kJ/mol × 3 = −17.1 kJ/mol."
+        },
+        {
+          "id": "b",
+          "text": "+17.1 kJ/mol",
+          "correct": false,
+          "why": "K′eq > 1 gives a negative ΔG′°."
+        },
+        {
+          "id": "c",
+          "text": "−5.7 kJ/mol",
+          "correct": false,
+          "why": "−5.7 kJ/mol corresponds to K′eq = 10."
+        },
+        {
+          "id": "d",
+          "text": "−1000 kJ/mol",
+          "correct": false,
+          "why": "ΔG′° depends on the logarithm of K′eq, not on K′eq itself."
+        }
+      ]
+    },
+    {
+      "id": "u4-q008",
+      "type": "mcq",
+      "unit": 4,
+      "part": 1,
+      "outcome": "Actual free energy in the cell",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "A step in a metabolic pathway has a positive ΔG′° but still runs forward in the cell. How is this possible?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The next step removes its product quickly, keeping Q small, so ΔG = ΔG′° + RT ln Q is negative",
+          "correct": true,
+          "why": "Direction is set by the actual ΔG, which depends on concentrations."
+        },
+        {
+          "id": "b",
+          "text": "Enzymes change ΔG′° to a negative value by binding the substrate more tightly than the product",
+          "correct": false,
+          "why": "Enzymes never change ΔG′°."
+        },
+        {
+          "id": "c",
+          "text": "ΔG′° has no relationship with reaction direction in any case, so its sign can simply be ignored",
+          "correct": false,
+          "why": "ΔG′° contributes to ΔG; it just isn't the whole story."
+        },
+        {
+          "id": "d",
+          "text": "Cells run at a temperature close to 100 °C, which makes the TΔS term large enough to make it favourable",
+          "correct": false,
+          "why": "Cells operate near 37 °C."
+        }
+      ]
+    },
+    {
+      "id": "u4-q009",
+      "type": "mcq",
+      "unit": 4,
+      "part": 1,
+      "outcome": "Actual free energy in the cell",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "ΔG′° of ATP hydrolysis is −30.5 kJ/mol, but in a red blood cell the actual ΔG is about −52 kJ/mol. Why is it more negative?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The cell keeps [ATP] far above, and [ADP][Pi] far below, equilibrium, so RT ln Q is strongly negative",
+          "correct": true,
+          "why": "Holding the reactant far from equilibrium makes ATP a more powerful energy source in vivo."
+        },
+        {
+          "id": "b",
+          "text": "Red cells are about 100 °C hotter than 25 °C, so the TΔS term makes the hydrolysis more favourable",
+          "correct": false,
+          "why": "Body temperature (37 °C) changes RT only slightly."
+        },
+        {
+          "id": "c",
+          "text": "Mg²⁺ is absent in red cells, so ATP is not stabilised as Mg-ATP and its hydrolysis releases more energy",
+          "correct": false,
+          "why": "Mg²⁺ is present; the true substrate is Mg–ATP."
+        },
+        {
+          "id": "d",
+          "text": "The red cell's enzymes make ATP hydrolysis more favourable by lowering the activation energy",
+          "correct": false,
+          "why": "Enzymes affect rate, not ΔG."
+        }
+      ]
+    },
+    {
+      "id": "u4-q010",
+      "type": "mcq",
+      "unit": 4,
+      "part": 1,
+      "outcome": "ATP, phosphoryl transfer and coupled reactions",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Glucose + Pi → glucose 6-phosphate + H2O has ΔG′° = +13.8 kJ/mol, and ATP + H2O → ADP + Pi has ΔG′° = −30.5 kJ/mol. What is ΔG′° for the hexokinase reaction (ATP + glucose → ADP + glucose 6-phosphate)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "−16.7 kJ/mol",
+          "correct": true,
+          "why": "Standard free-energy changes are additive: 13.8 + (−30.5) = −16.7 kJ/mol."
+        },
+        {
+          "id": "b",
+          "text": "+44.3 kJ/mol",
+          "correct": false,
+          "why": "This subtracts the wrong way; the values are simply added."
+        },
+        {
+          "id": "c",
+          "text": "−44.3 kJ/mol",
+          "correct": false,
+          "why": "This treats +13.8 as −13.8."
+        },
+        {
+          "id": "d",
+          "text": "+16.7 kJ/mol",
+          "correct": false,
+          "why": "The sign is wrong: ATP hydrolysis dominates."
+        }
+      ]
+    },
+    {
+      "id": "u4-q011",
+      "type": "mcq",
+      "unit": 4,
+      "part": 1,
+      "outcome": "ATP, phosphoryl transfer and coupled reactions",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why is the hydrolysis of ATP to ADP + Pi so strongly exergonic?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Its products are more stable: charge repulsion is relieved and ADP and Pi are better solvated and stabilised",
+          "correct": true,
+          "why": "The free energy comes from the difference in stability between reactants and products."
+        },
+        {
+          "id": "b",
+          "text": "Breaking the phosphoanhydride bond releases the energy stored inside the bond itself, as in a spring",
+          "correct": false,
+          "why": "A common misconception: breaking any bond requires energy. The 'high-energy bond' label describes the large ΔG of the whole reaction."
+        },
+        {
+          "id": "c",
+          "text": "ATP hydrolysis has a very low activation energy, so the reaction releases its energy very quickly",
+          "correct": false,
+          "why": "ATP is kinetically stable in water; ΔG‡ affects rate, not how exergonic the reaction is."
+        },
+        {
+          "id": "d",
+          "text": "Mg²⁺ is released as a gas when ATP is hydrolysed, carrying energy away from the reaction",
+          "correct": false,
+          "why": "Mg²⁺ stays in solution, bound to the phosphates."
+        }
+      ]
+    },
+    {
+      "id": "u4-q012",
+      "type": "mcq",
+      "unit": 4,
+      "part": 1,
+      "outcome": "ATP, phosphoryl transfer and coupled reactions",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Standard free energies of hydrolysis: PEP −61.9, 1,3-bisphosphoglycerate −49.3, phosphocreatine −43.0, ATP → ADP −30.5, glucose 6-phosphate −13.8 kJ/mol. Which compound CANNOT phosphorylate ADP to make ATP under standard conditions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glucose 6-phosphate",
+          "correct": true,
+          "why": "Its hydrolysis is less exergonic than ATP's, so transferring its phosphate to ADP would have a positive ΔG′°."
+        },
+        {
+          "id": "b",
+          "text": "Phosphoenolpyruvate",
+          "correct": false,
+          "why": "PEP + ADP → pyruvate + ATP has ΔG′° ≈ −31.4 kJ/mol (pyruvate kinase)."
+        },
+        {
+          "id": "c",
+          "text": "1,3-Bisphosphoglycerate",
+          "correct": false,
+          "why": "It makes ATP via phosphoglycerate kinase (ΔG′° ≈ −18.8 kJ/mol)."
+        },
+        {
+          "id": "d",
+          "text": "Phosphocreatine",
+          "correct": false,
+          "why": "Creatine kinase regenerates ATP from phosphocreatine in muscle."
+        }
+      ]
+    },
+    {
+      "id": "u4-q013",
+      "type": "mcq",
+      "unit": 4,
+      "part": 1,
+      "outcome": "ATP, phosphoryl transfer and coupled reactions",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Muscle cells contain high levels of phosphocreatine (about 28 mM in rat muscle). What is its role during a sudden sprint?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It rapidly regenerates ATP from ADP via creatine kinase, buffering ATP levels",
+          "correct": true,
+          "why": "With ΔG′° of hydrolysis −43 kJ/mol, phosphocreatine can transfer its phosphoryl group to ADP."
+        },
+        {
+          "id": "b",
+          "text": "It is oxidised directly in the mitochondria to provide NADH for the respiratory chain",
+          "correct": false,
+          "why": "Phosphocreatine is a phosphoryl donor, not a fuel for oxidation."
+        },
+        {
+          "id": "c",
+          "text": "It stores glucose units for glycolysis and releases them when the sprint begins",
+          "correct": false,
+          "why": "Glucose is stored as glycogen."
+        },
+        {
+          "id": "d",
+          "text": "It inhibits ATP hydrolysis by myosin, so that the muscle's ATP lasts much longer",
+          "correct": false,
+          "why": "It replenishes ATP rather than blocking its use."
+        }
+      ]
+    },
+    {
+      "id": "u4-q014",
+      "type": "mcq",
+      "unit": 4,
+      "part": 1,
+      "outcome": "Free energy, enthalpy and entropy",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Glucose can be oxidised to CO2 and water by burning, or step by step through glycolysis and the citric acid cycle. How do the overall ΔG values compare?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They are identical: ΔG depends only on the initial and final states, not on the pathway",
+          "correct": true,
+          "why": "Free energy is a state function; the cell simply captures some of it as ATP instead of releasing it all as heat."
+        },
+        {
+          "id": "b",
+          "text": "The cellular route releases more free energy, because each enzyme adds energy to its step",
+          "correct": false,
+          "why": "Enzymes add no energy to a reaction."
+        },
+        {
+          "id": "c",
+          "text": "Burning releases more free energy because it is faster and runs at a higher temperature",
+          "correct": false,
+          "why": "Rate does not change ΔG."
+        },
+        {
+          "id": "d",
+          "text": "The cellular route has a positive overall ΔG, because cells must invest ATP at the start",
+          "correct": false,
+          "why": "Complete oxidation is strongly exergonic by any route."
+        }
+      ]
+    },
+    {
+      "id": "u4-q015",
+      "type": "mcq",
+      "unit": 4,
+      "part": 1,
+      "outcome": "ATP, phosphoryl transfer and coupled reactions",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "What is the true substrate for most ATP-dependent enzymes in the cell?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Mg²⁺–ATP complex",
+          "correct": true,
+          "why": "Mg²⁺ shields the phosphate charges, and the ΔG of hydrolysis depends on [Mg²⁺]."
+        },
+        {
+          "id": "b",
+          "text": "Free ATP⁴⁻ with no bound metal",
+          "correct": false,
+          "why": "Most cellular ATP is complexed with Mg²⁺."
+        },
+        {
+          "id": "c",
+          "text": "AMP",
+          "correct": false,
+          "why": "AMP has a single phosphate and is a product or regulator, not the energy donor."
+        },
+        {
+          "id": "d",
+          "text": "Ca²⁺–ADP",
+          "correct": false,
+          "why": "Mg²⁺ (not Ca²⁺) is the relevant metal, and ADP is a product."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "u4-f001",
+      "type": "flashcard",
+      "unit": 4,
+      "part": 1,
+      "outcome": "Laws of thermodynamics in living systems",
+      "source": "slides",
+      "front": "1st and 2nd laws of thermodynamics?",
+      "back": "1st: energy is conserved (transformed, not created or destroyed). 2nd: the entropy of the universe always increases."
+    },
+    {
+      "id": "u4-f002",
+      "type": "flashcard",
+      "unit": 4,
+      "part": 1,
+      "outcome": "Free energy, enthalpy and entropy",
+      "source": "slides",
+      "front": "Relationship between G, H and S?",
+      "back": "ΔG = ΔH − TΔS. A negative ΔG means exergonic and spontaneous."
+    },
+    {
+      "id": "u4-f003",
+      "type": "flashcard",
+      "unit": 4,
+      "part": 1,
+      "outcome": "Standard free energy and the equilibrium constant",
+      "source": "slides",
+      "front": "ΔG′° vs K′eq?",
+      "back": "ΔG′° = −RT ln K′eq. K′eq > 1 → negative; = 1 → zero; < 1 → positive."
+    },
+    {
+      "id": "u4-f004",
+      "type": "flashcard",
+      "unit": 4,
+      "part": 1,
+      "outcome": "Standard free energy and the equilibrium constant",
+      "source": "slides",
+      "front": "Standard conditions for ΔG′°?",
+      "back": "25 °C (298 K), pH 7, all reactants and products at 1 M (gases at 1 atm)."
+    },
+    {
+      "id": "u4-f005",
+      "type": "flashcard",
+      "unit": 4,
+      "part": 1,
+      "outcome": "Actual free energy in the cell",
+      "source": "slides",
+      "front": "Actual ΔG?",
+      "back": "ΔG = ΔG′° + RT ln([products]/[reactants]). ΔG, not ΔG′°, decides direction."
+    },
+    {
+      "id": "u4-f006",
+      "type": "flashcard",
+      "unit": 4,
+      "part": 1,
+      "outcome": "ATP, phosphoryl transfer and coupled reactions",
+      "source": "slides",
+      "front": "ΔG′° of ATP → ADP + Pi?",
+      "back": "−30.5 kJ/mol (−7.3 kcal/mol). Actual ΔG in cells is about −50 to −65 kJ/mol."
+    },
+    {
+      "id": "u4-f007",
+      "type": "flashcard",
+      "unit": 4,
+      "part": 1,
+      "outcome": "ATP, phosphoryl transfer and coupled reactions",
+      "source": "slides",
+      "front": "Why is ATP hydrolysis so favourable?",
+      "back": "Relief of charge repulsion, better solvation of the products, and resonance stabilisation of Pi."
+    },
+    {
+      "id": "u4-f008",
+      "type": "flashcard",
+      "unit": 4,
+      "part": 1,
+      "outcome": "ATP, phosphoryl transfer and coupled reactions",
+      "source": "slides",
+      "front": "How are unfavourable reactions driven?",
+      "back": "By coupling to an exergonic reaction through a common intermediate. ΔG′° values add up (e.g. hexokinase: +13.8 − 30.5 = −16.7 kJ/mol)."
+    },
+    {
+      "id": "u4-f009",
+      "type": "flashcard",
+      "unit": 4,
+      "part": 1,
+      "outcome": "ATP, phosphoryl transfer and coupled reactions",
+      "source": "slides",
+      "front": "Compounds with a higher phosphoryl-transfer potential than ATP?",
+      "back": "PEP (−61.9), 1,3-bisphosphoglycerate (−49.3), phosphocreatine (−43.0 kJ/mol). These can make ATP from ADP."
+    },
+    {
+      "id": "u4-f010",
+      "type": "flashcard",
+      "unit": 4,
+      "part": 1,
+      "outcome": "Free energy, enthalpy and entropy",
+      "source": "slides",
+      "front": "Favourable vs fast?",
+      "back": "A negative ΔG means a reaction CAN go; its rate depends on ΔG‡. Glucose + O2 is very favourable but slow without enzymes."
+    }
+  ]
+}

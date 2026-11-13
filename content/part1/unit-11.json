@@ -1,0 +1,813 @@
+{
+  "unit": 11,
+  "title": "Enzyme properties & catalysis",
+  "outcomes": [
+    "General properties",
+    "Classification",
+    "Substrates and cofactors",
+    "Isozymes",
+    "Enzymatic catalysis"
+  ],
+  "summary": {
+    "overview": "Enzymes are biological catalysts, almost all of them proteins. They speed up reactions under mild conditions, with high specificity, and their activity can be regulated. Many need a cofactor or coenzyme, and each enzyme is named and numbered by the reaction it catalyses.",
+    "sections": [
+      {
+        "heading": "General properties",
+        "points": [
+          "Almost all enzymes are proteins; a few catalytic RNAs (ribozymes) also exist.",
+          "Catalytic activity depends on the native protein conformation; denaturation destroys it.",
+          "Advantages over inorganic catalysts: greater specificity (no side products), mild conditions (pH ≈ 7, 37 °C), much higher rates, and the ability to be regulated.",
+          "The reaction takes place in the active site, a pocket that binds the substrate."
+        ]
+      },
+      {
+        "heading": "Cofactors and coenzymes",
+        "points": [
+          "Cofactor: one or more inorganic ions, such as Fe²⁺, Mg²⁺, Mn²⁺ or Zn²⁺.",
+          "Coenzyme: a complex organic or metallo-organic molecule that carries functional groups temporarily. Most are derived from vitamins.",
+          "Prosthetic group: a coenzyme or cofactor bound very tightly, often covalently, so it is a permanent part of the enzyme.",
+          "Holoenzyme = apoenzyme (the protein part) + its cofactor or coenzyme."
+        ]
+      },
+      {
+        "heading": "Classification",
+        "points": [
+          "Enzymes are grouped into six classes by reaction: oxidoreductases, transferases, hydrolases, lyases, isomerases and ligases.",
+          "Each enzyme has a four-part EC number. Hexokinase is 2.7.1.1: transferase → phosphotransferase → OH group as acceptor → D-glucose as acceptor.",
+          "Most names end in -ase; some keep old names such as pepsin and lysozyme."
+        ]
+      },
+      {
+        "heading": "Specificity",
+        "points": [
+          "Specificity comes from the precise three-dimensional fit between substrate and active site.",
+          "Papain cleaves almost any peptide bond, which is why it is used to tenderise meat.",
+          "Trypsin cleaves only on the carboxyl side of Lys and Arg; thrombin cleaves only specific Arg–Gly bonds."
+        ]
+      },
+      {
+        "heading": "Isozymes",
+        "points": [
+          "Isozymes catalyse the same reaction but differ in amino acid sequence, because they are encoded by different genes.",
+          "They differ in kinetics or regulation and can be separated by electrophoresis.",
+          "Lactate dehydrogenase is a tetramer of H and M chains. M4 works best in anaerobic skeletal muscle; H4 works best in aerobic heart muscle.",
+          "Tissue-specific isozymes in serum help diagnose organ damage."
+        ]
+      },
+      {
+        "heading": "How catalysis works",
+        "points": [
+          "Enzymes lower the activation energy (ΔG‡). They do not change ΔG or K′eq.",
+          "Binding energy holds reactants close together and in the right orientation, paying the entropy cost during binding.",
+          "Active sites are complementary to the transition state, so they bind it more tightly than the substrate (Pauling)."
+        ]
+      }
+    ],
+    "keyTerms": [
+      {
+        "term": "Active site",
+        "definition": "Pocket on the enzyme where substrate binds and the reaction occurs."
+      },
+      {
+        "term": "Cofactor",
+        "definition": "Inorganic ion required for activity, e.g. Zn²⁺ or Mg²⁺."
+      },
+      {
+        "term": "Coenzyme",
+        "definition": "Organic molecule that carries groups temporarily; usually vitamin-derived."
+      },
+      {
+        "term": "Prosthetic group",
+        "definition": "Cofactor or coenzyme bound very tightly or covalently to the enzyme."
+      },
+      {
+        "term": "Holoenzyme",
+        "definition": "Complete, active enzyme with its cofactor or coenzyme bound."
+      },
+      {
+        "term": "Apoenzyme",
+        "definition": "The protein part of an enzyme without its cofactor."
+      },
+      {
+        "term": "EC number",
+        "definition": "Four-part code: class, subclass, sub-subclass and serial number."
+      },
+      {
+        "term": "Isozyme",
+        "definition": "Different protein, from a different gene, that catalyses the same reaction."
+      },
+      {
+        "term": "Ribozyme",
+        "definition": "RNA molecule with catalytic activity."
+      }
+    ],
+    "examTips": [
+      "Coenzymes are organic (often vitamin-derived); cofactors in the narrow sense are metal ions. Read the wording carefully.",
+      "The first EC digit gives the class: 1 oxidoreductase, 2 transferase, 3 hydrolase, 4 lyase, 5 isomerase, 6 ligase.",
+      "Isozymes catalyse the SAME reaction but are products of DIFFERENT genes.",
+      "An enzyme speeds up the forward and reverse reactions equally, so K′eq is unchanged."
+    ]
+  },
+  "questions": [
+    {
+      "id": "u11-q001",
+      "type": "mcq",
+      "unit": 11,
+      "part": 1,
+      "outcome": "General properties",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Which statement about biological catalysts is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Almost all are proteins, but some catalytic RNAs (ribozymes) also exist",
+          "correct": true,
+          "why": "Ribozymes show that RNA can catalyse reactions, which suggests RNA acted as a biocatalyst early in evolution."
+        },
+        {
+          "id": "b",
+          "text": "Every enzyme is a protein, without exception, including the ribosome's catalytic site",
+          "correct": false,
+          "why": "Catalytic RNAs such as the ribosome's peptidyl transferase are exceptions."
+        },
+        {
+          "id": "c",
+          "text": "Enzymes are used up as the reaction proceeds, so cells must keep making new copies",
+          "correct": false,
+          "why": "Like all catalysts, enzymes are regenerated unchanged at the end of each catalytic cycle."
+        },
+        {
+          "id": "d",
+          "text": "Enzymes keep their full activity after their structure is denatured by heat",
+          "correct": false,
+          "why": "Catalytic activity depends on the native conformation; denaturation destroys it."
+        }
+      ]
+    },
+    {
+      "id": "u11-q002",
+      "type": "mcq",
+      "unit": 11,
+      "part": 1,
+      "outcome": "General properties",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Chorismate could break down by several chemical routes, yet in the cell chorismate mutase converts it almost entirely to prephenate. Which advantage of biological catalysts does this illustrate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Greater reaction specificity, which avoids side products",
+          "correct": true,
+          "why": "The enzyme makes one pathway much faster than the others, so the desired product dominates."
+        },
+        {
+          "id": "b",
+          "text": "Enzymes shift the equilibrium of the reaction towards prephenate",
+          "correct": false,
+          "why": "Enzymes never change K′eq; they only change rates."
+        },
+        {
+          "id": "c",
+          "text": "Enzymes work only at high temperature, where side reactions stop",
+          "correct": false,
+          "why": "Enzymes work under mild cellular conditions, around 37 °C and pH 7."
+        },
+        {
+          "id": "d",
+          "text": "Enzymes make the overall ΔG of the reaction more negative",
+          "correct": false,
+          "why": "ΔG depends only on the initial and final states, not on the catalyst."
+        }
+      ]
+    },
+    {
+      "id": "u11-q003",
+      "type": "mcq",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Classification",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Hexokinase has the EC number 2.7.1.1. What does the first digit, 2, tell you?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is a transferase: it moves a group (here a phosphoryl) from one molecule to another",
+          "correct": true,
+          "why": "Class 2 = transferases; the 7 then specifies phosphotransferases."
+        },
+        {
+          "id": "b",
+          "text": "It is an oxidoreductase: it transfers electrons from glucose to an acceptor such as NAD⁺",
+          "correct": false,
+          "why": "Oxidoreductases are class 1."
+        },
+        {
+          "id": "c",
+          "text": "It is a hydrolase: it uses water to split the phosphoanhydride bond between ATP's phosphates",
+          "correct": false,
+          "why": "Hydrolases are class 3."
+        },
+        {
+          "id": "d",
+          "text": "Its substrate is glucose: the first digit identifies the sugar that the enzyme acts on",
+          "correct": false,
+          "why": "The substrate (D-glucose as acceptor) is given by the last digit, not the first."
+        }
+      ]
+    },
+    {
+      "id": "u11-q004",
+      "type": "mcq",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Classification",
+      "bloom": "apply",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Trypsin breaks peptide bonds by adding water across them. To which enzyme class does it belong?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hydrolases (class 3)",
+          "correct": true,
+          "why": "Hydrolases cleave bonds using water, e.g. peptidases, lipases and phosphatases."
+        },
+        {
+          "id": "b",
+          "text": "Oxidoreductases (class 1)",
+          "correct": false,
+          "why": "Oxidoreductases transfer electrons, e.g. dehydrogenases."
+        },
+        {
+          "id": "c",
+          "text": "Transferases (class 2)",
+          "correct": false,
+          "why": "Transferases move groups between molecules, e.g. kinases."
+        },
+        {
+          "id": "d",
+          "text": "Lyases (class 4)",
+          "correct": false,
+          "why": "Lyases break bonds without water or oxidation, often forming double bonds (e.g. aldolase)."
+        },
+        {
+          "id": "e",
+          "text": "Ligases (class 6)",
+          "correct": false,
+          "why": "Ligases join molecules using energy from ATP."
+        }
+      ]
+    },
+    {
+      "id": "u11-q005",
+      "type": "mcq",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Classification",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Lactate dehydrogenase catalyses pyruvate + NADH + H⁺ ⇌ lactate + NAD⁺. To which class does it belong?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oxidoreductases",
+          "correct": true,
+          "why": "Electrons (as a hydride) pass from NADH to pyruvate: a redox reaction, class 1."
+        },
+        {
+          "id": "b",
+          "text": "Isomerases (class 5)",
+          "correct": false,
+          "why": "Isomerases rearrange atoms within one molecule; here NADH is oxidised and pyruvate reduced."
+        },
+        {
+          "id": "c",
+          "text": "Ligases (class 6)",
+          "correct": false,
+          "why": "No new bond is formed using ATP."
+        },
+        {
+          "id": "d",
+          "text": "Lyases (class 4)",
+          "correct": false,
+          "why": "No group is removed to form a double bond."
+        }
+      ]
+    },
+    {
+      "id": "u11-q006",
+      "type": "mcq",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Substrates and cofactors",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "What is the catalytically active complex of an apoenzyme with its cofactor or coenzyme called?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Holoenzyme",
+          "correct": true,
+          "why": "Holoenzyme = apoenzyme (protein) + cofactor or coenzyme: the complete, active enzyme."
+        },
+        {
+          "id": "b",
+          "text": "Prosthetic group",
+          "correct": false,
+          "why": "This is the tightly bound cofactor itself, not the whole complex."
+        },
+        {
+          "id": "c",
+          "text": "Zymogen",
+          "correct": false,
+          "why": "A zymogen is an inactive precursor activated by proteolysis."
+        },
+        {
+          "id": "d",
+          "text": "Isozyme",
+          "correct": false,
+          "why": "Isozymes are different proteins that catalyse the same reaction."
+        }
+      ]
+    },
+    {
+      "id": "u11-q007",
+      "type": "mcq",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Substrates and cofactors",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Which of these is best described as a prosthetic group?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Biotin covalently attached to a lysine residue of pyruvate carboxylase",
+          "correct": true,
+          "why": "A prosthetic group is bound so tightly (here covalently) that it is a permanent part of the enzyme."
+        },
+        {
+          "id": "b",
+          "text": "NAD⁺, which binds a dehydrogenase, accepts electrons and then diffuses away",
+          "correct": false,
+          "why": "NAD⁺ binds only temporarily and moves between enzymes, so it acts as a co-substrate."
+        },
+        {
+          "id": "c",
+          "text": "Mg²⁺ that binds loosely from solution to activate a kinase",
+          "correct": false,
+          "why": "A loosely bound metal makes the enzyme metal-activated; it is not a prosthetic group."
+        },
+        {
+          "id": "d",
+          "text": "ATP consumed as a substrate by hexokinase",
+          "correct": false,
+          "why": "ATP is a substrate that is converted to ADP."
+        }
+      ]
+    },
+    {
+      "id": "u11-q008",
+      "type": "mcq",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Substrates and cofactors",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Cats fed mainly raw fish that contains thiaminase can develop neurological signs. Why are key metabolic enzymes affected?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thiamine is the precursor of thiamine pyrophosphate, a coenzyme needed by pyruvate dehydrogenase",
+          "correct": true,
+          "why": "Most coenzymes come from vitamins. Without thiamine, TPP-dependent enzymes can't work, and neurons, which rely on glucose oxidation, suffer first."
+        },
+        {
+          "id": "b",
+          "text": "Thiaminase directly hydrolyses the peptide bonds of enzymes in the brain, destroying their structure",
+          "correct": false,
+          "why": "Thiaminase destroys the vitamin, not proteins."
+        },
+        {
+          "id": "c",
+          "text": "Thiamine is an inorganic cofactor that stabilises the folded structure of many metabolic enzymes",
+          "correct": false,
+          "why": "Thiamine is an organic vitamin; inorganic cofactors are metal ions."
+        },
+        {
+          "id": "d",
+          "text": "Thiamine deficiency raises the activation energy of most enzymes in the body",
+          "correct": false,
+          "why": "Only enzymes that need TPP are affected."
+        }
+      ]
+    },
+    {
+      "id": "u11-q009",
+      "type": "mcq",
+      "unit": 11,
+      "part": 1,
+      "outcome": "General properties",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Trypsin acts on the peptide Ala–Lys–Gly–Phe–Arg–Ser. Which peptide bonds does it cleave?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lys–Gly and Arg–Ser",
+          "correct": true,
+          "why": "Trypsin cleaves on the carboxyl side of the basic residues Lys and Arg."
+        },
+        {
+          "id": "b",
+          "text": "Phe–Arg only",
+          "correct": false,
+          "why": "Cleavage after aromatic residues like Phe is typical of chymotrypsin, not trypsin."
+        },
+        {
+          "id": "c",
+          "text": "Every peptide bond in the chain",
+          "correct": false,
+          "why": "That broad pattern describes papain, not the highly specific trypsin."
+        },
+        {
+          "id": "d",
+          "text": "Ala–Lys and Phe–Arg",
+          "correct": false,
+          "why": "These bonds are on the amino side of Lys and Arg; trypsin cuts on the carboxyl side."
+        }
+      ]
+    },
+    {
+      "id": "u11-q010",
+      "type": "mcq",
+      "unit": 11,
+      "part": 1,
+      "outcome": "General properties",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Why is papain, from papaya, used commercially to tenderise meat?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It cleaves almost any peptide bond, whatever the neighbouring side chains",
+          "correct": true,
+          "why": "Its low specificity lets it break down many different muscle and connective-tissue proteins."
+        },
+        {
+          "id": "b",
+          "text": "It cleaves only the Arg–Gly bonds in fibrinogen, which softens the meat's clots",
+          "correct": false,
+          "why": "That highly specific activity describes thrombin."
+        },
+        {
+          "id": "c",
+          "text": "It forms new disulfide bonds in collagen, which soften the meat's connective tissue",
+          "correct": false,
+          "why": "Papain hydrolyses peptide bonds; it does not create cross-links."
+        },
+        {
+          "id": "d",
+          "text": "It works only after the meat is fully cooked, when the collagen has turned to gelatin",
+          "correct": false,
+          "why": "Cooking denatures and inactivates enzymes; papain works before cooking."
+        }
+      ]
+    },
+    {
+      "id": "u11-q011",
+      "type": "mcq",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Isozymes",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Which statement about isozymes is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They catalyse the same reaction but differ in sequence, kinetics or regulation, from different genes",
+          "correct": true,
+          "why": "Isozymes are distinct proteins for the same reaction, often separable by electrophoresis."
+        },
+        {
+          "id": "b",
+          "text": "They catalyse different reactions using the same active site, depending on which substrate is present",
+          "correct": false,
+          "why": "Isozymes catalyse the SAME reaction."
+        },
+        {
+          "id": "c",
+          "text": "They are identical proteins, encoded by one gene, that are found in different organelles of the cell",
+          "correct": false,
+          "why": "Isozymes differ in amino acid sequence."
+        },
+        {
+          "id": "d",
+          "text": "They are inactive precursors that are activated by proteolysis when the cell needs the enzyme",
+          "correct": false,
+          "why": "That describes zymogens."
+        }
+      ]
+    },
+    {
+      "id": "u11-q012",
+      "type": "mcq",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Isozymes",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why is the M4 isozyme of lactate dehydrogenase well suited to hard-working skeletal muscle?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It works well in anaerobic conditions, reducing pyruvate to lactate to regenerate NAD⁺ for glycolysis",
+          "correct": true,
+          "why": "M4 suits the anaerobic environment of intense muscle work; H4 suits the aerobic heart."
+        },
+        {
+          "id": "b",
+          "text": "It is encoded by the same gene as the H4 isozyme, but it is folded differently in skeletal muscle",
+          "correct": false,
+          "why": "H and M chains come from different genes; that is what makes them isozymes."
+        },
+        {
+          "id": "c",
+          "text": "It is a monomer rather than a tetramer, so it diffuses faster through the crowded muscle cytosol",
+          "correct": false,
+          "why": "Every functional LDH is a tetramer."
+        },
+        {
+          "id": "d",
+          "text": "Skeletal muscle has no other way to make ATP, because its fibres contain no mitochondria at all",
+          "correct": false,
+          "why": "Muscle also uses oxidative phosphorylation when O2 is available."
+        }
+      ]
+    },
+    {
+      "id": "u11-q013",
+      "type": "mcq",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Isozymes",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "A horse shows muscle stiffness and reluctance to move after exercise ('tying-up'). Which serum enzyme activity is most useful for confirming skeletal muscle damage?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Creatine kinase (CK)",
+          "correct": true,
+          "why": "CK, mainly the muscle MM isoform, leaks from damaged muscle fibres and rises sharply within hours."
+        },
+        {
+          "id": "b",
+          "text": "Alkaline phosphatase (ALP)",
+          "correct": false,
+          "why": "ALP mainly reflects bone, liver or bile-duct changes."
+        },
+        {
+          "id": "c",
+          "text": "Gamma-glutamyl transferase (GGT)",
+          "correct": false,
+          "why": "GGT is a marker of liver and bile-duct disease."
+        },
+        {
+          "id": "d",
+          "text": "Lipase",
+          "correct": false,
+          "why": "Lipase is used to assess the pancreas."
+        }
+      ]
+    },
+    {
+      "id": "u11-q014",
+      "type": "mcq",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Enzymatic catalysis",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "How does an enzyme use substrate-binding energy to speed up a reaction between two molecules?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It pays the entropy cost of bringing the reactants together in the correct orientation",
+          "correct": true,
+          "why": "Holding reactants rigidly in the ES complex means the conversion to the transition state no longer loses much entropy."
+        },
+        {
+          "id": "b",
+          "text": "It heats the active site above the surrounding temperature, so the reactants collide faster",
+          "correct": false,
+          "why": "Enzymes work at the temperature of their surroundings."
+        },
+        {
+          "id": "c",
+          "text": "It makes the overall ΔG of the reaction more negative, so the products form more readily",
+          "correct": false,
+          "why": "ΔG is fixed by the reactants and products; only ΔG‡ is lowered."
+        },
+        {
+          "id": "d",
+          "text": "It stores the binding energy as ATP and spends it later to drive the reaction forward",
+          "correct": false,
+          "why": "Binding energy is used directly in the catalytic step, not stored."
+        }
+      ]
+    },
+    {
+      "id": "u11-q015",
+      "type": "mcq",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Enzymatic catalysis",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "An enzyme speeds up the conversion of A to B a million-fold. What happens to the reverse reaction (B → A) and to K′eq?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The reverse reaction is also a million times faster, and K′eq is unchanged",
+          "correct": true,
+          "why": "Lowering ΔG‡ speeds both directions equally, so their ratio, K′eq, stays the same."
+        },
+        {
+          "id": "b",
+          "text": "The reverse reaction is unchanged, so K′eq rises a million-fold",
+          "correct": false,
+          "why": "An enzyme cannot speed up only one direction; that would violate thermodynamics."
+        },
+        {
+          "id": "c",
+          "text": "The reverse reaction slows down, pushing the reaction to completion",
+          "correct": false,
+          "why": "Enzymes never slow the reverse reaction or change the final equilibrium."
+        },
+        {
+          "id": "d",
+          "text": "K′eq falls, because the enzyme binds B and removes it from the reaction",
+          "correct": false,
+          "why": "Binding products does not change the equilibrium constant."
+        }
+      ]
+    },
+    {
+      "id": "u11-q016",
+      "type": "mcq",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Enzymatic catalysis",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "Why would an enzyme whose active site was perfectly complementary to the substrate, rather than to the transition state, be a poor catalyst?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tight substrate binding stabilises ES, deepening an energy well and raising the barrier to the transition state",
+          "correct": true,
+          "why": "Catalysis needs the strongest interactions to form in the transition state, which lowers ΔG‡ (Pauling)."
+        },
+        {
+          "id": "b",
+          "text": "The substrate could no longer enter the active site, because the site would already be filled by water",
+          "correct": false,
+          "why": "A complementary site would bind the substrate very well; the problem lies in what happens next."
+        },
+        {
+          "id": "c",
+          "text": "The enzyme would change K′eq in favour of the substrate",
+          "correct": false,
+          "why": "Enzymes cannot change K′eq whatever they bind."
+        },
+        {
+          "id": "d",
+          "text": "The enzyme would become irreversibly inhibited by its own product",
+          "correct": false,
+          "why": "Product binding is not what is described here."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "u11-f001",
+      "type": "flashcard",
+      "unit": 11,
+      "part": 1,
+      "outcome": "General properties",
+      "source": "slides",
+      "front": "Are all enzymes proteins?",
+      "back": "Almost all. Ribozymes are catalytic RNA molecules."
+    },
+    {
+      "id": "u11-f002",
+      "type": "flashcard",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Substrates and cofactors",
+      "source": "slides",
+      "front": "Cofactor vs coenzyme?",
+      "back": "Cofactor: an inorganic ion (Fe²⁺, Mg²⁺, Mn²⁺, Zn²⁺). Coenzyme: an organic or metallo-organic molecule that carries groups temporarily; most come from vitamins."
+    },
+    {
+      "id": "u11-f003",
+      "type": "flashcard",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Substrates and cofactors",
+      "source": "slides",
+      "front": "Prosthetic group?",
+      "back": "A cofactor or coenzyme bound very tightly, often covalently, so it is a permanent part of the enzyme."
+    },
+    {
+      "id": "u11-f004",
+      "type": "flashcard",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Substrates and cofactors",
+      "source": "slides",
+      "front": "Holoenzyme vs apoenzyme?",
+      "back": "Holoenzyme: the active enzyme with its cofactor bound. Apoenzyme: the protein part alone."
+    },
+    {
+      "id": "u11-f005",
+      "type": "flashcard",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Classification",
+      "source": "slides",
+      "front": "The six main enzyme classes, in EC order?",
+      "back": "1 Oxidoreductases, 2 Transferases, 3 Hydrolases, 4 Lyases, 5 Isomerases, 6 Ligases. (A 7th class, translocases, was added in 2018.)"
+    },
+    {
+      "id": "u11-f006",
+      "type": "flashcard",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Classification",
+      "source": "slides",
+      "front": "What does EC 2.7.1.1 (hexokinase) mean?",
+      "back": "2 transferase · 7 phosphotransferase · 1 OH group as acceptor · 1 D-glucose as acceptor."
+    },
+    {
+      "id": "u11-f007",
+      "type": "flashcard",
+      "unit": 11,
+      "part": 1,
+      "outcome": "General properties",
+      "source": "slides",
+      "front": "Papain vs trypsin vs thrombin specificity?",
+      "back": "Papain: almost any peptide bond. Trypsin: carboxyl side of Lys/Arg. Thrombin: specific Arg–Gly bonds only."
+    },
+    {
+      "id": "u11-f008",
+      "type": "flashcard",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Isozymes",
+      "source": "slides",
+      "front": "Isozymes?",
+      "back": "Different proteins (different genes) that catalyse the same reaction, with different kinetics or regulation. Separable by electrophoresis, e.g. LDH H4 vs M4."
+    },
+    {
+      "id": "u11-f009",
+      "type": "flashcard",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Isozymes",
+      "source": "slides",
+      "front": "LDH M4 vs H4?",
+      "back": "M4: anaerobic, hard-working skeletal muscle. H4: aerobic heart muscle."
+    },
+    {
+      "id": "u11-f010",
+      "type": "flashcard",
+      "unit": 11,
+      "part": 1,
+      "outcome": "Enzymatic catalysis",
+      "source": "slides",
+      "front": "Why do enzymes bind the transition state best?",
+      "back": "Extra interactions with the transition state lower ΔG‡ (Pauling, 1946). Transition-state analogues are therefore potent inhibitors."
+    }
+  ]
+}

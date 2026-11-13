@@ -1,0 +1,833 @@
+{
+  "unit": 13,
+  "title": "Regulation of enzyme activity",
+  "outcomes": [
+    "Enzymatic regulation mechanism",
+    "Allosteric enzymes",
+    "Reversible covalent modification",
+    "Irreversible covalent modification (proteolysis)",
+    "Protein-protein interactions",
+    "Changes in subcellular localisation"
+  ],
+  "summary": {
+    "overview": "Cells control enzyme activity over timescales from seconds to hours. They use small molecules binding allosteric sites, reversible covalent marks such as phosphorylation, irreversible proteolytic activation of zymogens, and partner proteins or changes in location. Key enzymes often combine several of these.",
+    "sections": [
+      {
+        "heading": "Allosteric regulation",
+        "points": [
+          "Allosteric modulators are usually small molecules. They bind a regulatory site that is separate from the active site.",
+          "Positive modulators increase activity; negative modulators decrease it.",
+          "Allosteric enzymes do not follow Michaelis–Menten kinetics. They give sigmoidal curves, described by K0.5 instead of Km.",
+          "Homotropic: the substrate itself is the modulator. Heterotropic: a different molecule is the modulator.",
+          "In ATCase, CTP (the pathway's end product) is a negative modulator and ATP is a positive one. Each shifts K0.5 without changing Vmax."
+        ]
+      },
+      {
+        "heading": "Reversible covalent modification",
+        "points": [
+          "More than 500 types exist. Modifying a residue changes its charge and local properties, and can change the enzyme's conformation.",
+          "Phosphorylation is the most important. Protein kinases transfer the γ-phosphoryl group of ATP to Ser, Thr or Tyr (occasionally His), and phosphatases remove it.",
+          "The bulky, negatively charged phosphate can form hydrogen bonds or repel Asp and Glu, changing substrate binding and catalysis.",
+          "About 80% of soluble eukaryotic proteins are acetylated at their amino terminus.",
+          "Ubiquitin tags a protein for degradation; SUMO marks nuclear proteins involved in transcription, chromatin and DNA repair."
+        ]
+      },
+      {
+        "heading": "Irreversible activation: zymogens",
+        "points": [
+          "A zymogen (proenzyme) is an inactive precursor, switched on by cutting specific peptide bonds.",
+          "No ATP is needed, so enzymes can be activated outside cells, e.g. in the gut lumen or the blood.",
+          "Digestive enzymes: enteropeptidase activates trypsinogen to trypsin, and trypsin then activates chymotrypsinogen and the other pancreatic zymogens.",
+          "Other examples: the blood-clotting cascade, proinsulin → insulin, procollagen → collagen, procollagenase, and procaspases in apoptosis."
+        ]
+      },
+      {
+        "heading": "Partner proteins and location",
+        "points": [
+          "Protein kinase A: regulatory subunits bind and block the catalytic subunits. cAMP binds the regulatory subunits and releases the active catalytic subunits.",
+          "Liver glucokinase is held in the nucleus by a regulatory protein when glucose is low, and is released into the cytosol after a meal."
+        ]
+      },
+      {
+        "heading": "Several layers at once",
+        "points": [
+          "Glycogen phosphorylase is allosterically activated by AMP and inhibited by ATP and glucose 6-phosphate.",
+          "It is also phosphorylated by phosphorylase kinase in response to glucagon or adrenaline, converting the less active b form into the active a form; a phosphatase (PP1) reverses this."
+        ]
+      }
+    ],
+    "keyTerms": [
+      {
+        "term": "Allosteric enzyme",
+        "definition": "Enzyme regulated by modulators binding a site other than the active site."
+      },
+      {
+        "term": "K0.5",
+        "definition": "Substrate concentration giving half-maximal velocity for an allosteric enzyme."
+      },
+      {
+        "term": "Feedback inhibition",
+        "definition": "The end product of a pathway inhibits an early enzyme of that pathway."
+      },
+      {
+        "term": "Protein kinase",
+        "definition": "Enzyme that transfers the γ-phosphate of ATP to Ser, Thr or Tyr."
+      },
+      {
+        "term": "Phosphatase",
+        "definition": "Enzyme that removes phosphate groups, reversing kinase action."
+      },
+      {
+        "term": "Ubiquitin",
+        "definition": "Small protein tag that targets proteins for degradation."
+      },
+      {
+        "term": "Zymogen",
+        "definition": "Inactive enzyme precursor activated by specific proteolysis."
+      },
+      {
+        "term": "Enteropeptidase",
+        "definition": "Intestinal protease that converts trypsinogen into trypsin."
+      }
+    ],
+    "examTips": [
+      "Allosteric enzymes do NOT follow Michaelis–Menten kinetics: use K0.5, not Km.",
+      "Proteolytic activation is irreversible; phosphorylation is reversible (by phosphatases).",
+      "Kinases use the γ (terminal) phosphate of ATP.",
+      "Trypsin activates all the pancreatic zymogens, which is why premature trypsin activation is so damaging."
+    ]
+  },
+  "questions": [
+    {
+      "id": "u13-q001",
+      "type": "mcq",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Allosteric enzymes",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "For an enzyme whose substrate is also its positive (homotropic) allosteric modulator, what does a plot of v0 against [S] look like?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sigmoidal: the enzyme shifts from the low-activity T state to the R state as [S] rises",
+          "correct": true,
+          "why": "Like haemoglobin's O2 curve, substrate binding favours the R state, giving cooperative, sigmoidal kinetics."
+        },
+        {
+          "id": "b",
+          "text": "Hyperbolic, exactly as the Michaelis–Menten equation predicts for a single-site enzyme",
+          "correct": false,
+          "why": "Allosteric enzymes do not follow simple Michaelis–Menten kinetics."
+        },
+        {
+          "id": "c",
+          "text": "A straight line through the origin at all [S], because each S also activates the enzyme",
+          "correct": false,
+          "why": "No enzyme stays linear at saturating [S]."
+        },
+        {
+          "id": "d",
+          "text": "Bell-shaped, with activity falling at high [S] as the substrate inhibits its own binding",
+          "correct": false,
+          "why": "A bell shape describes pH profiles, not homotropic activation."
+        }
+      ]
+    },
+    {
+      "id": "u13-q002",
+      "type": "mcq",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Allosteric enzymes",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "CTP, the end product of pyrimidine synthesis, inhibits aspartate transcarbamoylase (ATCase), the first enzyme of the pathway. What kind of regulation is this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Feedback inhibition by a heterotropic negative allosteric modulator",
+          "correct": true,
+          "why": "CTP is not the substrate; it binds a regulatory site and lowers activity when product is plentiful."
+        },
+        {
+          "id": "b",
+          "text": "Competitive inhibition at the active site, where CTP mimics aspartate",
+          "correct": false,
+          "why": "CTP binds the regulatory subunits, not the catalytic site."
+        },
+        {
+          "id": "c",
+          "text": "Reversible covalent modification of the enzyme by phosphorylation",
+          "correct": false,
+          "why": "No covalent bond is formed; binding is non-covalent and fast."
+        },
+        {
+          "id": "d",
+          "text": "Zymogen activation by cleavage of the regulatory subunits",
+          "correct": false,
+          "why": "ATCase is not activated by proteolysis."
+        }
+      ]
+    },
+    {
+      "id": "u13-q003",
+      "type": "mcq",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Allosteric enzymes",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "ATP is a positive modulator of ATCase that changes K0.5 but not Vmax. How does adding ATP change the enzyme's v0 vs [S] curve?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The curve shifts to the left (lower K0.5) and reaches the same plateau",
+          "correct": true,
+          "why": "A positive modulator makes half-maximal activity occur at a lower [S], with Vmax unchanged."
+        },
+        {
+          "id": "b",
+          "text": "The curve shifts to the right (higher K0.5) and reaches the same plateau",
+          "correct": false,
+          "why": "That would describe a negative modulator such as CTP."
+        },
+        {
+          "id": "c",
+          "text": "The plateau rises but K0.5 is unchanged",
+          "correct": false,
+          "why": "The question says Vmax is unchanged; only K0.5 changes."
+        },
+        {
+          "id": "d",
+          "text": "The curve becomes hyperbolic and its plateau falls",
+          "correct": false,
+          "why": "ATP neither removes the sigmoidal shape nor lowers Vmax."
+        }
+      ]
+    },
+    {
+      "id": "u13-q004",
+      "type": "mcq",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Allosteric enzymes",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "How can an allosteric effector regulate an enzyme even though it is structurally unrelated to the substrate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It binds a separate regulatory site and changes the enzyme's conformation",
+          "correct": true,
+          "why": "Because the effector site is distinct from the active site, the effector does not need to resemble the substrate."
+        },
+        {
+          "id": "b",
+          "text": "It competes with the substrate for the active site, blocking the substrate",
+          "correct": false,
+          "why": "That would need structural similarity, as in competitive inhibition."
+        },
+        {
+          "id": "c",
+          "text": "It covalently modifies the catalytic residues so that they cannot react",
+          "correct": false,
+          "why": "Allosteric binding is non-covalent and reversible."
+        },
+        {
+          "id": "d",
+          "text": "It changes the K′eq of the reaction, so less product forms at equilibrium",
+          "correct": false,
+          "why": "No regulator changes the equilibrium constant."
+        }
+      ]
+    },
+    {
+      "id": "u13-q005",
+      "type": "mcq",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Reversible covalent modification",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "What do protein kinases transfer, and to which residues?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The γ-phosphoryl group of ATP, to the –OH of Ser, Thr or Tyr",
+          "correct": true,
+          "why": "The terminal (γ) phosphate is transferred, introducing a bulky, charged group."
+        },
+        {
+          "id": "b",
+          "text": "The α-phosphate of ATP, to the ε-amino group of Lys",
+          "correct": false,
+          "why": "Kinases use the terminal γ-phosphate, and the usual targets are hydroxyl-containing residues."
+        },
+        {
+          "id": "c",
+          "text": "An acetyl group from acetyl-CoA, to the amino terminus",
+          "correct": false,
+          "why": "That is N-terminal acetylation, carried out by acetyltransferases."
+        },
+        {
+          "id": "d",
+          "text": "The whole ATP molecule, to the –SH of Cys residues",
+          "correct": false,
+          "why": "Only a phosphoryl group is transferred; ADP is released."
+        }
+      ]
+    },
+    {
+      "id": "u13-q006",
+      "type": "mcq",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Reversible covalent modification",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why can adding a single phosphoryl group switch an enzyme's activity on or off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It adds a bulky group with about two negative charges that forms H-bonds or repels Asp/Glu, shifting the fold",
+          "correct": true,
+          "why": "These new interactions alter the shape of the binding or catalytic site."
+        },
+        {
+          "id": "b",
+          "text": "It cuts the polypeptide chain at the modified residue, releasing an inhibitory segment from the active site",
+          "correct": false,
+          "why": "Phosphorylation adds a group; it does not hydrolyse the backbone."
+        },
+        {
+          "id": "c",
+          "text": "It provides ATP directly to the active site, supplying the energy that the catalytic step needs to proceed",
+          "correct": false,
+          "why": "The phosphate ester is not an energy source for catalysis."
+        },
+        {
+          "id": "d",
+          "text": "It makes the protein insoluble so that it precipitates, removing it from the reaction until it is cleaned",
+          "correct": false,
+          "why": "Phosphorylation usually increases polarity; it does not inactivate by precipitation."
+        }
+      ]
+    },
+    {
+      "id": "u13-q007",
+      "type": "mcq",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Reversible covalent modification",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "What makes phosphorylation a reversible form of regulation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phosphoprotein phosphatases hydrolyse the phosphate ester, restoring the residue",
+          "correct": true,
+          "why": "Kinases and phosphatases together switch a protein between two states."
+        },
+        {
+          "id": "b",
+          "text": "Proteases remove the phosphorylated segment, and the cell makes a new copy of it",
+          "correct": false,
+          "why": "That would be irreversible proteolysis."
+        },
+        {
+          "id": "c",
+          "text": "The phosphate group falls off spontaneously within seconds, without any enzyme",
+          "correct": false,
+          "why": "Phosphate esters on proteins are stable until a phosphatase acts."
+        },
+        {
+          "id": "d",
+          "text": "Kinases run backwards, taking the phosphate back to make ATP from ADP",
+          "correct": false,
+          "why": "Protein kinase reactions are effectively irreversible; a separate enzyme removes the phosphate."
+        }
+      ]
+    },
+    {
+      "id": "u13-q008",
+      "type": "mcq",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Reversible covalent modification",
+      "bloom": "remember",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Which covalent modification marks a protein for proteolytic degradation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Attachment of ubiquitin",
+          "correct": true,
+          "why": "Ubiquitin tags target proteins for destruction."
+        },
+        {
+          "id": "b",
+          "text": "Attachment of SUMO",
+          "correct": false,
+          "why": "SUMO regulates nuclear proteins (transcription, chromatin, DNA repair); it does not target them for destruction."
+        },
+        {
+          "id": "c",
+          "text": "N-terminal acetylation",
+          "correct": false,
+          "why": "About 80% of soluble eukaryotic proteins carry it; it is not a degradation signal."
+        },
+        {
+          "id": "d",
+          "text": "Phosphorylation of a Tyr residue",
+          "correct": false,
+          "why": "Phosphorylation mainly regulates activity and signalling."
+        }
+      ]
+    },
+    {
+      "id": "u13-q009",
+      "type": "mcq",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Irreversible covalent modification (proteolysis)",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Unlike phosphorylation, proteolytic activation can switch on enzymes in the gut lumen or the bloodstream. Why?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cleaving a peptide bond needs no ATP, so no energy source is needed outside the cell",
+          "correct": true,
+          "why": "Hydrolysis of the zymogen is exergonic, while kinases need ATP, which is scarce outside cells."
+        },
+        {
+          "id": "b",
+          "text": "Zymogens activate themselves only inside cells, before being secreted in active form",
+          "correct": false,
+          "why": "Many zymogens, such as clotting factors and digestive enzymes, are activated extracellularly."
+        },
+        {
+          "id": "c",
+          "text": "Proteolysis can be reversed by phosphatases in the blood, so it is easy to switch off",
+          "correct": false,
+          "why": "Proteolysis is irreversible; phosphatases do not rejoin peptide bonds."
+        },
+        {
+          "id": "d",
+          "text": "Extracellular fluids contain high concentrations of protein kinases and of free ATP",
+          "correct": false,
+          "why": "This is not the reason, and kinases would still need ATP."
+        }
+      ]
+    },
+    {
+      "id": "u13-q010",
+      "type": "mcq",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Irreversible covalent modification (proteolysis)",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "In the duodenum, which enzyme directly activates chymotrypsinogen, proelastase and procarboxypeptidase?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trypsin, which is itself produced from trypsinogen by enteropeptidase",
+          "correct": true,
+          "why": "A little enteropeptidase starts the cascade; trypsin then activates more trypsinogen and the other zymogens."
+        },
+        {
+          "id": "b",
+          "text": "Pepsin, carried into the duodenum from the stomach with the chyme",
+          "correct": false,
+          "why": "Pepsin is inactivated at duodenal pH and does not activate pancreatic zymogens."
+        },
+        {
+          "id": "c",
+          "text": "Protein kinase A, which phosphorylates each zymogen to activate it",
+          "correct": false,
+          "why": "Zymogens are activated by proteolysis, not phosphorylation."
+        },
+        {
+          "id": "d",
+          "text": "Pancreatic lipase, which is secreted together with the zymogens",
+          "correct": false,
+          "why": "Lipase hydrolyses fats, not peptide bonds."
+        }
+      ]
+    },
+    {
+      "id": "u13-q011",
+      "type": "mcq",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Irreversible covalent modification (proteolysis)",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "general",
+      "stem": "In acute pancreatitis in dogs, trypsinogen is activated inside the pancreas. Why does this cause such severe damage?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trypsin activates the other zymogens, so a cascade of digestive enzymes digests the pancreas",
+          "correct": true,
+          "why": "Zymogens and trypsin inhibitors normally protect the gland; premature trypsin activation overwhelms these defences."
+        },
+        {
+          "id": "b",
+          "text": "Trypsinogen is more active than trypsin and directly destroys the pancreatic cell membranes",
+          "correct": false,
+          "why": "Zymogens have little or no activity; the danger comes after activation."
+        },
+        {
+          "id": "c",
+          "text": "Activated trypsin phosphorylates pancreatic proteins, switching on enzymes that kill the cells",
+          "correct": false,
+          "why": "Trypsin is a protease, not a kinase."
+        },
+        {
+          "id": "d",
+          "text": "Trypsin activation is reversible, so the enzymes switch on and off repeatedly inside the gland",
+          "correct": false,
+          "why": "Proteolytic activation is irreversible."
+        }
+      ]
+    },
+    {
+      "id": "u13-q012",
+      "type": "mcq",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Irreversible covalent modification (proteolysis)",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "A thin German Shepherd with chronic, voluminous, fatty faeces has a very low serum trypsin-like immunoreactivity (TLI). What does this indicate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Exocrine pancreatic insufficiency: the pancreas makes too little trypsinogen and other zymogens",
+          "correct": true,
+          "why": "Serum TLI largely reflects trypsinogen leaking from acinar cells; a very low value means few functioning acinar cells."
+        },
+        {
+          "id": "b",
+          "text": "Excess enteropeptidase in the blood is activating and clearing the circulating trypsinogen",
+          "correct": false,
+          "why": "Enteropeptidase works in the gut lumen; low TLI reflects reduced production."
+        },
+        {
+          "id": "c",
+          "text": "Acute pancreatitis with massive trypsin release, which uses up the serum trypsinogen",
+          "correct": false,
+          "why": "Pancreatitis typically raises, not lowers, pancreatic enzyme markers."
+        },
+        {
+          "id": "d",
+          "text": "A deficiency of pancreatic phosphatases, which are needed to release trypsin into the gut",
+          "correct": false,
+          "why": "TLI measures trypsinogen and trypsin, not phosphatases."
+        }
+      ]
+    },
+    {
+      "id": "u13-q013",
+      "type": "mcq",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Irreversible covalent modification (proteolysis)",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Which of these is activated by specific proteolytic cleavage?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Insulin, formed from proinsulin",
+          "correct": true,
+          "why": "Removing a peptide from proinsulin produces active insulin, an example of irreversible activation."
+        },
+        {
+          "id": "b",
+          "text": "Glycogen phosphorylase b → a",
+          "correct": false,
+          "why": "This conversion is by phosphorylation, which is reversible."
+        },
+        {
+          "id": "c",
+          "text": "Protein kinase A, activated by cAMP",
+          "correct": false,
+          "why": "cAMP binding releases the catalytic subunits; nothing is cleaved."
+        },
+        {
+          "id": "d",
+          "text": "ATCase activated by ATP",
+          "correct": false,
+          "why": "ATP is a non-covalent allosteric activator."
+        }
+      ]
+    },
+    {
+      "id": "u13-q014",
+      "type": "mcq",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Enzymatic regulation mechanism",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "During a sprint, AMP rises in muscle and adrenaline is released. How do these act together on glycogen phosphorylase?",
+      "options": [
+        {
+          "id": "a",
+          "text": "AMP activates it allosterically; adrenaline triggers a cascade that converts phosphorylase b to a",
+          "correct": true,
+          "why": "The enzyme combines allosteric control and covalent modification, two layers that reinforce each other."
+        },
+        {
+          "id": "b",
+          "text": "AMP phosphorylates the enzyme directly, and adrenaline cleaves it into its active form",
+          "correct": false,
+          "why": "AMP binds non-covalently, and phosphorylase is not activated by proteolysis."
+        },
+        {
+          "id": "c",
+          "text": "Both inhibit the enzyme, so that glycogen is saved for later when the sprint has finished",
+          "correct": false,
+          "why": "Both signals mean energy is needed, so both activate glycogen breakdown."
+        },
+        {
+          "id": "d",
+          "text": "AMP activates it only after adrenaline has been removed from the enzyme by a phosphatase",
+          "correct": false,
+          "why": "The two signals act at the same time; a phosphatase reverses activation."
+        }
+      ]
+    },
+    {
+      "id": "u13-q015",
+      "type": "mcq",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Protein-protein interactions",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "How does cAMP activate protein kinase A (PKA)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "cAMP binds the regulatory subunits, which then release the active catalytic subunits",
+          "correct": true,
+          "why": "In the inactive R2C2 complex the regulatory subunits block the catalytic subunits; binding cAMP frees them."
+        },
+        {
+          "id": "b",
+          "text": "cAMP is covalently attached to the catalytic site, where it acts as the phosphate donor",
+          "correct": false,
+          "why": "cAMP binds non-covalently to the regulatory subunits."
+        },
+        {
+          "id": "c",
+          "text": "cAMP cleaves the regulatory subunits off by proteolysis, freeing the catalytic subunits",
+          "correct": false,
+          "why": "Release is by a conformational change, not proteolysis."
+        },
+        {
+          "id": "d",
+          "text": "cAMP donates its phosphate to the catalytic subunits, which switches them into the active form",
+          "correct": false,
+          "why": "PKA uses ATP as its phosphate donor; cAMP is a second messenger."
+        }
+      ]
+    },
+    {
+      "id": "u13-q016",
+      "type": "mcq",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Changes in subcellular localisation",
+      "bloom": "apply",
+      "difficulty": 3,
+      "source": "general",
+      "stem": "Between meals, liver glucokinase is held in the nucleus by a regulatory protein; after a carbohydrate meal it moves into the cytosol. What is the effect?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glucose is phosphorylated in the cytosol only when blood glucose is high, so the liver takes it up after meals",
+          "correct": true,
+          "why": "Moving the enzyme between compartments switches the pathway on or off without changing the enzyme itself."
+        },
+        {
+          "id": "b",
+          "text": "Glucokinase is destroyed in the nucleus between meals and has to be made again after each meal",
+          "correct": false,
+          "why": "Sequestration is reversible; the enzyme is stored, not degraded."
+        },
+        {
+          "id": "c",
+          "text": "In the nucleus glucokinase phosphorylates DNA, which switches on the genes for glycogen synthesis",
+          "correct": false,
+          "why": "It is inactive while held in the nucleus; it does not phosphorylate DNA."
+        },
+        {
+          "id": "d",
+          "text": "The move to the cytosol lowers glucokinase's Km to that of hexokinase I",
+          "correct": false,
+          "why": "Location controls access to substrate; the kinetic constants are unchanged."
+        }
+      ]
+    },
+    {
+      "id": "u13-q017",
+      "type": "mcq",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Enzymatic regulation mechanism",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why is a pathway's end product usually a feedback inhibitor of the FIRST committed enzyme, rather than of a later one?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It stops the whole pathway at its entry, so intermediates don't build up and energy isn't wasted",
+          "correct": true,
+          "why": "Inhibiting a later enzyme would let upstream intermediates accumulate."
+        },
+        {
+          "id": "b",
+          "text": "The first enzyme is the only one in the pathway with an active site that can bind a regulator",
+          "correct": false,
+          "why": "Every enzyme in the pathway has an active site."
+        },
+        {
+          "id": "c",
+          "text": "Later enzymes can't be regulated, because they are zymogens that are permanently switched on",
+          "correct": false,
+          "why": "Pathway enzymes are not, in general, zymogens."
+        },
+        {
+          "id": "d",
+          "text": "The end product changes the K′eq of the first reaction, which then pulls the whole pathway back",
+          "correct": false,
+          "why": "Inhibitors change rates, not equilibrium constants."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "u13-f001",
+      "type": "flashcard",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Enzymatic regulation mechanism",
+      "source": "slides",
+      "front": "Three main ways to regulate enzyme activity (slides)?",
+      "back": "1 Non-covalent (allosteric). 2 Reversible covalent modification. 3 Irreversible covalent modification (proteolysis). Also: partner proteins and location."
+    },
+    {
+      "id": "u13-f002",
+      "type": "flashcard",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Allosteric enzymes",
+      "source": "slides",
+      "front": "Kinetics of an allosteric enzyme?",
+      "back": "Sigmoidal, not Michaelis–Menten. Described by K0.5 (the [S] giving ½Vmax)."
+    },
+    {
+      "id": "u13-f003",
+      "type": "flashcard",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Allosteric enzymes",
+      "source": "slides",
+      "front": "Homotropic vs heterotropic modulation?",
+      "back": "Homotropic: the substrate is the modulator. Heterotropic: a different molecule is the modulator."
+    },
+    {
+      "id": "u13-f004",
+      "type": "flashcard",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Allosteric enzymes",
+      "source": "slides",
+      "front": "ATCase modulators?",
+      "back": "CTP is negative (feedback by the end product); ATP is positive. Both change K0.5, not Vmax."
+    },
+    {
+      "id": "u13-f005",
+      "type": "flashcard",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Reversible covalent modification",
+      "source": "slides",
+      "front": "Phosphorylation: enzyme, donor, target residues?",
+      "back": "Protein kinases transfer the γ-phosphate of ATP to Ser, Thr or Tyr (sometimes His). Phosphatases reverse it."
+    },
+    {
+      "id": "u13-f006",
+      "type": "flashcard",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Reversible covalent modification",
+      "source": "slides",
+      "front": "Ubiquitin vs SUMO?",
+      "back": "Ubiquitin: a tag for degradation. SUMO: regulates nuclear proteins (transcription, chromatin, DNA repair)."
+    },
+    {
+      "id": "u13-f007",
+      "type": "flashcard",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Irreversible covalent modification (proteolysis)",
+      "source": "slides",
+      "front": "Zymogen?",
+      "back": "An inactive precursor activated by specific proteolysis. Irreversible and needs no ATP, so it works outside cells."
+    },
+    {
+      "id": "u13-f008",
+      "type": "flashcard",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Irreversible covalent modification (proteolysis)",
+      "source": "slides",
+      "front": "Examples of proteolytic activation?",
+      "back": "Digestive zymogens, blood-clotting factors, proinsulin → insulin, procollagen → collagen, procollagenase, procaspases (apoptosis)."
+    },
+    {
+      "id": "u13-f009",
+      "type": "flashcard",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Irreversible covalent modification (proteolysis)",
+      "source": "general",
+      "front": "What activates trypsinogen, and what does trypsin then activate?",
+      "back": "Enteropeptidase (duodenum) activates trypsinogen. Trypsin then activates more trypsinogen, chymotrypsinogen, proelastase and procarboxypeptidase."
+    },
+    {
+      "id": "u13-f010",
+      "type": "flashcard",
+      "unit": 13,
+      "part": 1,
+      "outcome": "Protein-protein interactions",
+      "source": "general",
+      "front": "How does cAMP activate PKA?",
+      "back": "cAMP binds the regulatory subunits, which release the active catalytic subunits."
+    }
+  ]
+}

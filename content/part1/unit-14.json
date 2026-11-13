@@ -1,0 +1,929 @@
+{
+  "unit": 14,
+  "title": "Vitamins & deficiencies",
+  "outcomes": [
+    "Fat-soluble vitamins A and D",
+    "Fat-soluble vitamins E and K",
+    "B-complex vitamins as coenzymes",
+    "Vitamin C"
+  ],
+  "summary": {
+    "overview": "Vitamins are essential dietary factors needed in small amounts, mainly as coenzymes or hormone precursors. Fat-soluble vitamins (A, D, E, K) are absorbed with fat and stored; water-soluble vitamins (B complex, C) are mostly not stored (B12 is the exception). Species differ a lot in what they must eat, which matters greatly in veterinary practice.",
+    "sections": [
+      {
+        "heading": "Vitamin A",
+        "points": [
+          "Retinoids: retinol (alcohol), retinal (aldehyde) and retinoic acid (acid). β-Carotene from plants is a provitamin, cleaved by a dioxygenase in the gut. Cats cannot do this efficiently and need preformed vitamin A.",
+          "Absorbed with fat (needs bile salts), carried in chylomicrons, stored in liver stellate cells as retinyl palmitate, and carried to tissues by retinol-binding protein.",
+          "Vision (Wald's cycle): 11-cis-retinal + opsin = rhodopsin. Light isomerises it to all-trans, activating a G protein. Deficiency causes night blindness.",
+          "Retinoic acid acts like a steroid hormone on nuclear receptors (gene expression, epithelia, reproduction). Its RXR receptor partners with the vitamin D receptor.",
+          "Deficiency in livestock: poor growth, night blindness, infections, abortion, weak calves. Excess (hypervitaminosis A): liver enlargement, skin peeling, anorexia."
+        ]
+      },
+      {
+        "heading": "Vitamin D",
+        "points": [
+          "D3 (cholecalciferol) forms from 7-dehydrocholesterol in skin exposed to UV; D2 (ergocalciferol) comes from ergosterol in fungi and plants. Dogs and cats make very little in their skin, so they rely on their diet.",
+          "It is hydroxylated in the liver (25-OH) and then the kidney (1α-OH) to calcitriol, the active hormone.",
+          "Calcitriol binds a receptor that acts as a transcription factor, inducing calbindin. This increases intestinal Ca²⁺ and phosphate absorption and renal reabsorption, and supports bone mineralisation.",
+          "Deficiency causes rickets and bone disease. Excess causes hypercalcaemia and soft-tissue calcification, e.g. cholecalciferol rodenticide poisoning in dogs."
+        ]
+      },
+      {
+        "heading": "Vitamins E and K",
+        "points": [
+          "Vitamin E (α-tocopherol) is the main lipid-soluble antioxidant: it breaks lipid-peroxidation chains in membranes and protects red cells.",
+          "E deficiency (often with low selenium, or poor hay) causes white muscle disease (nutritional muscular dystrophy) in calves and lambs, mulberry heart disease in pigs, and crazy chick disease.",
+          "Vitamin K: K1 from plants, K2 from gut bacteria, K3 (menadione) synthetic. It is the cofactor for γ-carboxylation of Glu in clotting factors II, VII, IX and X and in osteocalcin.",
+          "Warfarin, anticoagulant rodenticides and dicoumarol (from mouldy sweet clover) block vitamin K recycling, causing bleeding; vitamin K1 is the antidote."
+        ]
+      },
+      {
+        "heading": "B-complex vitamins → coenzymes",
+        "points": [
+          "B1 thiamine → TPP: pyruvate dehydrogenase, α-ketoglutarate dehydrogenase, transketolase. Deficiency raises pyruvate and lactate (beriberi; polioencephalomalacia in ruminants).",
+          "B2 riboflavin → FMN, FAD. B3 niacin → NAD⁺, NADP⁺; niacin can be made from Trp (not efficiently in cats); deficiency causes pellagra (dermatitis, diarrhoea, dementia).",
+          "B5 pantothenic acid → coenzyme A and acyl carrier protein. B6 pyridoxine → PLP for transamination, amino acid decarboxylation, ALA synthase and glycogen phosphorylase.",
+          "B7 biotin → carboxylases (acetyl-CoA carboxylase, pyruvate carboxylase); avidin in raw egg white binds it.",
+          "B9 folate → tetrahydrofolate, a one-carbon carrier needed for thymidylate and DNA synthesis. Deficiency → megaloblastic (macrocytic) anaemia.",
+          "B12 cobalamin (contains cobalt): methylmalonyl-CoA mutase and methionine synthase. Absorption needs intrinsic factor. Deficiency causes the 'methyl-folate trap' (secondary folate deficiency), megaloblastic anaemia, raised homocysteine and demyelination. Ruminal microbes make B12 only if there is enough cobalt in the diet."
+        ]
+      },
+      {
+        "heading": "Vitamin C",
+        "points": [
+          "L-Ascorbic acid is a strong reducing agent. Most animals make it from glucose; primates, guinea pigs and fruit bats cannot.",
+          "Roles: hydroxylation of Pro and Lys in collagen, iron absorption (keeps iron as Fe²⁺), reducing methaemoglobin, folate reduction, and antioxidant defence.",
+          "Deficiency causes scurvy: fragile capillaries, bleeding gums, poor coat, painful joints, anaemia. It is easily destroyed by heat and storage."
+        ]
+      }
+    ],
+    "keyTerms": [
+      {
+        "term": "Provitamin",
+        "definition": "Precursor converted into an active vitamin, e.g. β-carotene → retinal."
+      },
+      {
+        "term": "Rhodopsin",
+        "definition": "Visual pigment: opsin + 11-cis-retinal."
+      },
+      {
+        "term": "Calcitriol",
+        "definition": "1,25-dihydroxycholecalciferol, the active hormone form of vitamin D."
+      },
+      {
+        "term": "γ-Carboxylation",
+        "definition": "Vitamin K-dependent addition of CO2 to Glu residues of clotting factors."
+      },
+      {
+        "term": "TPP",
+        "definition": "Thiamine pyrophosphate, coenzyme for oxidative decarboxylation and transketolase."
+      },
+      {
+        "term": "PLP",
+        "definition": "Pyridoxal phosphate (B6), coenzyme for transamination and decarboxylation."
+      },
+      {
+        "term": "Intrinsic factor",
+        "definition": "Gastric protein required for vitamin B12 absorption."
+      },
+      {
+        "term": "Methyl-folate trap",
+        "definition": "Folate locked as methyl-THF when B12 is lacking, causing functional folate deficiency."
+      }
+    ],
+    "examTips": [
+      "Fat-soluble = A, D, E, K: absorbed with fat (bile salts), stored, so toxicity is possible.",
+      "Match each B vitamin to its coenzyme: B1 TPP, B2 FAD/FMN, B3 NAD(P), B5 CoA, B6 PLP, B7 biotin, B9 THF, B12 cobalamin.",
+      "Vitamin K: clotting factors II, VII, IX, X; warfarin and rodenticides block it.",
+      "Species quirks: cats need preformed vitamin A, extra niacin and dietary vitamin D; guinea pigs need vitamin C; ruminants need cobalt to make B12."
+    ]
+  },
+  "questions": [
+    {
+      "id": "u14-q001",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Fat-soluble vitamins A and D",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Which group lists only fat-soluble vitamins?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A, D, E and K",
+          "correct": true,
+          "why": "They are absorbed with dietary fat (needing bile salts) and can be stored, so excess intake can be toxic."
+        },
+        {
+          "id": "b",
+          "text": "B1, B2, B6 and B12",
+          "correct": false,
+          "why": "These are water-soluble B-complex vitamins."
+        },
+        {
+          "id": "c",
+          "text": "A, C, D and B12",
+          "correct": false,
+          "why": "C and B12 are water-soluble."
+        },
+        {
+          "id": "d",
+          "text": "C, E, K and biotin",
+          "correct": false,
+          "why": "C and biotin are water-soluble."
+        }
+      ]
+    },
+    {
+      "id": "u14-q002",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Fat-soluble vitamins A and D",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "A home-made vegan diet for a cat relies on carrots as its vitamin A source. Why is this inadequate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cats cannot efficiently cleave β-carotene into retinal, so they need preformed vitamin A",
+          "correct": true,
+          "why": "β-Carotene is only a provitamin; cats lack enough of the converting dioxygenase activity."
+        },
+        {
+          "id": "b",
+          "text": "Carrots contain no β-carotene; their orange colour comes from lycopene, which has no vitamin A activity",
+          "correct": false,
+          "why": "Carrots are rich in β-carotene."
+        },
+        {
+          "id": "c",
+          "text": "Vitamin A is water-soluble and is lost into the cooking water when the carrots are boiled",
+          "correct": false,
+          "why": "Vitamin A is fat-soluble."
+        },
+        {
+          "id": "d",
+          "text": "Cats make their vitamin A in their skin under sunlight, so dietary sources are not used",
+          "correct": false,
+          "why": "Skin synthesis applies to vitamin D (and cats do even that poorly)."
+        }
+      ]
+    },
+    {
+      "id": "u14-q003",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Fat-soluble vitamins A and D",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why does vitamin A deficiency cause night blindness?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rods need 11-cis-retinal to regenerate rhodopsin after light isomerises it, so dark adaptation fails",
+          "correct": true,
+          "why": "Rhodopsin = opsin + 11-cis-retinal; bright light bleaches it."
+        },
+        {
+          "id": "b",
+          "text": "Retinoic acid is the light-absorbing molecule of the cone cells only, so dim-light vision is lost first",
+          "correct": false,
+          "why": "The visual chromophore is 11-cis-retinal in rods and cones."
+        },
+        {
+          "id": "c",
+          "text": "Vitamin A is needed to keep the lens transparent, and a cloudy lens blocks most of the light at night",
+          "correct": false,
+          "why": "The defect is in pigment regeneration in the retina."
+        },
+        {
+          "id": "d",
+          "text": "Vitamin A deficiency stops calcium absorption, and the retina's rods need calcium to send signals",
+          "correct": false,
+          "why": "That is vitamin D's role."
+        }
+      ]
+    },
+    {
+      "id": "u14-q004",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Fat-soluble vitamins A and D",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "How does retinoic acid regulate tissue differentiation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Like a steroid hormone, it binds nuclear receptors that act as transcription factors",
+          "correct": true,
+          "why": "9-cis-retinoic acid binds RXR, which also partners with the vitamin D receptor."
+        },
+        {
+          "id": "b",
+          "text": "It acts as a coenzyme for transaminases, which supply the amino acids that new cells need",
+          "correct": false,
+          "why": "That is PLP (vitamin B6)."
+        },
+        {
+          "id": "c",
+          "text": "It carboxylates clotting factors and growth proteins, so they can bind calcium in tissues",
+          "correct": false,
+          "why": "That is vitamin K."
+        },
+        {
+          "id": "d",
+          "text": "It is the visual chromophore in rhodopsin, which signals cells to divide when light hits it",
+          "correct": false,
+          "why": "The chromophore is 11-cis-retinal, not retinoic acid."
+        }
+      ]
+    },
+    {
+      "id": "u14-q005",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Fat-soluble vitamins A and D",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Vitamin D3 is biologically inactive until it is converted to calcitriol. Where do the two activating hydroxylations occur?",
+      "options": [
+        {
+          "id": "a",
+          "text": "At C-25 in the liver, then at C-1 in the kidney",
+          "correct": true,
+          "why": "25-hydroxylation then 1α-hydroxylation give 1,25-dihydroxycholecalciferol (calcitriol)."
+        },
+        {
+          "id": "b",
+          "text": "Both in the skin, driven directly by UV light",
+          "correct": false,
+          "why": "UV makes previtamin D3 from 7-dehydrocholesterol; hydroxylation is enzymatic in liver and kidney."
+        },
+        {
+          "id": "c",
+          "text": "First in the intestine, then in the bone",
+          "correct": false,
+          "why": "These are target tissues, not activation sites."
+        },
+        {
+          "id": "d",
+          "text": "In the red blood cells and the spleen",
+          "correct": false,
+          "why": "Red cells are not involved."
+        }
+      ]
+    },
+    {
+      "id": "u14-q006",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Fat-soluble vitamins A and D",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "How does calcitriol increase intestinal calcium absorption?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It binds its receptor, which acts on DNA to switch on genes such as calbindin (Ca²⁺-binding)",
+          "correct": true,
+          "why": "Calcitriol acts like a steroid hormone, increasing transcription of Ca²⁺-transport proteins."
+        },
+        {
+          "id": "b",
+          "text": "It inserts directly into the gut membrane, forming channels through which the calcium ions flow",
+          "correct": false,
+          "why": "It acts through gene expression."
+        },
+        {
+          "id": "c",
+          "text": "It is a coenzyme for calcium kinase, which phosphorylates calcium so that it can be absorbed",
+          "correct": false,
+          "why": "There is no such coenzyme role."
+        },
+        {
+          "id": "d",
+          "text": "It inhibits alkaline phosphatase in the gut wall, so less calcium is lost as calcium phosphate",
+          "correct": false,
+          "why": "It stimulates alkaline phosphatase, aiding mineralisation."
+        }
+      ]
+    },
+    {
+      "id": "u14-q007",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Fat-soluble vitamins A and D",
+      "bloom": "apply",
+      "difficulty": 3,
+      "source": "general",
+      "stem": "A dog has eaten a cholecalciferol-based rodenticide. What is the main biochemical danger?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hypercalcaemia from excess vitamin D activity, calcifying soft tissues such as the kidneys",
+          "correct": true,
+          "why": "Hypervitaminosis D increases Ca²⁺ absorption and mobilisation, mineralising soft tissue and causing kidney failure."
+        },
+        {
+          "id": "b",
+          "text": "Bleeding, because clotting factors are no longer carboxylated, so the blood cannot clot",
+          "correct": false,
+          "why": "That is the effect of anticoagulant (vitamin K antagonist) rodenticides."
+        },
+        {
+          "id": "c",
+          "text": "Night blindness, because the rods can no longer regenerate their rhodopsin",
+          "correct": false,
+          "why": "That is a vitamin A deficiency sign."
+        },
+        {
+          "id": "d",
+          "text": "Scurvy, because the excess vitamin D blocks the hydroxylation of collagen",
+          "correct": false,
+          "why": "Scurvy is vitamin C deficiency."
+        }
+      ]
+    },
+    {
+      "id": "u14-q008",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Fat-soluble vitamins E and K",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Young lambs on poor-quality hay and selenium-deficient pasture develop stiffness, difficulty rising and pale streaks in skeletal and cardiac muscle. Which vitamin deficiency is most likely, and why does it damage muscle?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vitamin E: without this membrane antioxidant, lipid peroxidation damages muscle (white muscle disease)",
+          "correct": true,
+          "why": "Vitamin E and selenium (glutathione peroxidase) together protect membranes from oxidative damage."
+        },
+        {
+          "id": "b",
+          "text": "Vitamin K: without it clotting factors are inactive, so the muscles bleed internally and become pale",
+          "correct": false,
+          "why": "Vitamin K deficiency mainly causes coagulation defects."
+        },
+        {
+          "id": "c",
+          "text": "Vitamin D: without it calcium is not absorbed, so the muscles calcify and become stiff and streaked",
+          "correct": false,
+          "why": "Calcification is a sign of vitamin D excess."
+        },
+        {
+          "id": "d",
+          "text": "Vitamin B12: without it muscle cannot make methionine, so its fibres cannot build contractile proteins",
+          "correct": false,
+          "why": "This is not the mechanism of nutritional myopathy."
+        }
+      ]
+    },
+    {
+      "id": "u14-q009",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Fat-soluble vitamins E and K",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "What is the biochemical role of vitamin K in blood clotting?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is the cofactor for γ-carboxylating Glu residues in factors II, VII, IX and X, so they bind Ca²⁺",
+          "correct": true,
+          "why": "Without γ-carboxyglutamate, these factors cannot work."
+        },
+        {
+          "id": "b",
+          "text": "It hydroxylates proline residues in fibrinogen, which lets the fibrin strands cross-link into a clot",
+          "correct": false,
+          "why": "Prolyl hydroxylation (collagen) needs vitamin C."
+        },
+        {
+          "id": "c",
+          "text": "It is the coenzyme for transamination of the clotting factors, which activates them in the plasma",
+          "correct": false,
+          "why": "That is PLP (B6)."
+        },
+        {
+          "id": "d",
+          "text": "It directly forms the fibrin clot by polymerising at the site of injury, together with platelets",
+          "correct": false,
+          "why": "Fibrin is a protein; vitamin K modifies the clotting factors."
+        }
+      ]
+    },
+    {
+      "id": "u14-q010",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Fat-soluble vitamins E and K",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "A dog has prolonged clotting times and bruising after eating an anticoagulant rodenticide. What is the mechanism, and the antidote?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It blocks vitamin K recycling (epoxide reductase), so new clotting factors aren't carboxylated; give K1",
+          "correct": true,
+          "why": "Warfarin-type compounds are vitamin K antagonists; K1 bypasses the block."
+        },
+        {
+          "id": "b",
+          "text": "It destroys the platelets directly, so the blood cannot form a plug; treat with high-dose vitamin C",
+          "correct": false,
+          "why": "The mechanism is vitamin K antagonism, not platelet destruction."
+        },
+        {
+          "id": "c",
+          "text": "It causes severe hypercalcaemia, which interferes with clotting; treat with intravenous calcium",
+          "correct": false,
+          "why": "That describes vitamin D rodenticides."
+        },
+        {
+          "id": "d",
+          "text": "It inhibits thiamine, which clotting factors need; treat with vitamin B1 injections",
+          "correct": false,
+          "why": "Thiamine is unrelated to coagulation."
+        }
+      ]
+    },
+    {
+      "id": "u14-q011",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Fat-soluble vitamins E and K",
+      "bloom": "apply",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "Cattle fed mouldy sweet clover hay develop severe internal bleeding. What is the cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moulds convert coumarin in the clover to dicoumarol, a vitamin K antagonist, so factors stay inactive",
+          "correct": true,
+          "why": "This 'sweet clover disease' led to the discovery of warfarin-type anticoagulants."
+        },
+        {
+          "id": "b",
+          "text": "Sweet clover lacks vitamin E, so the walls of blood vessels are damaged by lipid peroxidation",
+          "correct": false,
+          "why": "The problem is vitamin K antagonism."
+        },
+        {
+          "id": "c",
+          "text": "Rumen bacteria stop producing vitamin C, so the collagen in the blood vessel walls is weakened",
+          "correct": false,
+          "why": "Cattle synthesise vitamin C in their tissues; it is unrelated to bleeding here."
+        },
+        {
+          "id": "d",
+          "text": "Sweet clover contains excess vitamin A, which blocks the action of the clotting factors in plasma",
+          "correct": false,
+          "why": "Vitamin A excess doesn't cause this haemorrhagic syndrome."
+        }
+      ]
+    },
+    {
+      "id": "u14-q012",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "B-complex vitamins as coenzymes",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "Why does thiamine deficiency cause pyruvate and lactate to accumulate in the blood?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pyruvate dehydrogenase needs TPP, so pyruvate can't become acetyl-CoA and is diverted to lactate",
+          "correct": true,
+          "why": "Blocked oxidative decarboxylation causes lactic acidosis; nervous tissue and heart are hit hardest."
+        },
+        {
+          "id": "b",
+          "text": "Thiamine is the coenzyme for lactate dehydrogenase, so lactate cannot be converted back to pyruvate",
+          "correct": false,
+          "why": "LDH uses NADH, not TPP."
+        },
+        {
+          "id": "c",
+          "text": "Thiamine is needed to absorb glucose, so cells switch to anaerobic glycolysis and make lactate",
+          "correct": false,
+          "why": "Glucose absorption does not depend on thiamine."
+        },
+        {
+          "id": "d",
+          "text": "TPP is the coenzyme for transamination, so pyruvate cannot be converted into alanine",
+          "correct": false,
+          "why": "Transamination uses PLP (B6)."
+        }
+      ]
+    },
+    {
+      "id": "u14-q013",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "B-complex vitamins as coenzymes",
+      "bloom": "remember",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Which vitamin–coenzyme pairing is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pantothenic acid (B5) → coenzyme A",
+          "correct": true,
+          "why": "Its β-mercaptoethylamine –SH carries acyl groups as thioesters."
+        },
+        {
+          "id": "b",
+          "text": "Riboflavin (B2) → NAD⁺",
+          "correct": false,
+          "why": "Riboflavin forms FMN and FAD; NAD⁺ comes from niacin."
+        },
+        {
+          "id": "c",
+          "text": "Pyridoxine (B6) → thiamine pyrophosphate",
+          "correct": false,
+          "why": "B6 forms PLP; TPP comes from thiamine (B1)."
+        },
+        {
+          "id": "d",
+          "text": "Niacin (B3) → biotin",
+          "correct": false,
+          "why": "Biotin is B7; niacin forms NAD⁺ and NADP⁺."
+        }
+      ]
+    },
+    {
+      "id": "u14-q014",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "B-complex vitamins as coenzymes",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Serum alanine aminotransferase (ALT) converts alanine + α-ketoglutarate into pyruvate + glutamate. Which coenzyme does it require?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pyridoxal phosphate (PLP), from vitamin B6",
+          "correct": true,
+          "why": "All transaminases use PLP to carry the amino group."
+        },
+        {
+          "id": "b",
+          "text": "Thiamine pyrophosphate (TPP), from vitamin B1",
+          "correct": false,
+          "why": "TPP is for oxidative decarboxylation and transketolase."
+        },
+        {
+          "id": "c",
+          "text": "Biotin, from vitamin B7 (vitamin H)",
+          "correct": false,
+          "why": "Biotin is for carboxylation."
+        },
+        {
+          "id": "d",
+          "text": "Coenzyme A, from pantothenic acid (B5)",
+          "correct": false,
+          "why": "CoA carries acyl groups, not amino groups."
+        }
+      ]
+    },
+    {
+      "id": "u14-q015",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "B-complex vitamins as coenzymes",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "A dog fed large amounts of raw egg white develops dermatitis and hair loss. Which vitamin is affected, and why?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Biotin: avidin in raw egg white binds it so tightly that it can't be absorbed",
+          "correct": true,
+          "why": "Cooking denatures avidin; biotin is the coenzyme for carboxylases such as acetyl-CoA carboxylase."
+        },
+        {
+          "id": "b",
+          "text": "Vitamin C: egg white contains an oxidase that destroys ascorbate in the gut",
+          "correct": false,
+          "why": "Dogs synthesise vitamin C themselves."
+        },
+        {
+          "id": "c",
+          "text": "Vitamin K: egg-white proteins block its absorption from the small intestine",
+          "correct": false,
+          "why": "Avidin binds biotin."
+        },
+        {
+          "id": "d",
+          "text": "Thiamine: egg white contains thiaminase, which breaks the vitamin down",
+          "correct": false,
+          "why": "Thiaminase is found in raw fish and some plants, not egg white."
+        }
+      ]
+    },
+    {
+      "id": "u14-q016",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "B-complex vitamins as coenzymes",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "Why can vitamin B12 deficiency cause megaloblastic anaemia even when dietary folate is adequate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Without B12, methionine synthase can't demethylate methyl-THF, so folate is trapped and DNA synthesis slows",
+          "correct": true,
+          "why": "Thymidylate synthesis needs free THF; precursors keep growing without dividing properly."
+        },
+        {
+          "id": "b",
+          "text": "B12 destroys dietary folate in the gut, so when B12 is missing the folate is absorbed in an inactive form",
+          "correct": false,
+          "why": "B12 doesn't destroy folate."
+        },
+        {
+          "id": "c",
+          "text": "B12 is the iron-binding centre of haem, so without it the red cells cannot fill with functional haemoglobin",
+          "correct": false,
+          "why": "B12 contains cobalt, not iron, and is not part of haem."
+        },
+        {
+          "id": "d",
+          "text": "B12 is required to synthesise globin chains, so the red cells grow large while waiting for globin to be made",
+          "correct": false,
+          "why": "The anaemia is due to impaired DNA synthesis, not globin synthesis."
+        }
+      ]
+    },
+    {
+      "id": "u14-q017",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "B-complex vitamins as coenzymes",
+      "bloom": "apply",
+      "difficulty": 3,
+      "source": "general",
+      "stem": "Lambs grazing cobalt-deficient pasture lose weight and become anaemic, although ruminants don't need B12 in their feed. Why?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rumen microbes make B12, which contains cobalt; without cobalt they can't make enough, so the lamb lacks B12",
+          "correct": true,
+          "why": "Ruminants also rely on B12 (methylmalonyl-CoA mutase) to use propionate for energy, so deficiency causes ill-thrift."
+        },
+        {
+          "id": "b",
+          "text": "Cobalt is needed for haemoglobin's haem group, so without it the lamb cannot make enough red blood cells",
+          "correct": false,
+          "why": "Haem contains iron."
+        },
+        {
+          "id": "c",
+          "text": "Cobalt is a cofactor for vitamin C synthesis in the liver, and vitamin C is needed to absorb dietary iron",
+          "correct": false,
+          "why": "Vitamin C synthesis does not depend on cobalt."
+        },
+        {
+          "id": "d",
+          "text": "Cobalt deficiency blocks vitamin K action, so the lamb loses blood slowly through small internal bleeds",
+          "correct": false,
+          "why": "The link is cobalt → B12."
+        }
+      ]
+    },
+    {
+      "id": "u14-q018",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "B-complex vitamins as coenzymes",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Most mammals can make part of their niacin requirement from tryptophan, but cats need a much higher dietary niacin intake. Why?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In cats, tryptophan breakdown diverts intermediates away from niacin, so little NAD⁺ is made",
+          "correct": true,
+          "why": "Cats rely almost entirely on dietary niacin to make NAD⁺ and NADP⁺."
+        },
+        {
+          "id": "b",
+          "text": "Cats cannot absorb tryptophan from the gut, so little is available to be converted into niacin",
+          "correct": false,
+          "why": "Cats absorb tryptophan normally."
+        },
+        {
+          "id": "c",
+          "text": "Niacin is a fat-soluble vitamin stored in cat liver, and cats have only a small liver store",
+          "correct": false,
+          "why": "Niacin is water-soluble."
+        },
+        {
+          "id": "d",
+          "text": "Cats make niacin in their skin under sunlight, which indoor cats do not receive",
+          "correct": false,
+          "why": "No vitamin besides D is made in the skin."
+        }
+      ]
+    },
+    {
+      "id": "u14-q019",
+      "type": "mcq",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Vitamin C",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Besides collagen synthesis, which role does vitamin C play in iron nutrition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "As a reducing agent it keeps dietary iron as Fe²⁺, which is absorbed more efficiently",
+          "correct": true,
+          "why": "Vitamin C also helps reduce methaemoglobin back to haemoglobin."
+        },
+        {
+          "id": "b",
+          "text": "It forms part of the haem ring, holding the iron atom in place inside haemoglobin",
+          "correct": false,
+          "why": "Haem is a porphyrin with iron; ascorbate is not part of it."
+        },
+        {
+          "id": "c",
+          "text": "It oxidises dietary iron to Fe³⁺ so that it can be stored safely as ferritin",
+          "correct": false,
+          "why": "Vitamin C is a reductant, not an oxidant."
+        },
+        {
+          "id": "d",
+          "text": "It carries iron in the plasma from the gut to the bone marrow, like transferrin",
+          "correct": false,
+          "why": "Iron is carried by transferrin."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "u14-f001",
+      "type": "flashcard",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Fat-soluble vitamins A and D",
+      "source": "slides",
+      "front": "Fat-soluble vs water-soluble vitamins?",
+      "back": "Fat-soluble: A, D, E, K (need bile salts, stored, can be toxic). Water-soluble: B complex and C (mostly not stored; B12 is an exception)."
+    },
+    {
+      "id": "u14-f002",
+      "type": "flashcard",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Fat-soluble vitamins A and D",
+      "source": "slides",
+      "front": "Three active retinoids?",
+      "back": "Retinol (alcohol), retinal (aldehyde: vision), retinoic acid (gene expression via nuclear receptors)."
+    },
+    {
+      "id": "u14-f003",
+      "type": "flashcard",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Fat-soluble vitamins A and D",
+      "source": "slides",
+      "front": "Rhodopsin?",
+      "back": "Opsin + 11-cis-retinal. Light → all-trans-retinal → G-protein signal. Vitamin A deficiency → night blindness."
+    },
+    {
+      "id": "u14-f004",
+      "type": "flashcard",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Fat-soluble vitamins A and D",
+      "source": "general",
+      "front": "Activation of vitamin D?",
+      "back": "7-Dehydrocholesterol + UV → D3. Liver: 25-hydroxylation. Kidney: 1α-hydroxylation → calcitriol."
+    },
+    {
+      "id": "u14-f005",
+      "type": "flashcard",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Fat-soluble vitamins A and D",
+      "source": "slides",
+      "front": "What does calcitriol do?",
+      "back": "Acts like a steroid hormone, inducing calbindin. ↑ Gut Ca²⁺/Pi absorption, ↑ renal reabsorption, bone mineralisation, immune modulation."
+    },
+    {
+      "id": "u14-f006",
+      "type": "flashcard",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Fat-soluble vitamins E and K",
+      "source": "slides",
+      "front": "Vitamin E role and deficiency diseases?",
+      "back": "Membrane antioxidant (stops lipid peroxidation). Deficiency: white muscle disease (calves, lambs), mulberry heart disease (pigs), crazy chick disease."
+    },
+    {
+      "id": "u14-f007",
+      "type": "flashcard",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Fat-soluble vitamins E and K",
+      "source": "slides",
+      "front": "Vitamin K: role and antagonists?",
+      "back": "γ-Carboxylation of Glu in factors II, VII, IX, X (and osteocalcin). Blocked by warfarin, rodenticides and dicoumarol (mouldy sweet clover). Antidote: vitamin K1."
+    },
+    {
+      "id": "u14-f008",
+      "type": "flashcard",
+      "unit": 14,
+      "part": 1,
+      "outcome": "B-complex vitamins as coenzymes",
+      "source": "slides",
+      "front": "B vitamins → coenzymes?",
+      "back": "B1 TPP · B2 FMN/FAD · B3 NAD(P)⁺ · B5 CoA · B6 PLP · B7 biotin · B9 THF · B12 cobalamin."
+    },
+    {
+      "id": "u14-f009",
+      "type": "flashcard",
+      "unit": 14,
+      "part": 1,
+      "outcome": "B-complex vitamins as coenzymes",
+      "source": "slides",
+      "front": "TPP-dependent enzymes?",
+      "back": "Pyruvate dehydrogenase, α-ketoglutarate dehydrogenase, transketolase."
+    },
+    {
+      "id": "u14-f010",
+      "type": "flashcard",
+      "unit": 14,
+      "part": 1,
+      "outcome": "B-complex vitamins as coenzymes",
+      "source": "slides",
+      "front": "PLP (B6)-dependent reactions?",
+      "back": "Transamination (ALT, AST), amino acid decarboxylation (e.g. GABA), ALA synthase (haem), glycogen phosphorylase, niacin synthesis from Trp."
+    },
+    {
+      "id": "u14-f011",
+      "type": "flashcard",
+      "unit": 14,
+      "part": 1,
+      "outcome": "B-complex vitamins as coenzymes",
+      "source": "slides",
+      "front": "Methyl-folate trap?",
+      "back": "Without B12, methyl-THF can't be recycled to THF, causing functional folate deficiency, megaloblastic anaemia and raised homocysteine."
+    },
+    {
+      "id": "u14-f012",
+      "type": "flashcard",
+      "unit": 14,
+      "part": 1,
+      "outcome": "Vitamin C",
+      "source": "slides",
+      "front": "Which animals need dietary vitamin C? Main roles?",
+      "back": "Primates, guinea pigs and fruit bats. Roles: Pro/Lys hydroxylation (collagen), iron absorption (Fe²⁺), methaemoglobin reduction, antioxidant."
+    }
+  ]
+}

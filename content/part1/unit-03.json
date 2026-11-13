@@ -1,0 +1,755 @@
+{
+  "unit": 3,
+  "title": "Chemical equilibrium, pH & buffers",
+  "outcomes": [
+    "Chemical equilibrium and the equilibrium constant",
+    "Ionisation of water and pH",
+    "Weak acids, Ka and pKa",
+    "Buffers and the Henderson–Hasselbalch equation",
+    "Biological buffer systems"
+  ],
+  "summary": {
+    "overview": "Every reaction tends towards an equilibrium described by Keq. Water itself ionises slightly, which sets up the pH scale. Weak acids are characterised by their pKa, and mixtures of a weak acid and its conjugate base (buffers) keep the pH of cells and blood within narrow limits.",
+    "sections": [
+      {
+        "heading": "Equilibrium",
+        "points": [
+          "At equilibrium, Keq = [products] / [reactants], each raised to its stoichiometric power.",
+          "A large Keq means products are favoured. Keq is fixed at a given temperature, whatever the starting concentrations.",
+          "Catalysts, including enzymes, reach equilibrium faster but never change Keq."
+        ]
+      },
+      {
+        "heading": "Ionisation of water and pH",
+        "points": [
+          "H2O ⇌ H⁺ + OH⁻. Because [H2O] is constant (55.5 M), Kw = [H⁺][OH⁻] = 1 × 10⁻¹⁴ M² at 25 °C.",
+          "In pure water, [H⁺] = [OH⁻] = 10⁻⁷ M, so pH = 7.",
+          "pH = −log[H⁺], and pH + pOH = 14.",
+          "The scale is logarithmic: 1 pH unit = a 10-fold change in [H⁺]."
+        ]
+      },
+      {
+        "heading": "Weak acids, Ka and pKa",
+        "points": [
+          "Weak acids dissociate only partly: HA ⇌ H⁺ + A⁻, with Ka = [H⁺][A⁻]/[HA].",
+          "pKa = −log Ka; the lower the pKa, the stronger the acid.",
+          "Example: 0.1 M acetic acid (Ka = 1.74 × 10⁻⁵) gives [H⁺] ≈ 1.3 × 10⁻³ M, so pH ≈ 2.88.",
+          "If x ≪ [HA], the approximation [HA] ≈ starting concentration avoids solving a quadratic."
+        ]
+      },
+      {
+        "heading": "Buffers and Henderson–Hasselbalch",
+        "points": [
+          "A buffer is a weak acid plus its conjugate base; it resists changes in pH.",
+          "Henderson–Hasselbalch equation: pH = pKa + log([A⁻]/[HA]).",
+          "At pH = pKa the acid and base forms are 50:50, and buffering capacity is greatest.",
+          "Buffering is lost once the pH is more than about 1 unit away from the pKa."
+        ]
+      },
+      {
+        "heading": "Biological buffers",
+        "points": [
+          "Phosphate (H2PO4⁻/HPO4²⁻, pKa ≈ 6.86) buffers the cytoplasm at millimolar levels.",
+          "Bicarbonate (CO2/HCO3⁻, pKa ≈ 6.1) is the key blood-plasma buffer. Because CO2 is exhaled and HCO3⁻ is regulated by the kidney, it works well at pH 7.4.",
+          "Histidine's imidazole (pKa ≈ 6) lets proteins buffer near neutral pH.",
+          "Laboratory buffers such as HEPES, PIPES and CHES are sulphonic acids of cyclic amines, chosen for pKa values near physiological pH."
+        ]
+      }
+    ],
+    "keyTerms": [
+      {
+        "term": "Keq",
+        "definition": "Ratio of product to reactant concentrations at equilibrium."
+      },
+      {
+        "term": "Kw",
+        "definition": "Ion product of water: [H⁺][OH⁻] = 10⁻¹⁴ M² at 25 °C."
+      },
+      {
+        "term": "pH",
+        "definition": "−log[H⁺]; each unit is a 10-fold change."
+      },
+      {
+        "term": "Ka",
+        "definition": "Acid dissociation constant, [H⁺][A⁻]/[HA]."
+      },
+      {
+        "term": "pKa",
+        "definition": "−log Ka; the pH at which an acid is half dissociated."
+      },
+      {
+        "term": "Buffer",
+        "definition": "Weak acid and conjugate base mixture that resists pH change."
+      },
+      {
+        "term": "Henderson–Hasselbalch equation",
+        "definition": "pH = pKa + log([A⁻]/[HA])."
+      }
+    ],
+    "examTips": [
+      "pH = pKa means [A⁻] = [HA]: buffering is strongest there.",
+      "Each extra pH unit above the pKa multiplies [A⁻]/[HA] by 10.",
+      "Lower pKa = stronger acid = more dissociated at a given pH.",
+      "Remember pH + pOH = 14, and that [H⁺] at pH 3 is 100× that at pH 5."
+    ]
+  },
+  "questions": [
+    {
+      "id": "u3-q001",
+      "type": "mcq",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Chemical equilibrium and the equilibrium constant",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "For the reaction A ⇌ B, K′eq = 1000. What does this tell you?",
+      "options": [
+        {
+          "id": "a",
+          "text": "At equilibrium [B] is 1000 times [A], so the reaction strongly favours B",
+          "correct": true,
+          "why": "Keq = [B]/[A] at equilibrium; a large value means products dominate."
+        },
+        {
+          "id": "b",
+          "text": "The reaction reaches equilibrium very quickly, within a fraction of a second",
+          "correct": false,
+          "why": "Keq says nothing about rate; that depends on ΔG‡."
+        },
+        {
+          "id": "c",
+          "text": "Adding an enzyme would shift the equilibrium further and raise K′eq above 1000",
+          "correct": false,
+          "why": "Catalysts never change Keq."
+        },
+        {
+          "id": "d",
+          "text": "The reaction cannot run in reverse, because B does not convert back into A",
+          "correct": false,
+          "why": "The reverse reaction still occurs; at equilibrium the two rates are equal."
+        }
+      ]
+    },
+    {
+      "id": "u3-q002",
+      "type": "mcq",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Ionisation of water and pH",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "What is the ion product of water (Kw) at 25 °C?",
+      "options": [
+        {
+          "id": "a",
+          "text": "[H⁺][OH⁻] = 1 × 10⁻¹⁴ M²",
+          "correct": true,
+          "why": "Kw = Keq × [H2O] = 1.8 × 10⁻¹⁶ M × 55.5 M ≈ 10⁻¹⁴ M²."
+        },
+        {
+          "id": "b",
+          "text": "[H⁺][OH⁻] = 1 × 10⁻⁷ M²",
+          "correct": false,
+          "why": "10⁻⁷ M is each ion's concentration in pure water, not their product."
+        },
+        {
+          "id": "c",
+          "text": "[H⁺]/[OH⁻] = 1",
+          "correct": false,
+          "why": "That ratio is 1 only in a neutral solution; Kw is a product."
+        },
+        {
+          "id": "d",
+          "text": "[H2O] = 55.5 M",
+          "correct": false,
+          "why": "This is the molarity of pure water, used to derive Kw."
+        }
+      ]
+    },
+    {
+      "id": "u3-q003",
+      "type": "mcq",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Ionisation of water and pH",
+      "bloom": "apply",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Gastric juice has [H⁺] = 1 × 10⁻² M. What are its pH and [OH⁻]?",
+      "options": [
+        {
+          "id": "a",
+          "text": "pH 2; [OH⁻] = 1 × 10⁻¹² M",
+          "correct": true,
+          "why": "pH = −log(10⁻²) = 2; [OH⁻] = 10⁻¹⁴/10⁻² = 10⁻¹² M."
+        },
+        {
+          "id": "b",
+          "text": "pH 12; [OH⁻] = 1 × 10⁻² M",
+          "correct": false,
+          "why": "That describes a strongly basic solution; this is the pOH confused with the pH."
+        },
+        {
+          "id": "c",
+          "text": "pH 2; [OH⁻] = 1 × 10⁻² M",
+          "correct": false,
+          "why": "[H⁺] and [OH⁻] must multiply to 10⁻¹⁴ M²."
+        },
+        {
+          "id": "d",
+          "text": "pH −2; [OH⁻] = 1 × 10⁻¹⁶ M",
+          "correct": false,
+          "why": "The sign is wrong: pH = −log[H⁺] = +2."
+        }
+      ]
+    },
+    {
+      "id": "u3-q004",
+      "type": "mcq",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Ionisation of water and pH",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "How many times higher is [H⁺] in urine at pH 5 than in blood at pH 7?",
+      "options": [
+        {
+          "id": "a",
+          "text": "100 times",
+          "correct": true,
+          "why": "Two pH units = 10² = 100-fold, because the scale is logarithmic."
+        },
+        {
+          "id": "b",
+          "text": "2 times",
+          "correct": false,
+          "why": "pH is not linear; each unit is a factor of 10."
+        },
+        {
+          "id": "c",
+          "text": "20 times",
+          "correct": false,
+          "why": "Two units means 10 × 10 = 100, not 10 × 2."
+        },
+        {
+          "id": "d",
+          "text": "1000 times",
+          "correct": false,
+          "why": "A 1000-fold difference needs 3 pH units."
+        }
+      ]
+    },
+    {
+      "id": "u3-q005",
+      "type": "mcq",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Ionisation of water and pH",
+      "bloom": "apply",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "A cleaning solution has pOH = 4. What is its pH?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10",
+          "correct": true,
+          "why": "pH + pOH = 14, so pH = 14 − 4 = 10 (basic)."
+        },
+        {
+          "id": "b",
+          "text": "4",
+          "correct": false,
+          "why": "This is the pOH, not the pH."
+        },
+        {
+          "id": "c",
+          "text": "18",
+          "correct": false,
+          "why": "pH and pOH are subtracted from 14, not added to it."
+        },
+        {
+          "id": "d",
+          "text": "7",
+          "correct": false,
+          "why": "pH 7 would need pOH 7."
+        }
+      ]
+    },
+    {
+      "id": "u3-q006",
+      "type": "mcq",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Weak acids, Ka and pKa",
+      "bloom": "apply",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "0.1 mol of acetic acid (Ka = 1.74 × 10⁻⁵ M) is dissolved in water to make 1 L. Assuming the acid is the only source of H⁺, what is the approximate pH?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2.88",
+          "correct": true,
+          "why": "x² ≈ 1.74 × 10⁻⁵ × 0.1 = 1.74 × 10⁻⁶, so x = [H⁺] ≈ 1.32 × 10⁻³ M and pH ≈ 2.88."
+        },
+        {
+          "id": "b",
+          "text": "1.00",
+          "correct": false,
+          "why": "That assumes complete dissociation, which is true only of a strong acid."
+        },
+        {
+          "id": "c",
+          "text": "4.76",
+          "correct": false,
+          "why": "4.76 is the pKa, the pH of an equimolar acetic acid/acetate buffer."
+        },
+        {
+          "id": "d",
+          "text": "5.76",
+          "correct": false,
+          "why": "That would need a 10:1 acetate-to-acid ratio."
+        }
+      ]
+    },
+    {
+      "id": "u3-q007",
+      "type": "mcq",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Weak acids, Ka and pKa",
+      "bloom": "analyse",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "In the acetic acid calculation, why may we approximate [HA] ≈ 0.1 M instead of (0.1 − x)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only about 1.3% of the acid dissociates, so x is negligible next to 0.1 M",
+          "correct": true,
+          "why": "For sufficiently weak acids x ≪ [HA]; check afterwards that this holds."
+        },
+        {
+          "id": "b",
+          "text": "Acetic acid does not dissociate at all, so its concentration stays exactly 0.1 M",
+          "correct": false,
+          "why": "It dissociates slightly; otherwise the pH would be 7."
+        },
+        {
+          "id": "c",
+          "text": "Water contributes most of the H⁺ in the solution, so the acid's own x does not matter",
+          "correct": false,
+          "why": "The calculation assumes the acid is the only significant H⁺ source."
+        },
+        {
+          "id": "d",
+          "text": "The approximation works equally well for strong acids at 0.1 M, such as HCl",
+          "correct": false,
+          "why": "Strong acids dissociate completely, so x is not small."
+        }
+      ]
+    },
+    {
+      "id": "u3-q008",
+      "type": "mcq",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Weak acids, Ka and pKa",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Lactic acid has pKa ≈ 3.9 and acetic acid pKa ≈ 4.8. Which statement is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lactic acid is the stronger acid and is more dissociated at any given pH",
+          "correct": true,
+          "why": "A lower pKa means a larger Ka, so the acid gives up H⁺ more readily."
+        },
+        {
+          "id": "b",
+          "text": "Acetic acid is the stronger acid, because a higher pKa means it releases more H⁺",
+          "correct": false,
+          "why": "A higher pKa means a weaker acid."
+        },
+        {
+          "id": "c",
+          "text": "Both acids are fully dissociated at pH 3, because pH 3 is below both of their pKa values",
+          "correct": false,
+          "why": "At pH 3, below both pKa values, the protonated (HA) forms dominate."
+        },
+        {
+          "id": "d",
+          "text": "pKa has no relation to acid strength; only the concentration of the acid matters",
+          "correct": false,
+          "why": "pKa is the standard measure of acid strength."
+        }
+      ]
+    },
+    {
+      "id": "u3-q009",
+      "type": "mcq",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Buffers and the Henderson–Hasselbalch equation",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "An acetate buffer (pKa 4.76) contains 10 times more acetate than acetic acid. What is its pH?",
+      "options": [
+        {
+          "id": "a",
+          "text": "5.76",
+          "correct": true,
+          "why": "pH = pKa + log([A⁻]/[HA]) = 4.76 + log 10 = 5.76."
+        },
+        {
+          "id": "b",
+          "text": "3.76",
+          "correct": false,
+          "why": "This would be the pH with 10 times more acid than base."
+        },
+        {
+          "id": "c",
+          "text": "4.76",
+          "correct": false,
+          "why": "pH = pKa only when [A⁻] = [HA]."
+        },
+        {
+          "id": "d",
+          "text": "14.76",
+          "correct": false,
+          "why": "The log of the ratio (1) is added, not the ratio itself."
+        }
+      ]
+    },
+    {
+      "id": "u3-q010",
+      "type": "mcq",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Buffers and the Henderson–Hasselbalch equation",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "The H2PO4⁻/HPO4²⁻ pair has pKa ≈ 6.86. At pH 6.86, what fraction of this phosphate is present as HPO4²⁻?",
+      "options": [
+        {
+          "id": "a",
+          "text": "50%",
+          "correct": true,
+          "why": "At pH = pKa, log([A⁻]/[HA]) = 0, so the two forms are equal."
+        },
+        {
+          "id": "b",
+          "text": "10%",
+          "correct": false,
+          "why": "10% HPO4²⁻ would occur about 1 pH unit below the pKa."
+        },
+        {
+          "id": "c",
+          "text": "90%",
+          "correct": false,
+          "why": "90% would occur about 1 pH unit above the pKa."
+        },
+        {
+          "id": "d",
+          "text": "100%",
+          "correct": false,
+          "why": "A buffer at its pKa contains both forms."
+        }
+      ]
+    },
+    {
+      "id": "u3-q011",
+      "type": "mcq",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Buffers and the Henderson–Hasselbalch equation",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why is an acetate buffer (pKa 4.76) a poor choice for an experiment run at pH 7.4?",
+      "options": [
+        {
+          "id": "a",
+          "text": "At pH 7.4, over 2 units above the pKa, nearly all is acetate, leaving little acid to neutralise base",
+          "correct": true,
+          "why": "Buffering capacity is lost once pH is more than about 1 unit from the pKa."
+        },
+        {
+          "id": "b",
+          "text": "Acetate is toxic to all enzymes at pH 7.4, so it would stop the reaction being studied completely",
+          "correct": false,
+          "why": "The problem is buffering capacity, not toxicity."
+        },
+        {
+          "id": "c",
+          "text": "Acetate buffers only work above pH 10, where the acetic acid is fully protonated and ready to react",
+          "correct": false,
+          "why": "Acetate buffers best around pH 3.8–5.8."
+        },
+        {
+          "id": "d",
+          "text": "The buffer would hold the pH at exactly 4.76, because a buffer always fixes the pH at its own pKa",
+          "correct": false,
+          "why": "A buffer's pH depends on the [A⁻]/[HA] ratio; the problem is weak resistance to change."
+        }
+      ]
+    },
+    {
+      "id": "u3-q012",
+      "type": "mcq",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Biological buffer systems",
+      "bloom": "apply",
+      "difficulty": 3,
+      "source": "general",
+      "stem": "Blood pH is 7.4 and the effective pKa of the CO2/HCO3⁻ system is 6.1. What is the ratio [HCO3⁻] : [dissolved CO2] in normal blood?",
+      "options": [
+        {
+          "id": "a",
+          "text": "About 20 : 1",
+          "correct": true,
+          "why": "log ratio = 7.4 − 6.1 = 1.3, and 10^1.3 ≈ 20."
+        },
+        {
+          "id": "b",
+          "text": "About 1 : 1",
+          "correct": false,
+          "why": "A 1:1 ratio would mean pH = 6.1."
+        },
+        {
+          "id": "c",
+          "text": "About 1 : 20",
+          "correct": false,
+          "why": "This inverts the ratio; pH is above the pKa, so the base form dominates."
+        },
+        {
+          "id": "d",
+          "text": "About 1.3 : 1",
+          "correct": false,
+          "why": "1.3 is the log of the ratio, not the ratio itself."
+        }
+      ]
+    },
+    {
+      "id": "u3-q013",
+      "type": "mcq",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Biological buffer systems",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "general",
+      "stem": "A calf with severe diarrhoea loses large amounts of bicarbonate in its faeces, while its blood pCO2 stays roughly constant. What happens to blood pH, and why?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It falls (metabolic acidosis), because [HCO3⁻]/[CO2] drops in pH = 6.1 + log([HCO3⁻]/[CO2])",
+          "correct": true,
+          "why": "Losing base lowers the ratio, so the pH drops below 7.4."
+        },
+        {
+          "id": "b",
+          "text": "It rises (alkalosis), because bicarbonate is an acid and losing it leaves fewer H⁺ in the blood",
+          "correct": false,
+          "why": "HCO3⁻ is the base form; losing it acidifies the blood."
+        },
+        {
+          "id": "c",
+          "text": "It stays at exactly 7.4, because the blood buffers hold the pH constant whatever is lost",
+          "correct": false,
+          "why": "Buffers resist pH change but cannot stop it when the buffer itself is lost."
+        },
+        {
+          "id": "d",
+          "text": "It falls, because CO2 is exhaled faster and the lungs remove the blood's main base",
+          "correct": false,
+          "why": "The question states that pCO2 is unchanged; faster exhalation would raise pH."
+        }
+      ]
+    },
+    {
+      "id": "u3-q014",
+      "type": "mcq",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Biological buffer systems",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why do histidine residues help proteins act as buffers near neutral pH?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The imidazole side chain has a pKa of about 6, close to physiological pH, so it takes up or releases H⁺",
+          "correct": true,
+          "why": "Groups buffer best within about 1 unit of their pKa."
+        },
+        {
+          "id": "b",
+          "text": "Histidine's side-chain carboxyl group has a pKa of about 12, so it releases H⁺ when the pH starts to rise",
+          "correct": false,
+          "why": "α-Carboxyl groups have pKa ≈ 2."
+        },
+        {
+          "id": "c",
+          "text": "Histidine is negatively charged at physiological pH, so it binds any H⁺ that is added to the cell",
+          "correct": false,
+          "why": "Its imidazole is neutral or positive depending on pH."
+        },
+        {
+          "id": "d",
+          "text": "Histidine forms stable covalent bonds with H⁺, removing the protons from solution permanently",
+          "correct": false,
+          "why": "Protonation is a reversible acid–base reaction."
+        }
+      ]
+    },
+    {
+      "id": "u3-q015",
+      "type": "mcq",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Biological buffer systems",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Which buffer system is most important in mammalian blood plasma?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bicarbonate (CO2/HCO3⁻)",
+          "correct": true,
+          "why": "CO2 is exhaled by the lungs and HCO3⁻ is regulated by the kidneys, so the system can be adjusted."
+        },
+        {
+          "id": "b",
+          "text": "HEPES (a Good's buffer)",
+          "correct": false,
+          "why": "HEPES is a synthetic buffer used in the laboratory (in vitro)."
+        },
+        {
+          "id": "c",
+          "text": "Acetate (acetic acid)",
+          "correct": false,
+          "why": "Acetate's pKa (4.76) is far from blood pH."
+        },
+        {
+          "id": "d",
+          "text": "Hydrochloric acid (HCl)",
+          "correct": false,
+          "why": "HCl is a strong acid, not a buffer."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "u3-f001",
+      "type": "flashcard",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Ionisation of water and pH",
+      "source": "slides",
+      "front": "Kw at 25 °C?",
+      "back": "[H⁺][OH⁻] = 1 × 10⁻¹⁴ M². In pure water each ion is 10⁻⁷ M."
+    },
+    {
+      "id": "u3-f002",
+      "type": "flashcard",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Ionisation of water and pH",
+      "source": "slides",
+      "front": "Definition of pH; link to pOH?",
+      "back": "pH = −log[H⁺]; pH + pOH = 14. 1 unit = 10-fold change in [H⁺]."
+    },
+    {
+      "id": "u3-f003",
+      "type": "flashcard",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Chemical equilibrium and the equilibrium constant",
+      "source": "slides",
+      "front": "What changes Keq?",
+      "back": "Only temperature. Neither starting concentrations nor catalysts change it."
+    },
+    {
+      "id": "u3-f004",
+      "type": "flashcard",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Weak acids, Ka and pKa",
+      "source": "slides",
+      "front": "Ka and pKa?",
+      "back": "Ka = [H⁺][A⁻]/[HA]; pKa = −log Ka. Lower pKa = stronger acid."
+    },
+    {
+      "id": "u3-f005",
+      "type": "flashcard",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Weak acids, Ka and pKa",
+      "source": "slides",
+      "front": "Shortcut for [H⁺] of a weak acid?",
+      "back": "[H⁺] ≈ √(Ka × [HA]), valid when dissociation is small (x ≪ [HA])."
+    },
+    {
+      "id": "u3-f006",
+      "type": "flashcard",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Buffers and the Henderson–Hasselbalch equation",
+      "source": "slides",
+      "front": "Henderson–Hasselbalch equation?",
+      "back": "pH = pKa + log([A⁻]/[HA])."
+    },
+    {
+      "id": "u3-f007",
+      "type": "flashcard",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Buffers and the Henderson–Hasselbalch equation",
+      "source": "slides",
+      "front": "When is buffering capacity greatest? When is it lost?",
+      "back": "Greatest at pH = pKa (50:50). Lost beyond about ±1 pH unit from the pKa."
+    },
+    {
+      "id": "u3-f008",
+      "type": "flashcard",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Biological buffer systems",
+      "source": "slides",
+      "front": "Three main in-vivo buffer systems?",
+      "back": "Phosphate (intracellular, pKa ≈ 6.86), bicarbonate (blood plasma, pKa ≈ 6.1), histidine side chains (proteins, pKa ≈ 6)."
+    },
+    {
+      "id": "u3-f009",
+      "type": "flashcard",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Biological buffer systems",
+      "source": "general",
+      "front": "Normal blood [HCO3⁻] : [CO2] ratio?",
+      "back": "≈ 20 : 1 (pH 7.4 = 6.1 + log 20)."
+    },
+    {
+      "id": "u3-f010",
+      "type": "flashcard",
+      "unit": 3,
+      "part": 1,
+      "outcome": "Biological buffer systems",
+      "source": "slides",
+      "front": "Examples of laboratory (in vitro) buffers?",
+      "back": "HEPES, PIPES, CHES: sulphonic acids of cyclic amines with pKa values near physiological pH."
+    }
+  ]
+}

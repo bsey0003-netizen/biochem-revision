@@ -1,0 +1,753 @@
+{
+  "unit": 7,
+  "title": "Peptide bond & primary structure",
+  "outcomes": [
+    "The peptide bond",
+    "Primary structure and peptide ionisation",
+    "Protein sequencing",
+    "Protein purification and analysis"
+  ],
+  "summary": {
+    "overview": "Amino acids are joined by planar, rigid peptide bonds into chains read from the N- to the C-terminus. This sequence, the primary structure, determines how a protein folds and functions. Biochemists purify proteins by charge, size and affinity, then analyse and sequence them.",
+    "sections": [
+      {
+        "heading": "The peptide bond",
+        "points": [
+          "A peptide (amide) bond forms by condensation of one amino acid's α-carboxyl with the next one's α-amino group, releasing water.",
+          "It has partial double-bond character (resonance), so it is short, rigid and planar, and almost always trans.",
+          "There is no rotation about the C–N bond; the backbone can rotate only about N–Cα (φ) and Cα–C (ψ).",
+          "Chains are written and numbered from the N-terminal (free α-amino) to the C-terminal (free α-carboxyl) residue."
+        ]
+      },
+      {
+        "heading": "Primary structure and ionisation",
+        "points": [
+          "Primary structure is the amino acid sequence, encoded by DNA; it dictates the 3D fold and function.",
+          "One substitution can change function, e.g. β6 Glu → Val (GAG → GUG) in sickle-cell haemoglobin.",
+          "In a peptide, only the terminal α-NH3⁺ and α-COO⁻ plus the ionisable side chains contribute charge; internal α-groups are locked in peptide bonds.",
+          "Proteins range from about 100 residues (cytochrome c) to about 27 000 (titin) and may have one or several chains.",
+          "Conjugated proteins carry non-protein groups: lipoproteins, glycoproteins (IgG), phosphoproteins (casein), haemoproteins (haemoglobin), flavoproteins and metalloproteins."
+        ]
+      },
+      {
+        "heading": "Sequencing",
+        "points": [
+          "Today, sequences are usually deduced from the DNA.",
+          "Edman degradation labels, cleaves and identifies the N-terminal residue, one cycle at a time.",
+          "Mass spectrometry (MALDI, ESI) measures peptide masses precisely and reveals post-translational modifications.",
+          "Comparing sequences of the same protein between species reveals evolutionary relationships."
+        ]
+      },
+      {
+        "heading": "Purification and analysis",
+        "points": [
+          "Proteins are separated by charge, size, ligand affinity, solubility, hydrophobicity and heat stability.",
+          "Ion exchange: a cation exchanger (negatively charged beads) binds proteins that are net positive (pH below their pI).",
+          "Size exclusion: large proteins are excluded from the bead pores and elute FIRST.",
+          "Affinity chromatography exploits specific binding, e.g. xanthine oxidase (rich in Lys and Arg) binds heparin.",
+          "SDS-PAGE: SDS unfolds proteins and coats them with negative charge, so they separate by size alone (small proteins move fastest). Isoelectric focusing separates by pI; 2D gels combine both.",
+          "Specific activity = activity ÷ total protein. It rises as the protein becomes purer."
+        ]
+      }
+    ],
+    "keyTerms": [
+      {
+        "term": "Peptide bond",
+        "definition": "Amide bond between the α-carboxyl of one residue and the α-amino of the next."
+      },
+      {
+        "term": "N-terminus",
+        "definition": "End of a chain with a free α-amino group; residue 1."
+      },
+      {
+        "term": "Primary structure",
+        "definition": "The linear amino acid sequence of a polypeptide."
+      },
+      {
+        "term": "Conjugated protein",
+        "definition": "Protein with a covalently bound non-protein (prosthetic) group."
+      },
+      {
+        "term": "Edman degradation",
+        "definition": "Stepwise removal and identification of N-terminal residues."
+      },
+      {
+        "term": "SDS-PAGE",
+        "definition": "Gel electrophoresis of SDS-denatured proteins, separating them by mass."
+      },
+      {
+        "term": "Isoelectric focusing",
+        "definition": "Electrophoresis in a pH gradient that separates proteins by pI."
+      },
+      {
+        "term": "Specific activity",
+        "definition": "Units of activity per mg of total protein; a measure of purity."
+      }
+    ],
+    "examTips": [
+      "Size exclusion: BIG proteins come off FIRST. SDS-PAGE: SMALL proteins move FASTEST.",
+      "The peptide bond is planar and trans; rotation happens only around φ and ψ.",
+      "Count charges in a peptide: N-terminus (+1), C-terminus (−1), plus Lys/Arg (+) and Asp/Glu (−).",
+      "Purification: total activity (yield) falls while specific activity (purity) rises."
+    ]
+  },
+  "questions": [
+    {
+      "id": "u7-q001",
+      "type": "mcq",
+      "unit": 7,
+      "part": 1,
+      "outcome": "The peptide bond",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "How is a peptide bond formed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "By condensation of one residue's α-carboxyl with the next one's α-amino group, releasing water",
+          "correct": true,
+          "why": "This produces an amide link; hydrolysis (adding water) reverses it."
+        },
+        {
+          "id": "b",
+          "text": "By oxidation of two cysteine –SH groups, which join the two amino acids through a sulfur bridge",
+          "correct": false,
+          "why": "That forms a disulfide bond."
+        },
+        {
+          "id": "c",
+          "text": "By joining the side-chain carboxyl groups of two amino acids, such as aspartate and glutamate",
+          "correct": false,
+          "why": "Peptide bonds link backbone α-groups."
+        },
+        {
+          "id": "d",
+          "text": "By adding a molecule of water across two amino acids, which links their α-carbons together",
+          "correct": false,
+          "why": "Adding water is hydrolysis, which breaks peptide bonds."
+        }
+      ]
+    },
+    {
+      "id": "u7-q002",
+      "type": "mcq",
+      "unit": 7,
+      "part": 1,
+      "outcome": "The peptide bond",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why can't a polypeptide backbone rotate freely about the peptide (C–N) bond?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Resonance gives the C–N bond partial double-bond character, so the peptide group is planar",
+          "correct": true,
+          "why": "Rotation is possible only about the N–Cα (φ) and Cα–C (ψ) bonds."
+        },
+        {
+          "id": "b",
+          "text": "The C–N bond is a full triple bond, so the two atoms are locked in a straight line with no rotation",
+          "correct": false,
+          "why": "It is intermediate between a single and a double bond."
+        },
+        {
+          "id": "c",
+          "text": "Side chains are covalently bonded to the peptide nitrogen and physically block the bond's rotation",
+          "correct": false,
+          "why": "Side chains attach to Cα (except proline's ring closure)."
+        },
+        {
+          "id": "d",
+          "text": "Peptide bonds are usually cis, so the two Cα atoms clash with each other if the bond tries to rotate",
+          "correct": false,
+          "why": "Peptide bonds are almost always trans."
+        }
+      ]
+    },
+    {
+      "id": "u7-q003",
+      "type": "mcq",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Primary structure and peptide ionisation",
+      "bloom": "apply",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "In the tripeptide Tyr–Gly–Phe, which residue carries the free α-amino group?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tyr",
+          "correct": true,
+          "why": "Peptides are written from the N-terminus (free α-NH3⁺) on the left to the C-terminus on the right."
+        },
+        {
+          "id": "b",
+          "text": "Phe",
+          "correct": false,
+          "why": "Phe is the C-terminal residue, with the free α-carboxyl."
+        },
+        {
+          "id": "c",
+          "text": "Gly",
+          "correct": false,
+          "why": "The internal residue's α-groups are both in peptide bonds."
+        },
+        {
+          "id": "d",
+          "text": "All three residues",
+          "correct": false,
+          "why": "Only the terminal residues keep free α-groups."
+        }
+      ]
+    },
+    {
+      "id": "u7-q004",
+      "type": "mcq",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Primary structure and peptide ionisation",
+      "bloom": "apply",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "What is the approximate net charge of the peptide Lys–Asp–Arg–Gly at pH 7?",
+      "options": [
+        {
+          "id": "a",
+          "text": "+1",
+          "correct": true,
+          "why": "N-terminus +1, Lys +1, Asp −1, Arg +1, C-terminus −1: total +1."
+        },
+        {
+          "id": "b",
+          "text": "0",
+          "correct": false,
+          "why": "This misses one positive charge; there are three positive groups and two negative."
+        },
+        {
+          "id": "c",
+          "text": "+3",
+          "correct": false,
+          "why": "This forgets the negative C-terminus and the Asp side chain."
+        },
+        {
+          "id": "d",
+          "text": "−1",
+          "correct": false,
+          "why": "Basic groups outnumber acidic ones."
+        }
+      ]
+    },
+    {
+      "id": "u7-q005",
+      "type": "mcq",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Primary structure and peptide ionisation",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Sickle-cell disease results from a single base change (GAG → GUG) in the β-globin gene. What does this show about primary structure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A single amino acid change (Glu → Val) can alter a protein's properties enough to cause disease",
+          "correct": true,
+          "why": "The sequence dictates structure and function; a charged residue replaced by a hydrophobic one creates a sticky surface patch."
+        },
+        {
+          "id": "b",
+          "text": "Primary structure has no influence on function, because haemoglobin S still binds oxygen normally",
+          "correct": false,
+          "why": "This example shows the opposite."
+        },
+        {
+          "id": "c",
+          "text": "The mutation changes the number of polypeptide chains in haemoglobin, so it can't form a tetramer",
+          "correct": false,
+          "why": "HbS is still α2β2."
+        },
+        {
+          "id": "d",
+          "text": "The mutation adds a disulfide bond between β-chains, which links haemoglobin into long fibres",
+          "correct": false,
+          "why": "Val has no –SH group."
+        }
+      ]
+    },
+    {
+      "id": "u7-q006",
+      "type": "mcq",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Primary structure and peptide ionisation",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Milk casein carries covalently bound phosphate groups. What type of conjugated protein is it?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A phosphoprotein",
+          "correct": true,
+          "why": "Its phosphate groups (on Ser residues) bind calcium in milk."
+        },
+        {
+          "id": "b",
+          "text": "A glycoprotein",
+          "correct": false,
+          "why": "Glycoproteins carry carbohydrate, e.g. immunoglobulin G."
+        },
+        {
+          "id": "c",
+          "text": "A haemoprotein",
+          "correct": false,
+          "why": "Haemoproteins carry haem, e.g. haemoglobin."
+        },
+        {
+          "id": "d",
+          "text": "A flavoprotein",
+          "correct": false,
+          "why": "Flavoproteins carry FAD or FMN, e.g. succinate dehydrogenase."
+        }
+      ]
+    },
+    {
+      "id": "u7-q007",
+      "type": "mcq",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Protein sequencing",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "How does Edman degradation determine a peptide's sequence?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It labels the N-terminal residue, cleaves it off and identifies it, then repeats on the shorter peptide",
+          "correct": true,
+          "why": "Successive cycles read the sequence from the N-terminus."
+        },
+        {
+          "id": "b",
+          "text": "It hydrolyses the whole peptide at once in strong acid and reads the order of residues from the mixture",
+          "correct": false,
+          "why": "Total hydrolysis gives composition, not order."
+        },
+        {
+          "id": "c",
+          "text": "It reads the sequence from the C-terminus, removing one residue at a time with the detergent SDS",
+          "correct": false,
+          "why": "Edman chemistry works from the N-terminus; SDS is a detergent."
+        },
+        {
+          "id": "d",
+          "text": "It measures the peptide's absorbance at 280 nm after each cycle, which identifies each residue in turn",
+          "correct": false,
+          "why": "A280 gives concentration, not sequence."
+        }
+      ]
+    },
+    {
+      "id": "u7-q008",
+      "type": "mcq",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Protein sequencing",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why is mass spectrometry valuable even when a protein's gene sequence is already known?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It measures actual peptide masses, revealing modifications such as phosphorylation that DNA can't predict",
+          "correct": true,
+          "why": "Modifications change mass in characteristic ways that MS can detect."
+        },
+        {
+          "id": "b",
+          "text": "It is the only reliable way to measure protein concentration, which the gene sequence cannot give you",
+          "correct": false,
+          "why": "Concentration is usually measured by A280 or dye assays."
+        },
+        {
+          "id": "c",
+          "text": "It determines the protein's 3D fold directly, showing how the predicted sequence is folded in space",
+          "correct": false,
+          "why": "3D structure needs methods such as X-ray crystallography or cryo-EM."
+        },
+        {
+          "id": "d",
+          "text": "It works only on intact, folded enzymes, so it confirms that the protein is active and correctly folded",
+          "correct": false,
+          "why": "MS typically analyses peptides from digested proteins."
+        }
+      ]
+    },
+    {
+      "id": "u7-q009",
+      "type": "mcq",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Protein purification and analysis",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "In size-exclusion (gel filtration) chromatography, which proteins elute from the column first?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The largest proteins, because they can't enter the bead pores and take the shortest path",
+          "correct": true,
+          "why": "Small proteins wander through the pores and are retained longer."
+        },
+        {
+          "id": "b",
+          "text": "The smallest proteins, because they slip quickly through the pores inside the beads",
+          "correct": false,
+          "why": "This is the reverse; small proteins are slowed by entering the pores."
+        },
+        {
+          "id": "c",
+          "text": "The most positively charged proteins, which are repelled by the beads and pushed out first",
+          "correct": false,
+          "why": "Charge is the basis of ion-exchange chromatography, not size exclusion."
+        },
+        {
+          "id": "d",
+          "text": "The proteins with the highest pI, because they bind least tightly to the gel matrix",
+          "correct": false,
+          "why": "pI is irrelevant to size exclusion."
+        }
+      ]
+    },
+    {
+      "id": "u7-q010",
+      "type": "mcq",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Protein purification and analysis",
+      "bloom": "apply",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "A mixture at pH 6.0 contains protein X (pI 8.5) and protein Y (pI 4.5). It is loaded onto a cation-exchange column (negatively charged beads). What happens?",
+      "options": [
+        {
+          "id": "a",
+          "text": "X binds, being net positive below its pI; Y flows straight through, being net negative",
+          "correct": true,
+          "why": "Cation exchangers bind positively charged proteins; bound X can then be eluted with salt or a higher pH."
+        },
+        {
+          "id": "b",
+          "text": "Y binds, because it is net negative at pH 6.0, and X flows straight through the column",
+          "correct": false,
+          "why": "Y is net negative at pH 6 and is repelled by negative beads."
+        },
+        {
+          "id": "c",
+          "text": "Both bind equally, because both proteins carry some positive and some negative groups",
+          "correct": false,
+          "why": "Their opposite net charges at pH 6 separate them."
+        },
+        {
+          "id": "d",
+          "text": "Neither binds, because ion-exchange columns separate proteins by their size, not charge",
+          "correct": false,
+          "why": "Ion exchange separates by charge."
+        }
+      ]
+    },
+    {
+      "id": "u7-q011",
+      "type": "mcq",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Protein purification and analysis",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Xanthine oxidase binds tightly to a heparin column. Heparin is a highly negatively charged polysaccharide. What is the basis of this binding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Positively charged Lys and Arg residues on the enzyme interact with the negative heparin",
+          "correct": true,
+          "why": "This affinity is used to 'fish' the enzyme out of a crude mixture."
+        },
+        {
+          "id": "b",
+          "text": "Covalent disulfide bonds form between the enzyme's cysteines and sulfur groups on heparin",
+          "correct": false,
+          "why": "Heparin has no –SH groups; the binding is non-covalent and electrostatic."
+        },
+        {
+          "id": "c",
+          "text": "Heparin is a substrate that the enzyme binds and slowly hydrolyses as it passes the column",
+          "correct": false,
+          "why": "Xanthine oxidase acts on purines, not heparin."
+        },
+        {
+          "id": "d",
+          "text": "Large proteins become trapped in the pores of the heparin beads, while small ones pass through",
+          "correct": false,
+          "why": "That describes size exclusion."
+        }
+      ]
+    },
+    {
+      "id": "u7-q012",
+      "type": "mcq",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Protein purification and analysis",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why does SDS-PAGE separate proteins by molecular mass alone?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SDS unfolds the proteins and gives them a uniform negative charge per unit mass, so only size matters",
+          "correct": true,
+          "why": "Native shape and charge no longer matter; small proteins move fastest through the gel."
+        },
+        {
+          "id": "b",
+          "text": "SDS separates proteins by their pI, so each protein stops where its net charge becomes zero",
+          "correct": false,
+          "why": "That is isoelectric focusing."
+        },
+        {
+          "id": "c",
+          "text": "SDS keeps proteins in their native fold, so their shape and size together set how fast they move",
+          "correct": false,
+          "why": "SDS is a denaturing detergent."
+        },
+        {
+          "id": "d",
+          "text": "Large proteins move fastest, because they bind more SDS and so carry more negative charge in total",
+          "correct": false,
+          "why": "The charge-to-mass ratio is constant, so the gel's sieving effect slows larger proteins."
+        }
+      ]
+    },
+    {
+      "id": "u7-q013",
+      "type": "mcq",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Protein purification and analysis",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "In two-dimensional gel electrophoresis, what are the two separation steps?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Isoelectric focusing (by pI), then SDS-PAGE (by mass) at right angles",
+          "correct": true,
+          "why": "Combining two independent properties resolves thousands of proteins as separate spots."
+        },
+        {
+          "id": "b",
+          "text": "Size exclusion (by size), then affinity chromatography (by binding)",
+          "correct": false,
+          "why": "These are column methods, not gel electrophoresis."
+        },
+        {
+          "id": "c",
+          "text": "SDS-PAGE twice in the same direction, first by mass and then by charge",
+          "correct": false,
+          "why": "Repeating the same separation gives no new resolution."
+        },
+        {
+          "id": "d",
+          "text": "UV absorbance at 280 nm, then Edman degradation of each separated spot",
+          "correct": false,
+          "why": "These are analysis methods, not 2D separation."
+        }
+      ]
+    },
+    {
+      "id": "u7-q014",
+      "type": "mcq",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Protein purification and analysis",
+      "bloom": "apply",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "A crude extract has 10 000 units of enzyme activity in 500 mg of protein. After a column step there are 8000 units in 40 mg. How have specific activity and yield changed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Specific activity rose from 20 to 200 units/mg (10-fold purification), with an 80% yield",
+          "correct": true,
+          "why": "Specific activity = activity/protein: 10 000/500 = 20 and 8000/40 = 200. Yield = 8000/10 000 = 80%."
+        },
+        {
+          "id": "b",
+          "text": "Specific activity fell from 20 to 16 units/mg, because 20% of the activity was lost, so yield is 80%",
+          "correct": false,
+          "why": "Total activity fell slightly, but activity per mg rose sharply."
+        },
+        {
+          "id": "c",
+          "text": "Specific activity rose 12.5-fold, from 20 to 250 units/mg, with a 100% yield of enzyme activity",
+          "correct": false,
+          "why": "12.5 is the fold-reduction in protein (500/40); the yield is 80%, not 100%."
+        },
+        {
+          "id": "d",
+          "text": "Nothing changed, because the enzyme units are the same before and after the column step",
+          "correct": false,
+          "why": "Removing contaminating protein raises specific activity."
+        }
+      ]
+    },
+    {
+      "id": "u7-q015",
+      "type": "mcq",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Protein sequencing",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Why can comparing the sequence of cytochrome c from many species reveal evolutionary relationships?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sequence differences accumulate over time, so closely related species have more similar sequences",
+          "correct": true,
+          "why": "Alignments of proteins with the same function trace evolutionary divergence."
+        },
+        {
+          "id": "b",
+          "text": "Mammals share an identical cytochrome c, so any differences reveal errors in the sequencing method",
+          "correct": false,
+          "why": "The sequences differ, which is what makes the comparison informative."
+        },
+        {
+          "id": "c",
+          "text": "Cytochrome c sequences are determined by diet, so related species that eat similar food share them",
+          "correct": false,
+          "why": "Sequences are encoded genetically."
+        },
+        {
+          "id": "d",
+          "text": "Sequences reveal only an organism's body size, which tends to be similar in closely related species",
+          "correct": false,
+          "why": "Sequence similarity reflects ancestry, not body size."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "u7-f001",
+      "type": "flashcard",
+      "unit": 7,
+      "part": 1,
+      "outcome": "The peptide bond",
+      "source": "slides",
+      "front": "Properties of the peptide bond?",
+      "back": "Short, rigid, planar, trans; partial double-bond character. Rotation only about φ (N–Cα) and ψ (Cα–C)."
+    },
+    {
+      "id": "u7-f002",
+      "type": "flashcard",
+      "unit": 7,
+      "part": 1,
+      "outcome": "The peptide bond",
+      "source": "slides",
+      "front": "Direction in which peptides are written and numbered?",
+      "back": "From the N-terminus (free α-NH3⁺) to the C-terminus (free α-COO⁻)."
+    },
+    {
+      "id": "u7-f003",
+      "type": "flashcard",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Primary structure and peptide ionisation",
+      "source": "slides",
+      "front": "Primary structure?",
+      "back": "The amino acid sequence, encoded by DNA. It determines the 3D fold and function."
+    },
+    {
+      "id": "u7-f004",
+      "type": "flashcard",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Primary structure and peptide ionisation",
+      "source": "slides",
+      "front": "Which groups contribute charge in a peptide?",
+      "back": "The N-terminal α-NH3⁺, the C-terminal α-COO⁻ and ionisable side chains. Internal α-groups are in peptide bonds."
+    },
+    {
+      "id": "u7-f005",
+      "type": "flashcard",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Primary structure and peptide ionisation",
+      "source": "slides",
+      "front": "Conjugated protein classes with examples?",
+      "back": "Lipoprotein (β1-lipoprotein), glycoprotein (IgG), phosphoprotein (casein), haemoprotein (haemoglobin), flavoprotein (succinate dehydrogenase), metalloprotein (ferritin – Fe; alcohol dehydrogenase – Zn)."
+    },
+    {
+      "id": "u7-f006",
+      "type": "flashcard",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Protein sequencing",
+      "source": "slides",
+      "front": "Edman degradation vs mass spectrometry?",
+      "back": "Edman: removes the N-terminal residue one cycle at a time. MS (MALDI, ESI): precise masses, detects post-translational modifications."
+    },
+    {
+      "id": "u7-f007",
+      "type": "flashcard",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Protein purification and analysis",
+      "source": "slides",
+      "front": "Ion exchange, size exclusion and affinity chromatography separate by…?",
+      "back": "Charge; size (large proteins elute first); specific ligand binding."
+    },
+    {
+      "id": "u7-f008",
+      "type": "flashcard",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Protein purification and analysis",
+      "source": "slides",
+      "front": "What binds a cation exchanger?",
+      "back": "Net positive proteins, i.e. at a pH below their pI. The beads are negatively charged."
+    },
+    {
+      "id": "u7-f009",
+      "type": "flashcard",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Protein purification and analysis",
+      "source": "slides",
+      "front": "SDS-PAGE vs isoelectric focusing?",
+      "back": "SDS-PAGE: by mass (SDS denatures, uniform negative charge; small proteins fastest). IEF: by pI. 2D gel = IEF then SDS-PAGE."
+    },
+    {
+      "id": "u7-f010",
+      "type": "flashcard",
+      "unit": 7,
+      "part": 1,
+      "outcome": "Protein purification and analysis",
+      "source": "slides",
+      "front": "Specific activity?",
+      "back": "Activity ÷ total protein (units/mg). It rises as purity increases; total activity (yield) usually falls."
+    }
+  ]
+}

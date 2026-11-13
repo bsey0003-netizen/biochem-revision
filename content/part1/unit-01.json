@@ -1,0 +1,750 @@
+{
+  "unit": 1,
+  "title": "Chemistry of living beings & water",
+  "outcomes": [
+    "Carbon bonds and oxidation state",
+    "Isomerism and stereochemistry",
+    "Properties of water and hydrogen bonds",
+    "Non-covalent interactions and the hydrophobic effect"
+  ],
+  "summary": {
+    "overview": "Life is chemistry in water. Carbon builds the molecular skeletons; the 3D shape of those molecules (stereochemistry) decides how they interact; and water, through hydrogen bonds and the hydrophobic effect, shapes every protein, membrane and nucleic acid.",
+    "sections": [
+      {
+        "heading": "Carbon and oxidation state",
+        "points": [
+          "Of about 30 essential elements, C, H, O, N, P and S dominate; metal ions (K⁺, Na⁺, Ca²⁺, Mg²⁺, Zn²⁺, Fe²⁺) have key roles in metabolism.",
+          "Carbon forms four stable covalent bonds (single, double or triple) with C, H, O and N, giving chains, rings and branched 3D structures.",
+          "Oxidation state of carbon: CH4 (most reduced) → alcohol → aldehyde/ketone → carboxylic acid → CO2 (most oxidised).",
+          "The more reduced the carbon, the more energy it releases when fully oxidised, which is why fats yield more energy per gram than sugars."
+        ]
+      },
+      {
+        "heading": "Isomerism and stereochemistry",
+        "points": [
+          "Stereoisomers have the same bonds but a different 3D arrangement.",
+          "Geometric (cis/trans) isomers differ in physical and chemical properties, e.g. fumarate (trans) vs maleate (cis).",
+          "A chiral carbon carries four different substituents; n chiral centres give up to 2ⁿ stereoisomers.",
+          "Enantiomers are mirror images: they have identical physical properties except the direction they rotate plane-polarised light, and they react identically with achiral reagents.",
+          "Diastereomers are non-mirror-image stereoisomers with different physical and chemical properties.",
+          "Binding sites in biomolecules are chiral, so binding is stereospecific: two enantiomers of a drug can act very differently."
+        ]
+      },
+      {
+        "heading": "Water and hydrogen bonds",
+        "points": [
+          "Organisms are 70–90% water; most biochemical reactions occur in water.",
+          "O is sp³ hybridised (distorted tetrahedron) and more electronegative than H, so water is a dipole that can donate and accept H-bonds.",
+          "Each water molecule can form up to four H-bonds, explaining water's high boiling point, melting point and surface tension.",
+          "H-bonds (≈ 20 kJ/mol) are much weaker than covalent O–H bonds (≈ 420 kJ/mol) and strongest when the three atoms are in a line.",
+          "Ice has the maximum number of H-bonds in an open hexagonal lattice, so it is less dense than liquid water and floats.",
+          "Water dissolves charged and polar solutes (salts, amino acids, sugars) but not non-polar ones (lipid chains, aromatic rings, gases)."
+        ]
+      },
+      {
+        "heading": "Non-covalent interactions and the hydrophobic effect",
+        "points": [
+          "Ionic (Coulombic) interactions occur between charges; dipole interactions between polar groups.",
+          "Van der Waals interactions occur between all atoms: London dispersion attraction at 0.4–0.7 nm and steric repulsion at very short distance. They are weak individually but give steric complementarity and DNA base stacking.",
+          "The hydrophobic effect is not an attraction between non-polar groups: water forms ordered, low-entropy shells around them.",
+          "When non-polar groups cluster (protein cores, micelles, membranes, steroid binding), ordered water is released and entropy increases."
+        ]
+      }
+    ],
+    "keyTerms": [
+      {
+        "term": "Chiral centre",
+        "definition": "Carbon atom bonded to four different groups."
+      },
+      {
+        "term": "Enantiomers",
+        "definition": "Non-superimposable mirror-image stereoisomers."
+      },
+      {
+        "term": "Diastereomers",
+        "definition": "Stereoisomers that are not mirror images, including cis/trans isomers."
+      },
+      {
+        "term": "Hydrogen bond",
+        "definition": "Attraction between an H on an electronegative atom and a lone pair on another electronegative atom."
+      },
+      {
+        "term": "Van der Waals interaction",
+        "definition": "Weak attraction (dispersion) and repulsion (steric) between any two nearby atoms."
+      },
+      {
+        "term": "Hydrophobic effect",
+        "definition": "Clustering of non-polar groups in water, driven by the increase in entropy of the released water."
+      },
+      {
+        "term": "Amphipathic",
+        "definition": "Having both polar and non-polar regions, e.g. membrane lipids."
+      }
+    ],
+    "examTips": [
+      "The hydrophobic effect is driven by the ENTROPY of water, not by an attraction between non-polar molecules.",
+      "Enantiomers differ only in optical rotation and in interactions with OTHER chiral molecules, such as enzymes and receptors.",
+      "Cis/trans isomers are diastereomers, not enantiomers.",
+      "More reduced carbon (more C–H bonds) means more energy released on oxidation."
+    ]
+  },
+  "questions": [
+    {
+      "id": "u1-q001",
+      "type": "mcq",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Carbon bonds and oxidation state",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Why is carbon able to form the backbone of so many different biomolecules?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It forms four stable covalent bonds (single, double or triple) with C, H, O and N, giving chains and rings",
+          "correct": true,
+          "why": "Its four strong bonds in a tetrahedral arrangement allow huge structural diversity."
+        },
+        {
+          "id": "b",
+          "text": "It forms mainly ionic bonds, which break and re-form easily, so atoms can be rearranged into new molecules",
+          "correct": false,
+          "why": "Carbon forms covalent bonds, not ionic ones."
+        },
+        {
+          "id": "c",
+          "text": "It is the most electronegative element in biology, so it pulls electrons from the atoms it bonds to",
+          "correct": false,
+          "why": "Oxygen and nitrogen are more electronegative than carbon."
+        },
+        {
+          "id": "d",
+          "text": "It is the most abundant atom in water and body fluids, so it is readily available to cells for building",
+          "correct": false,
+          "why": "Water contains no carbon."
+        }
+      ]
+    },
+    {
+      "id": "u1-q002",
+      "type": "mcq",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Carbon bonds and oxidation state",
+      "bloom": "analyse",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "In which molecule is the carbon atom most oxidised?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Carbon dioxide (CO2)",
+          "correct": true,
+          "why": "In CO2 carbon has given up the most electron density to oxygen; it is the fully oxidised end product of metabolism."
+        },
+        {
+          "id": "b",
+          "text": "Methane (CH4)",
+          "correct": false,
+          "why": "Methane carbon is the most reduced: it is bonded only to hydrogen."
+        },
+        {
+          "id": "c",
+          "text": "Ethanol (CH3–CH2–OH)",
+          "correct": false,
+          "why": "An alcohol carbon is only slightly oxidised."
+        },
+        {
+          "id": "d",
+          "text": "Acetaldehyde (CH3–CHO)",
+          "correct": false,
+          "why": "An aldehyde carbon is intermediate; it can still be oxidised to a carboxylic acid and then to CO2."
+        }
+      ]
+    },
+    {
+      "id": "u1-q003",
+      "type": "mcq",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Carbon bonds and oxidation state",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Why does a gram of body fat store about twice as much energy as a gram of glycogen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fatty-acid carbons are more reduced (mostly –CH2–), so their oxidation passes more electrons to O2",
+          "correct": true,
+          "why": "Sugar carbons already carry –OH groups (partly oxidised); fat chains have far more C–H bonds to oxidise."
+        },
+        {
+          "id": "b",
+          "text": "Fats contain more oxygen atoms per carbon than sugars, so more oxygen is available to burn each carbon",
+          "correct": false,
+          "why": "The reverse is true: sugars are oxygen-rich, fats are oxygen-poor."
+        },
+        {
+          "id": "c",
+          "text": "Fat is stored together with more water than glycogen, and that water adds to the energy released",
+          "correct": false,
+          "why": "The reverse: glycogen is stored with lots of water, fat with almost none. That makes fat an even better store, but it isn't why fat's fuel yields more energy."
+        },
+        {
+          "id": "d",
+          "text": "Fatty acids contain high-energy phosphate bonds that release extra free energy when they are hydrolysed",
+          "correct": false,
+          "why": "Fatty acids contain no phosphoanhydride bonds."
+        }
+      ]
+    },
+    {
+      "id": "u1-q004",
+      "type": "mcq",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Isomerism and stereochemistry",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Which property differs between the two enantiomers of a chiral compound?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The direction in which they rotate plane-polarised light",
+          "correct": true,
+          "why": "Enantiomers have identical physical properties except their interaction with polarised light (and with other chiral molecules)."
+        },
+        {
+          "id": "b",
+          "text": "Their melting point and boiling point when pure",
+          "correct": false,
+          "why": "Enantiomers have identical melting points."
+        },
+        {
+          "id": "c",
+          "text": "Their solubility in water and in organic solvents",
+          "correct": false,
+          "why": "Water is achiral, so both enantiomers dissolve equally."
+        },
+        {
+          "id": "d",
+          "text": "Their rate of reaction with an achiral reagent such as water",
+          "correct": false,
+          "why": "Enantiomers react identically with achiral reagents."
+        }
+      ]
+    },
+    {
+      "id": "u1-q005",
+      "type": "mcq",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Isomerism and stereochemistry",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Fumarate (trans) is an intermediate of the citric acid cycle, whereas maleate (cis) is not used by the cycle. How are these two molecules related?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geometric (cis/trans) isomers: diastereomers with different physical and chemical properties",
+          "correct": true,
+          "why": "Rotation about the C=C double bond is blocked, so cis and trans forms are distinct compounds, and enzymes distinguish them."
+        },
+        {
+          "id": "b",
+          "text": "Enantiomers: non-superimposable mirror images with identical physical properties in water",
+          "correct": false,
+          "why": "Cis/trans isomers are not mirror images."
+        },
+        {
+          "id": "c",
+          "text": "The same molecule drawn in two ways, which interconvert freely by rotation about the C=C bond",
+          "correct": false,
+          "why": "The double bond prevents interconversion, so they are different molecules."
+        },
+        {
+          "id": "d",
+          "text": "Constitutional isomers: same formula, but the atoms are joined in a different order",
+          "correct": false,
+          "why": "They have the same bonds; only the spatial arrangement differs."
+        }
+      ]
+    },
+    {
+      "id": "u1-q006",
+      "type": "mcq",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Isomerism and stereochemistry",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "A molecule has two different chiral centres. What is the maximum number of stereoisomers it can have?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4",
+          "correct": true,
+          "why": "Each chiral centre has two configurations, so the maximum is 2ⁿ = 2² = 4."
+        },
+        {
+          "id": "b",
+          "text": "2",
+          "correct": false,
+          "why": "Two stereoisomers arise from one chiral centre."
+        },
+        {
+          "id": "c",
+          "text": "8",
+          "correct": false,
+          "why": "Eight would require three chiral centres."
+        },
+        {
+          "id": "d",
+          "text": "16",
+          "correct": false,
+          "why": "Sixteen would require four chiral centres."
+        }
+      ]
+    },
+    {
+      "id": "u1-q007",
+      "type": "mcq",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Isomerism and stereochemistry",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "Why can the two enantiomers of a drug have very different effects in an animal, even though they have the same physical properties?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Receptors and enzymes are chiral, so their binding sites fit one enantiomer much better",
+          "correct": true,
+          "why": "Chiral binding pockets distinguish mirror images, like a right glove fitting a right hand."
+        },
+        {
+          "id": "b",
+          "text": "One enantiomer is usually much more soluble in blood, so it reaches the tissues at a much higher concentration",
+          "correct": false,
+          "why": "Enantiomers have identical solubility in achiral solvents such as water."
+        },
+        {
+          "id": "c",
+          "text": "One enantiomer carries an extra functional group that the other lacks, which changes its action",
+          "correct": false,
+          "why": "Enantiomers contain exactly the same groups."
+        },
+        {
+          "id": "d",
+          "text": "The liver converts most drugs into its cis isomer, and only one enantiomer can be converted",
+          "correct": false,
+          "why": "Cis/trans isomerism is unrelated to the effects of enantiomers."
+        }
+      ]
+    },
+    {
+      "id": "u1-q008",
+      "type": "mcq",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Properties of water and hydrogen bonds",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Why can one water molecule take part in up to four hydrogen bonds?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has two H atoms to donate and two lone pairs on oxygen to accept",
+          "correct": true,
+          "why": "Water is both an H-bond donor and acceptor, arranged roughly tetrahedrally."
+        },
+        {
+          "id": "b",
+          "text": "Oxygen forms four covalent bonds, two with its own H atoms and two with neighbouring water molecules",
+          "correct": false,
+          "why": "Oxygen makes only two covalent bonds; H-bonds are non-covalent."
+        },
+        {
+          "id": "c",
+          "text": "Water molecules are non-polar and attract each other by dispersion",
+          "correct": false,
+          "why": "Water is strongly polar; its dipole drives the H-bonding."
+        },
+        {
+          "id": "d",
+          "text": "Each hydrogen atom can accept two lone pairs from neighbouring oxygens, giving four bonds in all",
+          "correct": false,
+          "why": "Each H donates once; the lone pairs on O are the acceptors."
+        }
+      ]
+    },
+    {
+      "id": "u1-q009",
+      "type": "mcq",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Properties of water and hydrogen bonds",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why does ice float on liquid water?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In ice each molecule is H-bonded in an open hexagonal lattice, so molecules are further apart than in liquid",
+          "correct": true,
+          "why": "The ordered lattice is less dense, so ponds freeze from the top and life survives underneath."
+        },
+        {
+          "id": "b",
+          "text": "Ice contains fewer hydrogen bonds than liquid water, so its molecules are held less tightly and spread out",
+          "correct": false,
+          "why": "Ice has the maximum number of H-bonds per molecule."
+        },
+        {
+          "id": "c",
+          "text": "Freezing breaks the covalent O–H bonds, and the free H and O atoms take up more space than whole molecules",
+          "correct": false,
+          "why": "Covalent bonds are unchanged by freezing."
+        },
+        {
+          "id": "d",
+          "text": "Ice traps tiny air bubbles as it forms, and this trapped air makes it lighter than the liquid",
+          "correct": false,
+          "why": "Even pure, bubble-free ice is less dense than liquid water."
+        }
+      ]
+    },
+    {
+      "id": "u1-q010",
+      "type": "mcq",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Properties of water and hydrogen bonds",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Which statement about hydrogen bonds is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They are strongest when the donor, the hydrogen and the acceptor lie in a straight line",
+          "correct": true,
+          "why": "Linear geometry gives the best overlap of the dipole interaction."
+        },
+        {
+          "id": "b",
+          "text": "They are about as strong as a covalent O–H bond, which is why water has such a high boiling point",
+          "correct": false,
+          "why": "≈ 20 kJ/mol vs ≈ 420 kJ/mol: about 20 times weaker."
+        },
+        {
+          "id": "c",
+          "text": "They form only between carbon and hydrogen atoms, as in the C–H groups of fatty-acid tails",
+          "correct": false,
+          "why": "H-bonds involve electronegative atoms, usually N and O."
+        },
+        {
+          "id": "d",
+          "text": "They are irreversible once formed, so the hydrogen bonds in liquid water are permanent",
+          "correct": false,
+          "why": "They constantly form and break at body temperature."
+        }
+      ]
+    },
+    {
+      "id": "u1-q011",
+      "type": "mcq",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Properties of water and hydrogen bonds",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why does NaCl dissolve readily in water but not in hexane?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Water dipoles surround (hydrate) Na⁺ and Cl⁻, weakening the ionic attraction; hexane cannot",
+          "correct": true,
+          "why": "Hydration shells compensate for breaking the ionic lattice; a non-polar solvent cannot do this."
+        },
+        {
+          "id": "b",
+          "text": "Water forms covalent bonds with Na⁺, pulling it out of the crystal; hexane forms no bonds at all",
+          "correct": false,
+          "why": "Ion–dipole interactions are non-covalent."
+        },
+        {
+          "id": "c",
+          "text": "Hexane is too acidic: its protons neutralise the Cl⁻ ions and so the crystal cannot break apart",
+          "correct": false,
+          "why": "Hexane is a non-polar hydrocarbon, not an acid."
+        },
+        {
+          "id": "d",
+          "text": "NaCl is non-polar, so it dissolves in polar water only once its crystal has been heated",
+          "correct": false,
+          "why": "NaCl is ionic, the opposite of non-polar."
+        }
+      ]
+    },
+    {
+      "id": "u1-q012",
+      "type": "mcq",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Non-covalent interactions and the hydrophobic effect",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Which statement about van der Waals interactions is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They are weak individually, but many together give steric complementarity and DNA base stacking",
+          "correct": true,
+          "why": "Attraction dominates at 0.4–0.7 nm, repulsion at very short distance; the sum of many contacts is significant."
+        },
+        {
+          "id": "b",
+          "text": "They occur only between oppositely charged ions, which is why they hold salt crystals together",
+          "correct": false,
+          "why": "Those are ionic (Coulombic) interactions."
+        },
+        {
+          "id": "c",
+          "text": "They are stronger than covalent bonds, which is why they hold the atoms of a molecule together",
+          "correct": false,
+          "why": "They are among the weakest interactions in biology."
+        },
+        {
+          "id": "d",
+          "text": "They are purely repulsive, so they only stop atoms coming too close and do not attract them",
+          "correct": false,
+          "why": "They have an attractive (dispersion) component and a repulsive (steric) component."
+        }
+      ]
+    },
+    {
+      "id": "u1-q013",
+      "type": "mcq",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Non-covalent interactions and the hydrophobic effect",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "What is the main driving force for amphipathic lipids to form micelles in water?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The entropy of water rises: ordered water around the tails is released when the tails cluster",
+          "correct": true,
+          "why": "The hydrophobic effect is entropic: fewer water molecules are ordered once tails are hidden."
+        },
+        {
+          "id": "b",
+          "text": "Strong direct attraction between the non-polar tails, which pulls them together into the core",
+          "correct": false,
+          "why": "Dispersion between tails is weak; there is no special hydrophobic 'force'."
+        },
+        {
+          "id": "c",
+          "text": "Covalent bonds that form between the lipid tails, locking them into the centre of the micelle",
+          "correct": false,
+          "why": "Micelles are held together non-covalently."
+        },
+        {
+          "id": "d",
+          "text": "Hydrogen bonds between the non-polar tails, which hold the hydrocarbon chains side by side",
+          "correct": false,
+          "why": "Hydrocarbon tails cannot form hydrogen bonds."
+        }
+      ]
+    },
+    {
+      "id": "u1-q014",
+      "type": "mcq",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Non-covalent interactions and the hydrophobic effect",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "A steroid hormone binds a hydrophobic pocket in its receptor. Why is this binding thermodynamically favourable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The steroid displaces ordered water from the pocket and from around itself, raising entropy",
+          "correct": true,
+          "why": "This is the hydrophobic effect at work in ligand binding, and drug designers exploit it."
+        },
+        {
+          "id": "b",
+          "text": "The steroid forms many ionic bonds with charged groups lining the pocket, releasing a lot of heat",
+          "correct": false,
+          "why": "Steroids are largely non-polar and uncharged."
+        },
+        {
+          "id": "c",
+          "text": "Water molecules become covalently attached to the steroid, anchoring it firmly inside the pocket",
+          "correct": false,
+          "why": "Water is released, not attached."
+        },
+        {
+          "id": "d",
+          "text": "The pocket is filled with ice-like water that attracts the steroid and holds it in place",
+          "correct": false,
+          "why": "Ordered water is unfavourable and is pushed out by the ligand."
+        }
+      ]
+    },
+    {
+      "id": "u1-q015",
+      "type": "mcq",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Non-covalent interactions and the hydrophobic effect",
+      "bloom": "apply",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Inside a folded protein, a positively charged Lys side chain sits next to a negatively charged Glu side chain. Which interaction holds them together?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An ionic (Coulombic) interaction, also called a salt bridge",
+          "correct": true,
+          "why": "Electrostatic attraction between permanent opposite charges."
+        },
+        {
+          "id": "b",
+          "text": "A van der Waals interaction only, since the charges cancel out",
+          "correct": false,
+          "why": "Van der Waals contacts exist, but the dominant interaction is between the charges."
+        },
+        {
+          "id": "c",
+          "text": "A covalent peptide bond between the two side chains",
+          "correct": false,
+          "why": "Side chains are not joined by peptide bonds."
+        },
+        {
+          "id": "d",
+          "text": "The hydrophobic effect, as both side chains avoid water",
+          "correct": false,
+          "why": "Charged side chains are hydrophilic."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "u1-f001",
+      "type": "flashcard",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Carbon bonds and oxidation state",
+      "source": "slides",
+      "front": "Six most common elements in biomolecules?",
+      "back": "C, H, O, N, P, S, plus essential metal ions (K⁺, Na⁺, Ca²⁺, Mg²⁺, Zn²⁺, Fe²⁺)."
+    },
+    {
+      "id": "u1-f002",
+      "type": "flashcard",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Carbon bonds and oxidation state",
+      "source": "general",
+      "front": "Order of carbon oxidation, least to most?",
+      "back": "Alkane (CH4) → alcohol → aldehyde/ketone → carboxylic acid → CO2."
+    },
+    {
+      "id": "u1-f003",
+      "type": "flashcard",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Isomerism and stereochemistry",
+      "source": "slides",
+      "front": "Enantiomers vs diastereomers?",
+      "back": "Enantiomers: mirror images, identical physical properties except optical rotation. Diastereomers: not mirror images, different properties (includes cis/trans)."
+    },
+    {
+      "id": "u1-f004",
+      "type": "flashcard",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Isomerism and stereochemistry",
+      "source": "general",
+      "front": "Chiral centre? Maximum stereoisomers for n centres?",
+      "back": "A carbon with four different substituents. Up to 2ⁿ stereoisomers."
+    },
+    {
+      "id": "u1-f005",
+      "type": "flashcard",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Properties of water and hydrogen bonds",
+      "source": "slides",
+      "front": "Why is water polar?",
+      "back": "Electronegative O, bent (distorted tetrahedral, sp³) shape, so it is a net dipole: both H-bond donor and acceptor."
+    },
+    {
+      "id": "u1-f006",
+      "type": "flashcard",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Properties of water and hydrogen bonds",
+      "source": "slides",
+      "front": "H-bond vs covalent O–H bond energy?",
+      "back": "≈ 20 kJ/mol vs ≈ 420 kJ/mol. H-bonds are strongest when linear."
+    },
+    {
+      "id": "u1-f007",
+      "type": "flashcard",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Properties of water and hydrogen bonds",
+      "source": "slides",
+      "front": "Why does ice float?",
+      "back": "Maximal H-bonding in an open hexagonal lattice, so it is less dense than liquid water."
+    },
+    {
+      "id": "u1-f008",
+      "type": "flashcard",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Non-covalent interactions and the hydrophobic effect",
+      "source": "slides",
+      "front": "Four types of non-covalent interaction?",
+      "back": "Ionic (Coulombic), dipole (incl. H-bonds), van der Waals, and the hydrophobic effect."
+    },
+    {
+      "id": "u1-f009",
+      "type": "flashcard",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Non-covalent interactions and the hydrophobic effect",
+      "source": "slides",
+      "front": "What drives the hydrophobic effect?",
+      "back": "The entropy gain of water released from ordered shells when non-polar groups cluster. It is not a direct attraction."
+    },
+    {
+      "id": "u1-f010",
+      "type": "flashcard",
+      "unit": 1,
+      "part": 1,
+      "outcome": "Non-covalent interactions and the hydrophobic effect",
+      "source": "slides",
+      "front": "Where does the hydrophobic effect matter?",
+      "back": "Protein folding, protein–protein association, micelles and membranes, binding of steroid hormones and many drugs."
+    }
+  ]
+}

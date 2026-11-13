@@ -1,0 +1,821 @@
+{
+  "unit": 10,
+  "title": "Oxygen-binding proteins",
+  "outcomes": [
+    "Structure of myoglobin and haemoglobin",
+    "The oxygen-binding centre",
+    "Cooperativity",
+    "Allosteric effectors",
+    "Abnormal haemoglobins"
+  ],
+  "summary": {
+    "overview": "Myoglobin stores O2 in muscle; haemoglobin carries it in the blood. Both bind O2 at a haem Fe(II), but only haemoglobin, a cooperative tetramer regulated by allosteric effectors, can load O2 in the lungs and unload it in the tissues.",
+    "sections": [
+      {
+        "heading": "Haem and the O2-binding site",
+        "points": [
+          "Haem is a protoporphyrin (four pyrrole rings) with an iron atom at the centre, bonded to the four pyrrole nitrogens.",
+          "Only Fe(II) binds O2. Fe(III), the met-form, cannot.",
+          "5th coordination bond: the proximal histidine. 6th position: O2 (empty in the deoxy form).",
+          "The distal histidine H-bonds bound O2, limits superoxide release and hinders CO binding.",
+          "When O2 binds, Fe moves into the plane of the porphyrin, pulling the proximal His and its α-helix with it."
+        ]
+      },
+      {
+        "heading": "Myoglobin vs haemoglobin",
+        "points": [
+          "Myoglobin: one chain, in muscle. Hyperbolic curve, P50 ≈ 2 torr, so it acts as an O2 store.",
+          "Haemoglobin: an α2β2 tetramer (two αβ dimers) in red cells. Sigmoidal curve, P50 ≈ 26 torr, so it acts as a transporter.",
+          "Lungs (100 torr): Hb is ≈ 98% saturated. Active tissue (20 torr): ≈ 32%. So Hb delivers ≈ 66% of its O2, while myoglobin would deliver only ≈ 7%."
+        ]
+      },
+      {
+        "heading": "Cooperativity",
+        "points": [
+          "T state (deoxy) = tense and low affinity. R state (oxy) = relaxed and high affinity.",
+          "Oxygenation rotates the α1β1 and α2β2 dimers by about 15° relative to each other.",
+          "Concerted model: the whole tetramer is either all-T or all-R. Sequential model: each binding raises its neighbours' affinity step by step."
+        ]
+      },
+      {
+        "heading": "Allosteric effectors",
+        "points": [
+          "2,3-BPG binds the central cavity of the T state only. It stabilises T and shifts the curve right (lower affinity). Its level rises at high altitude.",
+          "Bohr effect: H⁺ and CO2 lower O2 affinity. Protonated His and N-termini, and carbamates, stabilise T, so more O2 is released in active tissue.",
+          "Fetal Hb (α2γ2) has Ser in place of His143, so it binds 2,3-BPG weakly and has a higher affinity. This lets O2 pass from mother to fetus.",
+          "CO binds about 200× more tightly than O2 and pushes the remaining sites into R, so the O2 still bound is released poorly."
+        ]
+      },
+      {
+        "heading": "Abnormal haemoglobins",
+        "points": [
+          "HbS (β6 Glu → Val): a sticky patch binds a pocket exposed only in deoxy (T) Hb, forming fibres and sickled cells.",
+          "α-thalassaemia: β4 tetramers (HbH) have high affinity and no cooperativity, so they deliver O2 poorly.",
+          "β-thalassaemia: unpaired α chains precipitate in red-cell precursors, causing anaemia.",
+          "Methaemoglobin (Fe³⁺) cannot carry O2, e.g. in nitrite poisoning of cattle (chocolate-brown blood)."
+        ]
+      }
+    ],
+    "keyTerms": [
+      {
+        "term": "Haem",
+        "definition": "Protoporphyrin ring with a central Fe(II) that binds O2."
+      },
+      {
+        "term": "Proximal histidine",
+        "definition": "His forming the 5th coordination bond to the haem iron."
+      },
+      {
+        "term": "Distal histidine",
+        "definition": "His that H-bonds bound O2 and hinders CO binding."
+      },
+      {
+        "term": "P50",
+        "definition": "pO2 at which half the binding sites are occupied. Lower P50 = higher affinity."
+      },
+      {
+        "term": "Cooperativity",
+        "definition": "Binding at one site increases the affinity of the other sites, giving a sigmoidal curve."
+      },
+      {
+        "term": "T and R states",
+        "definition": "Tense (low-affinity, deoxy) and relaxed (high-affinity, oxy) quaternary states."
+      },
+      {
+        "term": "2,3-BPG",
+        "definition": "Red-cell allosteric effector that stabilises the T state and lowers O2 affinity."
+      },
+      {
+        "term": "Bohr effect",
+        "definition": "Lower pH and higher CO2 reduce haemoglobin's O2 affinity."
+      },
+      {
+        "term": "Methaemoglobin",
+        "definition": "Haemoglobin with Fe³⁺, which cannot bind O2."
+      }
+    ],
+    "examTips": [
+      "Right shift = lower affinity = more O2 released (↑ 2,3-BPG, ↑ H⁺, ↑ CO2).",
+      "Myoglobin is a monomer: no cooperativity and no Bohr effect.",
+      "2,3-BPG binds the central cavity of the T state, not the haem.",
+      "CO does double damage: it occupies sites AND left-shifts the remaining ones.",
+      "HbS polymerises when DEoxygenated, because its binding pocket is exposed only in the T state."
+    ]
+  },
+  "questions": [
+    {
+      "id": "u10-q001",
+      "type": "mcq",
+      "unit": 10,
+      "part": 1,
+      "outcome": "The oxygen-binding centre",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Which bond does the proximal histidine of myoglobin form with the haem group?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The 5th coordination bond to the Fe(II) ion",
+          "correct": true,
+          "why": "The proximal His (F8) imidazole nitrogen occupies the 5th coordination position, below the porphyrin plane."
+        },
+        {
+          "id": "b",
+          "text": "The 6th coordination bond to the Fe(II) ion",
+          "correct": false,
+          "why": "The 6th position is where O2 binds; it is empty in deoxymyoglobin."
+        },
+        {
+          "id": "c",
+          "text": "A hydrogen bond to bound O2",
+          "correct": false,
+          "why": "That is the role of the distal histidine (E7), on the opposite side of the haem."
+        },
+        {
+          "id": "d",
+          "text": "A covalent bond to one pyrrole nitrogen of the porphyrin",
+          "correct": false,
+          "why": "The four pyrrole nitrogens coordinate the iron; the histidine does not bond to the porphyrin ring itself."
+        }
+      ]
+    },
+    {
+      "id": "u10-q002",
+      "type": "mcq",
+      "unit": 10,
+      "part": 1,
+      "outcome": "The oxygen-binding centre",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Free haem in solution binds CO far more tightly than O2, yet inside myoglobin the preference for CO is much smaller. What accounts for this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The distal histidine hinders the linear Fe–C–O geometry that CO prefers, and H-bonds bound O2",
+          "correct": true,
+          "why": "The distal His crowds the 6th site, forcing CO to bind at an unfavourable angle, while its H-bond stabilises bound O2."
+        },
+        {
+          "id": "b",
+          "text": "The proximal histidine oxidises CO to CO2 before it can reach and bind the iron in the haem pocket",
+          "correct": false,
+          "why": "The proximal His is a ligand of the iron, not a redox catalyst; CO is not oxidised in the pocket."
+        },
+        {
+          "id": "c",
+          "text": "The iron in myoglobin is in the Fe(III) state, which does not bind CO",
+          "correct": false,
+          "why": "Functional myoglobin contains Fe(II); Fe(III) (metmyoglobin) cannot bind O2 either."
+        },
+        {
+          "id": "d",
+          "text": "2,3-BPG occupies the CO binding site in myoglobin",
+          "correct": false,
+          "why": "2,3-BPG binds only to the central cavity of the haemoglobin tetramer, not to myoglobin."
+        }
+      ]
+    },
+    {
+      "id": "u10-q003",
+      "type": "mcq",
+      "unit": 10,
+      "part": 1,
+      "outcome": "The oxygen-binding centre",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Cattle grazing nitrate-rich forage can develop nitrite poisoning, in which a large fraction of haemoglobin becomes methaemoglobin and the blood turns chocolate-brown. Why can methaemoglobin not carry oxygen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The haem iron has been oxidised from Fe(II) to Fe(III), which does not bind O2",
+          "correct": true,
+          "why": "Only ferrous iron binds O2 reversibly. Nitrite oxidises it to ferric iron, giving methaemoglobin."
+        },
+        {
+          "id": "b",
+          "text": "Nitrite displaces the proximal histidine, so the iron falls out of the porphyrin",
+          "correct": false,
+          "why": "The iron stays in the haem; the defect is its oxidation state, not its loss."
+        },
+        {
+          "id": "c",
+          "text": "Nitrite binds the 2,3-BPG pocket and locks the tetramer in the R state",
+          "correct": false,
+          "why": "Locking in R would raise O2 affinity, not abolish binding, and this is not the mechanism of methaemoglobinaemia."
+        },
+        {
+          "id": "d",
+          "text": "Nitrite hydrolyses the globin chains, releasing free haem",
+          "correct": false,
+          "why": "The globin remains intact; the change is at the iron atom."
+        }
+      ]
+    },
+    {
+      "id": "u10-q004",
+      "type": "mcq",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Cooperativity",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "The haem groups in haemoglobin are 24–40 Å apart, so they cannot interact directly. What is the first structural event that links O2 binding at one haem to the affinity of the other subunits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Fe moves into the porphyrin plane, pulling the proximal His and its helix, which shifts the αβ interface",
+          "correct": true,
+          "why": "Iron movement drags the F-helix; the helix's C-terminal end lies at the α1β1/α2β2 interface and favours the T→R transition."
+        },
+        {
+          "id": "b",
+          "text": "Bound O2 diffuses through the protein to the neighbouring haem groups and binds them in turn",
+          "correct": false,
+          "why": "O2 stays bound at its site; communication is through protein conformation, not ligand transfer."
+        },
+        {
+          "id": "c",
+          "text": "Electrons flow between the haem groups through the porphyrin rings, changing each iron's charge",
+          "correct": false,
+          "why": "There is no electron transfer pathway between haems; the effect is conformational."
+        },
+        {
+          "id": "d",
+          "text": "O2 binding releases a proton that travels to the other haems and directly protonates their iron",
+          "correct": false,
+          "why": "Bohr protons are released from His and N-termini, not haems, and that is a consequence, not the trigger."
+        }
+      ]
+    },
+    {
+      "id": "u10-q005",
+      "type": "mcq",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Cooperativity",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "Myoglobin has P50 ≈ 2 torr and a hyperbolic binding curve, Y = pO2 / (pO2 + P50). If blood carried myoglobin instead of haemoglobin, roughly what fraction of its O2 would be released between the lungs (100 torr) and active tissue (20 torr)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "About 7%",
+          "correct": true,
+          "why": "Y(100) = 100/102 ≈ 0.98 and Y(20) = 20/22 ≈ 0.91, so only ≈ 7% is unloaded — far less than the ≈ 66% unloaded by haemoglobin."
+        },
+        {
+          "id": "b",
+          "text": "About 66%",
+          "correct": false,
+          "why": "That is the value for cooperative haemoglobin (98% → 32%), not myoglobin."
+        },
+        {
+          "id": "c",
+          "text": "About 50%",
+          "correct": false,
+          "why": "50% saturation occurs at P50 = 2 torr, far below both pressures given."
+        },
+        {
+          "id": "d",
+          "text": "About 90%",
+          "correct": false,
+          "why": "90% is close to myoglobin's saturation at 20 torr, not the amount released."
+        }
+      ]
+    },
+    {
+      "id": "u10-q006",
+      "type": "mcq",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Cooperativity",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Which statement best describes the concerted (MWC) model of cooperative O2 binding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "All subunits are in the T state or all in the R state; ligand binding shifts the equilibrium between them",
+          "correct": true,
+          "why": "In the concerted model, the tetramer switches as a unit; each bound O2 makes the all-R form more probable."
+        },
+        {
+          "id": "b",
+          "text": "Each bound O2 changes only its own subunit, which raises the affinity of neighbouring subunits step by step",
+          "correct": false,
+          "why": "That is the sequential (KNF) model, in which mixed T/R tetramers exist."
+        },
+        {
+          "id": "c",
+          "text": "O2 binding converts R-state subunits into T-state subunits",
+          "correct": false,
+          "why": "The direction is reversed: O2 favours R (high affinity); deoxyhaemoglobin is T."
+        },
+        {
+          "id": "d",
+          "text": "Subunits bind O2 independently, and cooperativity arises from 2,3-BPG binding",
+          "correct": false,
+          "why": "Independent sites give a hyperbolic curve; 2,3-BPG modulates affinity but is not the source of cooperativity."
+        }
+      ]
+    },
+    {
+      "id": "u10-q007",
+      "type": "mcq",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Structure of myoglobin and haemoglobin",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "How is the quaternary structure of adult haemoglobin A best described?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pair of identical αβ dimers (α1β1 and α2β2)",
+          "correct": true,
+          "why": "HbA is α2β2, organised as two αβ protomers; their interface changes most on oxygenation."
+        },
+        {
+          "id": "b",
+          "text": "Four identical α chains",
+          "correct": false,
+          "why": "HbA has two α and two β chains; β4 tetramers (HbH) occur in α-thalassaemia."
+        },
+        {
+          "id": "c",
+          "text": "A single chain with four haem-binding domains",
+          "correct": false,
+          "why": "Haemoglobin is a tetramer of four separate polypeptides, each with one haem."
+        },
+        {
+          "id": "d",
+          "text": "Two α chains and two γ chains",
+          "correct": false,
+          "why": "α2γ2 is fetal haemoglobin (HbF), not the adult form."
+        }
+      ]
+    },
+    {
+      "id": "u10-q008",
+      "type": "mcq",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Structure of myoglobin and haemoglobin",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "On oxygenation, how does the quaternary structure of haemoglobin change?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The α1β1 and α2β2 dimers rotate about 15° relative to each other",
+          "correct": true,
+          "why": "The T→R transition is a rotation of one αβ dimer relative to the other, altering the dimer–dimer interface."
+        },
+        {
+          "id": "b",
+          "text": "The tetramer dissociates into four free monomers, each like myoglobin",
+          "correct": false,
+          "why": "Haemoglobin remains a tetramer; dissociation would abolish cooperativity."
+        },
+        {
+          "id": "c",
+          "text": "The α-helices of each subunit unfold and refold into β-sheets",
+          "correct": false,
+          "why": "Secondary structure is preserved; the change is a rigid-body quaternary rearrangement."
+        },
+        {
+          "id": "d",
+          "text": "The α1 and β1 subunits separate while α2 and β2 stay bound",
+          "correct": false,
+          "why": "The αβ dimers stay intact; it is the interface between the two dimers that shifts."
+        }
+      ]
+    },
+    {
+      "id": "u10-q009",
+      "type": "mcq",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Allosteric effectors",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "After several days at high altitude, red-cell 2,3-BPG rises. What is the effect on haemoglobin's O2-binding curve?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It shifts to the right (P50 increases), favouring O2 release in tissues",
+          "correct": true,
+          "why": "2,3-BPG binds the central cavity of the T state only, stabilising T and lowering O2 affinity."
+        },
+        {
+          "id": "b",
+          "text": "It shifts to the left (P50 decreases), favouring O2 loading in the lungs",
+          "correct": false,
+          "why": "A left shift would result from removing 2,3-BPG, not adding it."
+        },
+        {
+          "id": "c",
+          "text": "It becomes hyperbolic because cooperativity is lost",
+          "correct": false,
+          "why": "2,3-BPG shifts the curve but haemoglobin remains cooperative."
+        },
+        {
+          "id": "d",
+          "text": "It does not change because 2,3-BPG binds at the haem iron",
+          "correct": false,
+          "why": "2,3-BPG binds a site distinct from the haem — the definition of an allosteric effector."
+        }
+      ]
+    },
+    {
+      "id": "u10-q010",
+      "type": "mcq",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Allosteric effectors",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "Fetal haemoglobin (α2γ2) has a higher O2 affinity than maternal HbA in the same red-cell environment. What is the molecular basis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ser replaces His143 in the γ chain, removing positive charges from the 2,3-BPG site",
+          "correct": true,
+          "why": "Fewer positive charges lining the central cavity weaken 2,3-BPG binding, so the T state is less stabilised and affinity rises."
+        },
+        {
+          "id": "b",
+          "text": "The γ chain lacks a distal histidine, so O2 can bind more tightly to the haem iron",
+          "correct": false,
+          "why": "The distal His is conserved; the difference lies in the 2,3-BPG binding pocket."
+        },
+        {
+          "id": "c",
+          "text": "Fetal red cells contain no 2,3-BPG at all, because the placenta removes it from blood",
+          "correct": false,
+          "why": "2,3-BPG is present; it is the haemoglobin's affinity for it that is lower."
+        },
+        {
+          "id": "d",
+          "text": "HbF is a monomer like myoglobin and therefore non-cooperative",
+          "correct": false,
+          "why": "HbF is a cooperative tetramer."
+        }
+      ]
+    },
+    {
+      "id": "u10-q011",
+      "type": "mcq",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Allosteric effectors",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "In hard-working skeletal muscle, pH falls and pCO2 rises. How does this affect O2 delivery?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O2 affinity falls, because protonated His and N-terminal groups, and carbamates, stabilise the T state",
+          "correct": true,
+          "why": "This is the Bohr effect: H+ and CO2 both favour deoxyhaemoglobin, so more O2 is unloaded where it is needed."
+        },
+        {
+          "id": "b",
+          "text": "O2 affinity rises, because H⁺ binds the haem iron and holds the O2 more tightly in the pocket",
+          "correct": false,
+          "why": "H+ binds globin residues, not the iron, and lowers affinity."
+        },
+        {
+          "id": "c",
+          "text": "CO2 competes with O2 for the haem iron, so less O2 can be carried from the lungs to the muscle",
+          "correct": false,
+          "why": "CO2 binds N-terminal amino groups as carbamate, not the iron."
+        },
+        {
+          "id": "d",
+          "text": "There is no effect, because pH changes only affect myoglobin",
+          "correct": false,
+          "why": "The Bohr effect is a property of tetrameric haemoglobin, not myoglobin."
+        }
+      ]
+    },
+    {
+      "id": "u10-q012",
+      "type": "mcq",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Allosteric effectors",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "A dog is rescued from a kennel fire with 40% carboxyhaemoglobin. Why is tissue oxygenation worse than in a dog with a 40% reduction in haemoglobin (anaemia)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "CO on one subunit shifts the others toward the R state, so their O2 is held tightly and released poorly",
+          "correct": true,
+          "why": "Besides occupying sites, CO left-shifts the curve of the remaining haem groups, impairing unloading in tissues."
+        },
+        {
+          "id": "b",
+          "text": "CO oxidises the haem irons to Fe(III), so the haemoglobin can no longer carry any oxygen at all",
+          "correct": false,
+          "why": "CO binds Fe(II); oxidation to Fe(III) describes methaemoglobin."
+        },
+        {
+          "id": "c",
+          "text": "CO binds 2,3-BPG and removes it from the red cells, so haemoglobin becomes locked in the T state",
+          "correct": false,
+          "why": "CO binds the haem iron, not 2,3-BPG."
+        },
+        {
+          "id": "d",
+          "text": "CO makes haemoglobin release O2 too easily in the lungs",
+          "correct": false,
+          "why": "The problem is poor release in tissues, not in the lungs."
+        }
+      ]
+    },
+    {
+      "id": "u10-q013",
+      "type": "mcq",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Abnormal haemoglobins",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why does haemoglobin S polymerise mainly when it is deoxygenated?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The β6 Val sticky patch binds a hydrophobic pocket (Phe85, Leu88) exposed only in the T state",
+          "correct": true,
+          "why": "In oxyHbS (R state) Phe85 and Leu88 are buried, so the Val patch has no partner and fibres do not form."
+        },
+        {
+          "id": "b",
+          "text": "Deoxygenation exposes the mutant valine, which is buried inside the protein in the R state",
+          "correct": false,
+          "why": "Val6 is on the surface in both states; it is the complementary pocket that is T-state specific."
+        },
+        {
+          "id": "c",
+          "text": "The Glu→Val substitution adds a negative charge that repels O2, so HbS stays deoxygenated longer",
+          "correct": false,
+          "why": "Glu is negative and Val is uncharged, so the mutation removes a negative charge."
+        },
+        {
+          "id": "d",
+          "text": "Deoxygenated HbS forms disulfide bonds between β chains, which link the molecules into long fibres",
+          "correct": false,
+          "why": "The aggregation is driven by hydrophobic contacts, not disulfide bonds."
+        }
+      ]
+    },
+    {
+      "id": "u10-q014",
+      "type": "mcq",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Abnormal haemoglobins",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "In α-thalassaemia, excess β chains form β4 tetramers (HbH). Why does HbH deliver O2 poorly to tissues?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It binds O2 with high affinity and no cooperativity, so little O2 is released at tissue pO2",
+          "correct": true,
+          "why": "Without α–β interfaces there is no T→R switch; HbH behaves like myoglobin."
+        },
+        {
+          "id": "b",
+          "text": "It cannot bind O2 at all, because unpaired β chains are made without their haem groups",
+          "correct": false,
+          "why": "β chains contain haem and bind O2."
+        },
+        {
+          "id": "c",
+          "text": "It precipitates in red-cell precursors in the marrow before the cells can reach the blood",
+          "correct": false,
+          "why": "Precipitation of unpaired α chains is the problem in β-thalassaemia."
+        },
+        {
+          "id": "d",
+          "text": "It is very sensitive to 2,3-BPG and stays locked in the T state, so it picks up little O2",
+          "correct": false,
+          "why": "A T-locked tetramer would release O2 too readily, not too little."
+        }
+      ]
+    },
+    {
+      "id": "u10-q015",
+      "type": "mcq",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Structure of myoglobin and haemoglobin",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Diving mammals such as seals have very high myoglobin concentrations in their skeletal muscle. What is the main advantage?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Myoglobin stores O2 in the muscle and releases it only when intracellular pO2 falls very low",
+          "correct": true,
+          "why": "With P50 ≈ 2 torr, myoglobin stays loaded until muscle pO2 becomes very low, then acts as a reserve."
+        },
+        {
+          "id": "b",
+          "text": "Myoglobin carries O2 from the lungs to the muscles through the blood, like a second haemoglobin",
+          "correct": false,
+          "why": "Myoglobin is intracellular; haemoglobin performs blood transport."
+        },
+        {
+          "id": "c",
+          "text": "Myoglobin binds CO2 and buffers the lactic acid made during the dive through the Bohr effect",
+          "correct": false,
+          "why": "Myoglobin, being monomeric, shows no significant Bohr effect."
+        },
+        {
+          "id": "d",
+          "text": "Its cooperative binding lets it unload most of its O2 at the moderate pO2 of resting muscle",
+          "correct": false,
+          "why": "Myoglobin is not cooperative; its curve is hyperbolic."
+        }
+      ]
+    },
+    {
+      "id": "u10-q016",
+      "type": "mcq",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Allosteric effectors",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Where does 2,3-bisphosphoglycerate bind on haemoglobin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the central cavity between the β subunits, a pocket present only in the T state",
+          "correct": true,
+          "why": "The positively charged cavity binds the highly anionic 2,3-BPG and collapses on transition to R."
+        },
+        {
+          "id": "b",
+          "text": "At the sixth coordination site of each haem iron, in place of the bound O2",
+          "correct": false,
+          "why": "That site binds O2 or CO, not 2,3-BPG."
+        },
+        {
+          "id": "c",
+          "text": "At the distal histidine of each α subunit, inside the pocket where O2 binds",
+          "correct": false,
+          "why": "The distal His lines the O2 pocket, which is unrelated to 2,3-BPG."
+        },
+        {
+          "id": "d",
+          "text": "On the outer surface of the β chains, at the same site as the HbS valine",
+          "correct": false,
+          "why": "2,3-BPG binds inside the central cavity, not on the surface."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "u10-f001",
+      "type": "flashcard",
+      "unit": 10,
+      "part": 1,
+      "outcome": "The oxygen-binding centre",
+      "source": "slides",
+      "front": "Which oxidation state of haem iron binds O2?",
+      "back": "Fe(II), ferrous. Fe(III) (met-form) does not bind O2."
+    },
+    {
+      "id": "u10-f002",
+      "type": "flashcard",
+      "unit": 10,
+      "part": 1,
+      "outcome": "The oxygen-binding centre",
+      "source": "slides",
+      "front": "Proximal vs distal histidine?",
+      "back": "Proximal His: 5th coordination bond to Fe. Distal His: H-bonds bound O2, limits superoxide release and hinders CO binding."
+    },
+    {
+      "id": "u10-f003",
+      "type": "flashcard",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Cooperativity",
+      "source": "slides",
+      "front": "P50 of myoglobin vs haemoglobin?",
+      "back": "Myoglobin ≈ 2 torr (high affinity, hyperbolic). Haemoglobin ≈ 26 torr (sigmoidal, cooperative)."
+    },
+    {
+      "id": "u10-f004",
+      "type": "flashcard",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Cooperativity",
+      "source": "slides",
+      "front": "T state vs R state?",
+      "back": "T (tense) = deoxyHb, constrained, low affinity. R (relaxed) = oxyHb, high affinity."
+    },
+    {
+      "id": "u10-f005",
+      "type": "flashcard",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Cooperativity",
+      "source": "slides",
+      "front": "Concerted vs sequential model?",
+      "back": "Concerted: whole tetramer is all-T or all-R. Sequential: each binding raises neighbours' affinity without a full T→R switch."
+    },
+    {
+      "id": "u10-f006",
+      "type": "flashcard",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Cooperativity",
+      "source": "slides",
+      "front": "Hb saturation in lungs vs active tissue?",
+      "back": "≈ 98% at 100 torr, ≈ 32% at 20 torr, so ≈ 66% of the O2 is delivered."
+    },
+    {
+      "id": "u10-f007",
+      "type": "flashcard",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Allosteric effectors",
+      "source": "slides",
+      "front": "Effect of 2,3-BPG on Hb?",
+      "back": "Binds the T-state central cavity, stabilises T, lowers O2 affinity (right shift). Without it, Hb would release only ≈ 8% of its O2."
+    },
+    {
+      "id": "u10-f008",
+      "type": "flashcard",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Allosteric effectors",
+      "source": "slides",
+      "front": "Bohr effect: two ways CO2 lowers O2 affinity?",
+      "back": "1) Forms carbonic acid, so pH falls and His/N-termini are protonated. 2) Forms carbamates on N-terminal amino groups, stabilising T."
+    },
+    {
+      "id": "u10-f009",
+      "type": "flashcard",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Allosteric effectors",
+      "source": "slides",
+      "front": "Why does HbF have higher O2 affinity than HbA?",
+      "back": "γ-chain Ser replaces β His143, so 2,3-BPG binds weakly, T is less stabilised and affinity is higher."
+    },
+    {
+      "id": "u10-f010",
+      "type": "flashcard",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Abnormal haemoglobins",
+      "source": "slides",
+      "front": "Mutation in sickle-cell haemoglobin (HbS)?",
+      "back": "β6 Glu → Val. The hydrophobic patch binds Phe85/Leu88 of a neighbouring T-state Hb, forming fibres when deoxygenated."
+    },
+    {
+      "id": "u10-f011",
+      "type": "flashcard",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Abnormal haemoglobins",
+      "source": "slides",
+      "front": "α- vs β-thalassaemia?",
+      "back": "α: too little α chain, β4 (HbH) forms with high affinity and no cooperativity. β: too little β chain, α chains precipitate in RBC precursors, causing anaemia (Cooley's anaemia)."
+    },
+    {
+      "id": "u10-f012",
+      "type": "flashcard",
+      "unit": 10,
+      "part": 1,
+      "outcome": "Allosteric effectors",
+      "source": "slides",
+      "front": "Two ways CO harms O2 transport?",
+      "back": "Binds Fe(II) ≈ 200× more tightly than O2, and shifts the remaining subunits to R so they release O2 poorly."
+    }
+  ]
+}

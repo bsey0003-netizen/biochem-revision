@@ -1,0 +1,16 @@
+{
+  "name": "biochem-revision",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Biochemistry revision app for students — content pipeline (Phase 1)",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.ts\"",
+    "check": "node scripts/check-content.ts",
+    "review": "node scripts/render-review.ts",
+    "demo": "node scripts/build-demo.ts"
+  }
+}

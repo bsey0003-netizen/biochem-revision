@@ -1,0 +1,752 @@
+{
+  "unit": 6,
+  "title": "Amino acids",
+  "outcomes": [
+    "Structure and stereochemistry of amino acids",
+    "Classification by R group",
+    "Acid–base properties and isoelectric point",
+    "Essential, uncommon and modified amino acids"
+  ],
+  "summary": {
+    "overview": "Proteins are built from 20 L-α-amino acids. All share an amino group, a carboxyl group and an H on the α-carbon, and differ only in their R group. The R group decides polarity, charge, reactivity and light absorption, and ionisation sets each amino acid's charge at a given pH.",
+    "sections": [
+      {
+        "heading": "Structure and stereochemistry",
+        "points": [
+          "The α-carbon carries –COOH, –NH2, –H and an R group. In every amino acid except glycine (R = H) it is a chiral centre.",
+          "Proline is an imino acid: its side chain loops back onto the α-nitrogen (a secondary amine), forming a rigid ring.",
+          "D/L describes absolute configuration relative to D/L-glyceraldehyde (Fischer). d/l, or (+)/(−), describes the direction of optical rotation. R/S describes each individual stereocentre. These three systems are not equivalent.",
+          "Proteins contain only L-amino acids, because ribosomes are stereospecific; D-amino acids occur in bacterial cell walls.",
+          "Chirality matters for drugs: thalidomide's S-enantiomer is teratogenic, and the two enantiomers interconvert in the body. Only S(−)-amlodipine blocks calcium channels."
+        ]
+      },
+      {
+        "heading": "Five classes by R group",
+        "points": [
+          "Non-polar aliphatic (7): Gly, Ala, Pro, Val, Leu, Ile, Met. These cluster in the protein interior (hydrophobic effect).",
+          "Aromatic (3): Phe, Tyr, Trp. They absorb UV at about 280 nm, Trp most strongly, so protein concentration can be found with A = εcl.",
+          "Polar uncharged (5): Ser, Thr, Cys, Asn, Gln. These form H-bonds; two Cys can oxidise to cystine, forming a disulfide bond.",
+          "Positively charged (3): Lys and Arg are fully protonated at pH 7; His (pKa ≈ 6) can be neutral or positive, which makes it a buffer and a catalyst.",
+          "Negatively charged (2): aspartate and glutamate, which carry a –COO⁻ at physiological pH."
+        ]
+      },
+      {
+        "heading": "Ionisation and pI",
+        "points": [
+          "Each amino acid has at least two ionisable groups: α-COOH (pKa ≈ 2) and α-NH3⁺ (pKa ≈ 9–10).",
+          "At low pH the amino acid is a cation; at high pH an anion; in between it is a zwitterion with both + and − charges (amphoteric).",
+          "The isoelectric point (pI) is the pH at which the net charge is zero. For an amino acid without an ionisable side chain, pI = (pK1 + pK2)/2; for glycine, (2.34 + 9.60)/2 = 5.97.",
+          "Below its pI a molecule is net positive; above its pI it is net negative. This is the basis of ion-exchange chromatography and isoelectric focusing."
+        ]
+      },
+      {
+        "heading": "Essential, uncommon and modified amino acids",
+        "points": [
+          "Essential amino acids cannot be made in sufficient amounts and must come from the diet. Requirements differ between species; cats, for example, need dietary arginine.",
+          "Selenocysteine is the only uncommon amino acid inserted by the ribosome.",
+          "Others arise by post-translational modification: 4-hydroxyproline in collagen (needs vitamin C), γ-carboxyglutamate in clotting factors (needs vitamin K), and reversible phosphorylation of Ser, Thr and Tyr.",
+          "Free methionine is an important methyl donor in metabolism (as S-adenosylmethionine)."
+        ]
+      }
+    ],
+    "keyTerms": [
+      {
+        "term": "α-carbon",
+        "definition": "Central carbon bearing the amino, carboxyl, H and R groups."
+      },
+      {
+        "term": "Zwitterion",
+        "definition": "Molecule carrying both a positive and a negative charge, with no net charge."
+      },
+      {
+        "term": "Isoelectric point (pI)",
+        "definition": "pH at which a molecule has zero net charge."
+      },
+      {
+        "term": "Amphoteric",
+        "definition": "Able to act as both an acid and a base."
+      },
+      {
+        "term": "Imino acid",
+        "definition": "Proline, whose α-nitrogen is a secondary amine within a ring."
+      },
+      {
+        "term": "Cystine",
+        "definition": "Two cysteines joined by a disulfide (S–S) bond."
+      },
+      {
+        "term": "Essential amino acid",
+        "definition": "Amino acid that must be supplied in the diet."
+      },
+      {
+        "term": "Racemic mixture",
+        "definition": "1:1 mixture of two enantiomers."
+      }
+    ],
+    "examTips": [
+      "Glycine is the only standard amino acid that is NOT chiral.",
+      "L/D is NOT the same as the direction of optical rotation (+/−).",
+      "pH < pI → net positive; pH > pI → net negative.",
+      "Lys and Arg are positive and Asp and Glu negative at pH 7; His is the borderline one (pKa ≈ 6)."
+    ]
+  },
+  "questions": [
+    {
+      "id": "u6-q001",
+      "type": "mcq",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Structure and stereochemistry of amino acids",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Why is glycine the only standard amino acid that is not chiral?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Its R group is a hydrogen atom, so its α-carbon carries two identical groups",
+          "correct": true,
+          "why": "A chiral centre needs four different groups; glycine has two H atoms on the α-carbon."
+        },
+        {
+          "id": "b",
+          "text": "It has no carboxyl group, so its α-carbon carries only three different groups",
+          "correct": false,
+          "why": "Glycine has both α-carboxyl and α-amino groups."
+        },
+        {
+          "id": "c",
+          "text": "Its α-carbon forms a rigid ring with the amino nitrogen, so it cannot be chiral",
+          "correct": false,
+          "why": "That describes proline, which is chiral."
+        },
+        {
+          "id": "d",
+          "text": "It occurs only as the D-isomer in nature, so there is no mirror-image form of it",
+          "correct": false,
+          "why": "Without a chiral centre glycine has no D/L forms."
+        }
+      ]
+    },
+    {
+      "id": "u6-q002",
+      "type": "mcq",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Structure and stereochemistry of amino acids",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "What does the 'L' in L-alanine refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Its absolute configuration, by comparison with L-glyceraldehyde in a Fischer projection",
+          "correct": true,
+          "why": "D/L is a configurational label based on glyceraldehyde, not a measured optical property."
+        },
+        {
+          "id": "b",
+          "text": "That it rotates plane-polarised light to the left, as measured with a polarimeter",
+          "correct": false,
+          "why": "Left rotation is denoted l or (−); some L-amino acids are dextrorotatory."
+        },
+        {
+          "id": "c",
+          "text": "The R/S configuration of each stereocentre in the molecule, assigned by priority rules",
+          "correct": false,
+          "why": "R/S is a separate system based on priority rules for each centre."
+        },
+        {
+          "id": "d",
+          "text": "That it is a large (long-chain) amino acid with more than three carbons in its side chain",
+          "correct": false,
+          "why": "L has nothing to do with size."
+        }
+      ]
+    },
+    {
+      "id": "u6-q003",
+      "type": "mcq",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Structure and stereochemistry of amino acids",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "Thalidomide's R-enantiomer is the therapeutic form and the S-enantiomer is teratogenic. Why would giving pure R-thalidomide not have prevented birth defects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The two enantiomers interconvert (racemise) in the body, so some S-form forms anyway",
+          "correct": true,
+          "why": "Thalidomide racemises in vivo, so a single-enantiomer formulation does not stay single."
+        },
+        {
+          "id": "b",
+          "text": "Enantiomers always have identical biological effects, so the R-form is teratogenic too",
+          "correct": false,
+          "why": "Chiral receptors often distinguish enantiomers, as amlodipine shows."
+        },
+        {
+          "id": "c",
+          "text": "R-thalidomide is a diastereomer of the S-form, and diastereomers are equally harmful",
+          "correct": false,
+          "why": "Mirror-image R and S forms of one centre are enantiomers."
+        },
+        {
+          "id": "d",
+          "text": "Ribosomes convert R-drugs into S-drugs when they are absorbed in the small intestine",
+          "correct": false,
+          "why": "Ribosomes synthesise proteins; they don't convert drugs."
+        }
+      ]
+    },
+    {
+      "id": "u6-q004",
+      "type": "mcq",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Structure and stereochemistry of amino acids",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Why does proline often interrupt α-helices in globular proteins?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Its side chain is fused to the α-nitrogen in a rigid ring, and that nitrogen has no H to donate",
+          "correct": true,
+          "why": "Proline is an imino acid; its constrained geometry introduces kinks."
+        },
+        {
+          "id": "b",
+          "text": "It carries a large negative charge that repels the partial negative end of the helix dipole",
+          "correct": false,
+          "why": "Proline's side chain is non-polar and uncharged."
+        },
+        {
+          "id": "c",
+          "text": "It forms disulfide bonds with nearby residues, which pull the polypeptide out of the helix",
+          "correct": false,
+          "why": "Only cysteine forms disulfide bonds."
+        },
+        {
+          "id": "d",
+          "text": "It is a D-amino acid, so its side chain points the wrong way for a right-handed α-helix",
+          "correct": false,
+          "why": "Proline in proteins is the L-isomer."
+        }
+      ]
+    },
+    {
+      "id": "u6-q005",
+      "type": "mcq",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Classification by R group",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Which amino acids carry a full positive charge on their side chain at pH 7?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lysine and arginine",
+          "correct": true,
+          "why": "Their side-chain pKa values (≈ 10.5 and 12.5) are well above 7, so they stay protonated."
+        },
+        {
+          "id": "b",
+          "text": "Aspartate and glutamate",
+          "correct": false,
+          "why": "These are negatively charged (carboxylates) at pH 7."
+        },
+        {
+          "id": "c",
+          "text": "Serine and threonine",
+          "correct": false,
+          "why": "These are polar but uncharged."
+        },
+        {
+          "id": "d",
+          "text": "Phenylalanine and tryptophan",
+          "correct": false,
+          "why": "These are aromatic and uncharged."
+        }
+      ]
+    },
+    {
+      "id": "u6-q006",
+      "type": "mcq",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Classification by R group",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "In a water-soluble globular protein, where would you mainly expect to find Leu, Val and Ile residues, and why?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Buried in the interior, because burying non-polar side chains is favoured by the hydrophobic effect",
+          "correct": true,
+          "why": "The hydrophobic effect is the main driving force for folding globular proteins."
+        },
+        {
+          "id": "b",
+          "text": "On the surface, where their side chains form hydrogen bonds with the surrounding water molecules",
+          "correct": false,
+          "why": "Their aliphatic side chains can't form H-bonds."
+        },
+        {
+          "id": "c",
+          "text": "On the surface, forming salt bridges with Lys side chains that stabilise the folded protein",
+          "correct": false,
+          "why": "Salt bridges need charged side chains."
+        },
+        {
+          "id": "d",
+          "text": "Only in disulfide bonds, where their side chains link two strands of the polypeptide",
+          "correct": false,
+          "why": "Disulfides involve only cysteine."
+        }
+      ]
+    },
+    {
+      "id": "u6-q007",
+      "type": "mcq",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Classification by R group",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "A protein has a molar absorption coefficient at 280 nm of 25 000 M⁻¹ cm⁻¹. In a 1 cm cuvette its A280 is 0.50. What is its concentration?",
+      "options": [
+        {
+          "id": "a",
+          "text": "20 µM",
+          "correct": true,
+          "why": "Beer–Lambert: c = A/(εl) = 0.50 / 25 000 = 2 × 10⁻⁵ M = 20 µM."
+        },
+        {
+          "id": "b",
+          "text": "12.5 mM",
+          "correct": false,
+          "why": "This multiplies A by ε instead of dividing."
+        },
+        {
+          "id": "c",
+          "text": "2 µM",
+          "correct": false,
+          "why": "This is out by a factor of 10; 0.5/25 000 = 0.00002 M."
+        },
+        {
+          "id": "d",
+          "text": "50 mM",
+          "correct": false,
+          "why": "Concentration must be A divided by εl."
+        }
+      ]
+    },
+    {
+      "id": "u6-q008",
+      "type": "mcq",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Classification by R group",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Which amino acid side chains are mainly responsible for proteins absorbing UV light at about 280 nm?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tryptophan and tyrosine (aromatic)",
+          "correct": true,
+          "why": "They are the strongest chromophores, Trp most of all; Phe absorbs weakly."
+        },
+        {
+          "id": "b",
+          "text": "Lysine and arginine (basic)",
+          "correct": false,
+          "why": "Basic side chains do not absorb significantly at 280 nm."
+        },
+        {
+          "id": "c",
+          "text": "Glycine and alanine (small)",
+          "correct": false,
+          "why": "Small aliphatic side chains don't absorb at 280 nm."
+        },
+        {
+          "id": "d",
+          "text": "Aspartate and glutamate (acidic)",
+          "correct": false,
+          "why": "Carboxylates don't absorb at 280 nm."
+        }
+      ]
+    },
+    {
+      "id": "u6-q009",
+      "type": "mcq",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Classification by R group",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Free histidine is mostly uncharged at pH 7.4, but histidine side chains in proteins often act as buffers and catalysts. Why?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Its imidazole pKa (≈ 6) is close to physiological pH, so it can easily be protonated or neutral",
+          "correct": true,
+          "why": "Small shifts in the local environment can switch His between charged and uncharged forms."
+        },
+        {
+          "id": "b",
+          "text": "Its side chain is negatively charged at pH 7, so it can bind any proton that is released",
+          "correct": false,
+          "why": "His is weakly basic; it can be neutral or positive."
+        },
+        {
+          "id": "c",
+          "text": "It forms disulfide bonds with substrates, holding them in the active site during catalysis",
+          "correct": false,
+          "why": "Only Cys forms disulfides."
+        },
+        {
+          "id": "d",
+          "text": "Its side-chain pKa is about 12, like arginine, so it stays protonated across the cell's pH range",
+          "correct": false,
+          "why": "Arg's pKa is about 12.5; His's is about 6."
+        }
+      ]
+    },
+    {
+      "id": "u6-q010",
+      "type": "mcq",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Acid–base properties and isoelectric point",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Glycine has pK1 (α-COOH) = 2.34 and pK2 (α-NH3⁺) = 9.60. What is its isoelectric point?",
+      "options": [
+        {
+          "id": "a",
+          "text": "5.97",
+          "correct": true,
+          "why": "With no ionisable side chain, pI = (2.34 + 9.60)/2 = 5.97."
+        },
+        {
+          "id": "b",
+          "text": "11.94",
+          "correct": false,
+          "why": "This is the sum of the pKa values, not their average."
+        },
+        {
+          "id": "c",
+          "text": "7.00",
+          "correct": false,
+          "why": "pI is not automatically neutral pH."
+        },
+        {
+          "id": "d",
+          "text": "3.63",
+          "correct": false,
+          "why": "This is half of pK2 minus pK1, not the average of the two."
+        }
+      ]
+    },
+    {
+      "id": "u6-q011",
+      "type": "mcq",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Acid–base properties and isoelectric point",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "What is the predominant form of alanine at pH 7?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A zwitterion, ⁺H3N–CH(CH3)–COO⁻, with no net charge",
+          "correct": true,
+          "why": "pH 7 lies between the two pKa values (≈ 2.3 and ≈ 9.7), so the carboxyl is deprotonated and the amino group protonated."
+        },
+        {
+          "id": "b",
+          "text": "H2N–CH(CH3)–COOH, the neutral form with no charges at all",
+          "correct": false,
+          "why": "This form is negligible in water at any pH."
+        },
+        {
+          "id": "c",
+          "text": "The fully protonated cation, ⁺H3N–CH(CH3)–COOH",
+          "correct": false,
+          "why": "This dominates only below pH ≈ 2."
+        },
+        {
+          "id": "d",
+          "text": "The fully deprotonated anion, H2N–CH(CH3)–COO⁻",
+          "correct": false,
+          "why": "This dominates only above pH ≈ 10."
+        }
+      ]
+    },
+    {
+      "id": "u6-q012",
+      "type": "mcq",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Acid–base properties and isoelectric point",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "A protein with pI = 5.0 is placed in a buffer at pH 7.5. What is its net charge, and towards which electrode will it move in an electric field?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Net negative; it moves towards the anode (+)",
+          "correct": true,
+          "why": "Above its pI a protein loses protons and carries a net negative charge."
+        },
+        {
+          "id": "b",
+          "text": "Net positive; it moves towards the cathode (−)",
+          "correct": false,
+          "why": "A protein is net positive only below its pI."
+        },
+        {
+          "id": "c",
+          "text": "Zero; it does not move",
+          "correct": false,
+          "why": "Zero net charge occurs only at pH = pI."
+        },
+        {
+          "id": "d",
+          "text": "Net negative; it moves towards the cathode (−)",
+          "correct": false,
+          "why": "Negative molecules move towards the positive electrode."
+        }
+      ]
+    },
+    {
+      "id": "u6-q013",
+      "type": "mcq",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Essential, uncommon and modified amino acids",
+      "bloom": "apply",
+      "difficulty": 3,
+      "source": "general",
+      "stem": "A cat fed a single arginine-free meal can develop vomiting and neurological signs within hours. What is the biochemical explanation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cats can't make enough arginine, so the urea cycle can't dispose of ammonia: hyperammonaemia",
+          "correct": true,
+          "why": "Arginine is a urea-cycle intermediate; cats rely on dietary arginine, so a deficiency quickly causes ammonia toxicity."
+        },
+        {
+          "id": "b",
+          "text": "Arginine is the only source of glucose in cats, so without it they quickly become hypoglycaemic",
+          "correct": false,
+          "why": "Many amino acids and glycerol are gluconeogenic."
+        },
+        {
+          "id": "c",
+          "text": "Arginine is needed to make the D-amino acids in feline proteins, so new proteins cannot fold",
+          "correct": false,
+          "why": "Proteins contain only L-amino acids."
+        },
+        {
+          "id": "d",
+          "text": "Without arginine, cats cannot absorb water from the gut, so they become dehydrated within hours",
+          "correct": false,
+          "why": "The problem is ammonia detoxification."
+        }
+      ]
+    },
+    {
+      "id": "u6-q014",
+      "type": "mcq",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Essential, uncommon and modified amino acids",
+      "bloom": "remember",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "Which uncommon amino acid is inserted directly by the ribosome during translation rather than formed by post-translational modification?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Selenocysteine",
+          "correct": true,
+          "why": "Selenocysteine has its own tRNA and is inserted at a recoded UGA codon."
+        },
+        {
+          "id": "b",
+          "text": "4-Hydroxyproline",
+          "correct": false,
+          "why": "It is made after translation by prolyl hydroxylase, which needs vitamin C."
+        },
+        {
+          "id": "c",
+          "text": "γ-Carboxyglutamate",
+          "correct": false,
+          "why": "It is formed after translation by a vitamin K-dependent carboxylase."
+        },
+        {
+          "id": "d",
+          "text": "Phosphoserine",
+          "correct": false,
+          "why": "It is formed by kinases after translation."
+        }
+      ]
+    },
+    {
+      "id": "u6-q015",
+      "type": "mcq",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Classification by R group",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "What happens when two cysteine side chains in a protein are oxidised?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They form a covalent disulfide bond (a cystine residue) that stabilises the structure",
+          "correct": true,
+          "why": "The –SH groups oxidise to –S–S–, an important covalent cross-link."
+        },
+        {
+          "id": "b",
+          "text": "They form a peptide bond between their side chains, linking two parts of the chain",
+          "correct": false,
+          "why": "Peptide bonds link α-carboxyl and α-amino groups."
+        },
+        {
+          "id": "c",
+          "text": "They become positively charged and repel each other, unfolding that part of the protein",
+          "correct": false,
+          "why": "Disulfide formation doesn't add positive charge."
+        },
+        {
+          "id": "d",
+          "text": "They are converted into methionine residues by adding a methyl group to each sulfur",
+          "correct": false,
+          "why": "Oxidation joins two Cys; it doesn't make Met."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "u6-f001",
+      "type": "flashcard",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Structure and stereochemistry of amino acids",
+      "source": "slides",
+      "front": "Four groups on the α-carbon?",
+      "back": "Carboxyl, amino, hydrogen and the R group (in glycine, R = H, so it is not chiral)."
+    },
+    {
+      "id": "u6-f002",
+      "type": "flashcard",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Structure and stereochemistry of amino acids",
+      "source": "slides",
+      "front": "D/L vs d/l (+/−) vs R/S?",
+      "back": "D/L: configuration relative to glyceraldehyde. d/l (+/−): direction of optical rotation. R/S: configuration of each individual stereocentre."
+    },
+    {
+      "id": "u6-f003",
+      "type": "flashcard",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Structure and stereochemistry of amino acids",
+      "source": "slides",
+      "front": "Which isomers are found in proteins?",
+      "back": "Only L-amino acids (ribosomes are stereospecific). D-amino acids occur in bacterial cell walls."
+    },
+    {
+      "id": "u6-f004",
+      "type": "flashcard",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Classification by R group",
+      "source": "slides",
+      "front": "Five R-group classes?",
+      "back": "Non-polar aliphatic (7), aromatic (3), polar uncharged (5), positively charged (3), negatively charged (2)."
+    },
+    {
+      "id": "u6-f005",
+      "type": "flashcard",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Classification by R group",
+      "source": "slides",
+      "front": "Charged side chains at pH 7?",
+      "back": "+: Lys, Arg (and His, partly). −: Asp, Glu."
+    },
+    {
+      "id": "u6-f006",
+      "type": "flashcard",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Classification by R group",
+      "source": "slides",
+      "front": "Why do proteins absorb at 280 nm?",
+      "back": "Aromatic side chains, mainly Trp and Tyr. Concentration from A = εcl."
+    },
+    {
+      "id": "u6-f007",
+      "type": "flashcard",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Acid–base properties and isoelectric point",
+      "source": "slides",
+      "front": "Zwitterion?",
+      "back": "A form with both +NH3 and −COO⁻ and no net charge. It dominates between the two pKa values."
+    },
+    {
+      "id": "u6-f008",
+      "type": "flashcard",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Acid–base properties and isoelectric point",
+      "source": "general",
+      "front": "pI of a simple amino acid?",
+      "back": "pI = (pK1 + pK2)/2. Glycine: (2.34 + 9.60)/2 = 5.97."
+    },
+    {
+      "id": "u6-f009",
+      "type": "flashcard",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Acid–base properties and isoelectric point",
+      "source": "slides",
+      "front": "Charge relative to pI?",
+      "back": "pH < pI → net positive. pH = pI → zero. pH > pI → net negative."
+    },
+    {
+      "id": "u6-f010",
+      "type": "flashcard",
+      "unit": 6,
+      "part": 1,
+      "outcome": "Essential, uncommon and modified amino acids",
+      "source": "general",
+      "front": "Examples of modified amino acids, and their vitamins?",
+      "back": "4-Hydroxyproline (collagen, vitamin C); γ-carboxyglutamate (clotting factors, vitamin K); phospho-Ser/Thr/Tyr (signalling). Selenocysteine is inserted by the ribosome."
+    }
+  ]
+}

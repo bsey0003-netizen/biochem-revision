@@ -1,0 +1,751 @@
+{
+  "unit": 2,
+  "title": "Organic compounds & functional groups",
+  "outcomes": [
+    "Hydrocarbons, alcohols, ethers and phenols",
+    "Carbonyl compounds: aldehydes and ketones",
+    "Carboxylic acids and their derivatives",
+    "Nitrogen compounds and heterocycles"
+  ],
+  "summary": {
+    "overview": "Biomolecules are built from a small set of functional groups. Knowing how each group behaves (polar or not, acidic or basic, electrophilic, energy-rich) lets you predict what sugars, lipids, amino acids, nucleotides and coenzymes will do.",
+    "sections": [
+      {
+        "heading": "Hydrocarbons, alcohols, ethers and phenols",
+        "points": [
+          "Aliphatic hydrocarbons (chains) and aromatic rings are non-polar: they form lipid tails and hydrophobic side chains.",
+          "Alcohols (R–OH) are polar H-bond donors and acceptors; sugars carry many hydroxyl groups.",
+          "Phenols have –OH on an aromatic ring and are more acidic than alcohols because the phenoxide ion is resonance-stabilised (e.g. the Tyr side chain).",
+          "Ethers (R–O–R′) are relatively unreactive; epoxides are strained three-membered rings and are very reactive."
+        ]
+      },
+      {
+        "heading": "Aldehydes and ketones",
+        "points": [
+          "Both contain a carbonyl group (C=O). Aldehydes have it at the end of a chain (–CHO); ketones have it between two carbons.",
+          "The carbonyl carbon is electrophilic (δ⁺), so nucleophiles such as alcohols add to it. This is how sugars form hemiacetal and hemiketal rings.",
+          "Aldehydes are oxidised to carboxylic acids or reduced to primary alcohols; ketones are reduced to secondary alcohols.",
+          "Aldoses (e.g. glucose) carry an aldehyde group; ketoses (e.g. fructose) carry a ketone group."
+        ]
+      },
+      {
+        "heading": "Carboxylic acids and their derivatives",
+        "points": [
+          "Carboxylic acids (–COOH) have pKa ≈ 2–5, so at physiological pH they exist as carboxylate anions (–COO⁻).",
+          "Esters form when an acid condenses with an alcohol (losing water); triacylglycerols are glycerol esters, hydrolysed by lipases.",
+          "Thioesters (e.g. acetyl-CoA) are less resonance-stabilised than oxygen esters, so they are excellent acyl-group donors.",
+          "Amides are the most stable derivatives; the peptide bond is an amide.",
+          "Acid anhydrides and acyl chlorides are very reactive. Phosphoanhydride bonds in ATP and the acyl phosphate of 1,3-bisphosphoglycerate are biological high-energy anhydrides."
+        ]
+      },
+      {
+        "heading": "Nitrogen compounds and heterocycles",
+        "points": [
+          "Amines (primary, secondary, tertiary) are basic and are protonated (–NH3⁺) at physiological pH. Proline contains a secondary amine.",
+          "Amides are not basic: the nitrogen lone pair is delocalised onto the carbonyl, which also makes the peptide bond planar.",
+          "Nitriles (–C≡N): cyanogenic glycosides in some plants release HCN when the plant is damaged.",
+          "Heterocycles contain N, O or S in a ring: purines and pyrimidines (nucleic-acid bases), imidazole (His), indole (Trp), thiazole (thiamine), and pyranose and furanose rings (sugars)."
+        ]
+      }
+    ],
+    "keyTerms": [
+      {
+        "term": "Hydroxyl group",
+        "definition": "–OH; makes molecules polar (alcohols, phenols, sugars)."
+      },
+      {
+        "term": "Carbonyl group",
+        "definition": "C=O, found in aldehydes, ketones, acids and their derivatives."
+      },
+      {
+        "term": "Carboxylate",
+        "definition": "–COO⁻, the deprotonated form of a carboxylic acid at physiological pH."
+      },
+      {
+        "term": "Ester",
+        "definition": "R–CO–O–R′, formed from an acid and an alcohol."
+      },
+      {
+        "term": "Thioester",
+        "definition": "R–CO–S–R′, an energy-rich acyl carrier, e.g. acetyl-CoA."
+      },
+      {
+        "term": "Amide",
+        "definition": "R–CO–NR′2; the peptide bond is an amide."
+      },
+      {
+        "term": "Phosphoanhydride",
+        "definition": "Bond between two phosphate groups, as in ATP."
+      },
+      {
+        "term": "Heterocycle",
+        "definition": "Ring containing at least one atom other than carbon (N, O, S)."
+      }
+    ],
+    "examTips": [
+      "Amines are basic; amides are NOT, because the lone pair is delocalised.",
+      "At pH 7.4, carboxylic acids are carboxylates (–COO⁻) and amines are –NH3⁺.",
+      "Aldehyde → (oxidation) carboxylic acid; aldehyde → (reduction) primary alcohol.",
+      "Imidazole = His, indole = Trp; adenine and guanine are purines, while C, T and U are pyrimidines."
+    ]
+  },
+  "questions": [
+    {
+      "id": "u2-q001",
+      "type": "mcq",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Hydrocarbons, alcohols, ethers and phenols",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Glucose carries several –OH groups attached to sp³ carbons. What are these groups called?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hydroxyl groups (alcohol groups)",
+          "correct": true,
+          "why": "R–OH on a saturated carbon is an alcohol; these make sugars very water-soluble."
+        },
+        {
+          "id": "b",
+          "text": "Carboxyl groups (acid groups)",
+          "correct": false,
+          "why": "Carboxyl is –COOH, a carbonyl and a hydroxyl on the same carbon."
+        },
+        {
+          "id": "c",
+          "text": "Ether groups (C–O–C links)",
+          "correct": false,
+          "why": "Ethers are C–O–C with no hydrogen on the oxygen."
+        },
+        {
+          "id": "d",
+          "text": "Phenol groups (aromatic –OH)",
+          "correct": false,
+          "why": "Phenols have –OH on an aromatic ring, not on sp³ carbons."
+        }
+      ]
+    },
+    {
+      "id": "u2-q002",
+      "type": "mcq",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Hydrocarbons, alcohols, ethers and phenols",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "The Tyr side-chain –OH (a phenol, pKa ≈ 10) is far more acidic than the Ser side-chain –OH (an alcohol, pKa ≈ 16). Why?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Resonance spreads the phenoxide's negative charge around the aromatic ring, stabilising it",
+          "correct": true,
+          "why": "A more stable conjugate base means a stronger acid."
+        },
+        {
+          "id": "b",
+          "text": "Serine's –OH is attached to an aromatic ring, which pulls electrons away from the O–H bond",
+          "correct": false,
+          "why": "Serine's –OH is on an aliphatic CH2; tyrosine's is on the ring."
+        },
+        {
+          "id": "c",
+          "text": "Phenols contain a carbonyl group next to the –OH, which makes the proton easier to lose",
+          "correct": false,
+          "why": "Phenols have no C=O."
+        },
+        {
+          "id": "d",
+          "text": "Alcohols are already negatively charged at pH 7, so serine's –OH cannot lose another proton",
+          "correct": false,
+          "why": "Alcohol –OH groups are essentially never ionised at physiological pH."
+        }
+      ]
+    },
+    {
+      "id": "u2-q003",
+      "type": "mcq",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Hydrocarbons, alcohols, ethers and phenols",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Why are epoxides much more reactive than ordinary ethers such as diethyl ether?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The three-membered C–C–O ring is highly strained, so nucleophiles open it readily",
+          "correct": true,
+          "why": "Releasing ring strain drives the reaction; reactive epoxides can damage DNA and proteins."
+        },
+        {
+          "id": "b",
+          "text": "Epoxides contain a carbonyl carbon, which is attacked by nucleophiles just like an aldehyde",
+          "correct": false,
+          "why": "An epoxide has a C–O–C ring, not a C=O."
+        },
+        {
+          "id": "c",
+          "text": "Epoxides are ionic compounds, so they dissociate in water into reactive charged fragments",
+          "correct": false,
+          "why": "They are covalent molecules."
+        },
+        {
+          "id": "d",
+          "text": "Ordinary ethers have much weaker C–O bonds, so they break apart before they can react",
+          "correct": false,
+          "why": "Unstrained ether C–O bonds are relatively strong and stable."
+        }
+      ]
+    },
+    {
+      "id": "u2-q004",
+      "type": "mcq",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Carbonyl compounds: aldehydes and ketones",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "general",
+      "stem": "What distinguishes an aldehyde from a ketone?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In an aldehyde the carbonyl is at the chain end (–CHO); in a ketone it lies between two carbons",
+          "correct": true,
+          "why": "This is the difference between aldoses, such as glucose, and ketoses, such as fructose."
+        },
+        {
+          "id": "b",
+          "text": "Aldehydes contain a nitrogen atom next to the carbonyl group, whereas ketones contain none",
+          "correct": false,
+          "why": "Both are C, H, O compounds."
+        },
+        {
+          "id": "c",
+          "text": "Ketones carry an –OH group on the carbonyl carbon itself, whereas aldehydes carry a hydrogen",
+          "correct": false,
+          "why": "That would make a carboxylic acid."
+        },
+        {
+          "id": "d",
+          "text": "Aldehydes have no C=O double bond; only ketones have a true carbonyl group",
+          "correct": false,
+          "why": "Both contain a carbonyl (C=O) group."
+        }
+      ]
+    },
+    {
+      "id": "u2-q005",
+      "type": "mcq",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Carbonyl compounds: aldehydes and ketones",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Glucose closes into a ring when its C-5 hydroxyl attacks the C-1 aldehyde. Why is the aldehyde carbon the target?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oxygen pulls electrons from the carbonyl carbon, leaving it electrophilic, so –OH adds to form a hemiacetal",
+          "correct": true,
+          "why": "Nucleophilic addition to carbonyls is one of the most common reactions in biochemistry."
+        },
+        {
+          "id": "b",
+          "text": "The aldehyde carbon carries a full negative charge, so it attracts the slightly positive H of the C-5 –OH",
+          "correct": false,
+          "why": "It carries a partial positive charge, not a negative one."
+        },
+        {
+          "id": "c",
+          "text": "The C=O bond is non-polar, so the C-5 hydroxyl can add across it without any repulsion from the oxygen",
+          "correct": false,
+          "why": "It is strongly polarised towards oxygen."
+        },
+        {
+          "id": "d",
+          "text": "The aldehyde carbon is the most reduced carbon in glucose, so it is the easiest one to attack and oxidise",
+          "correct": false,
+          "why": "C-1 is the most oxidised carbon in glucose."
+        }
+      ]
+    },
+    {
+      "id": "u2-q006",
+      "type": "mcq",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Carbonyl compounds: aldehydes and ketones",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Acetaldehyde, formed in the liver from ethanol, is converted to acetate by aldehyde dehydrogenase. What type of reaction is this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oxidation of an aldehyde to a carboxylic acid",
+          "correct": true,
+          "why": "The –CHO becomes –COOH (acetate at physiological pH); NAD⁺ accepts the electrons."
+        },
+        {
+          "id": "b",
+          "text": "Reduction of an aldehyde to a primary alcohol",
+          "correct": false,
+          "why": "Reduction would give back ethanol, a primary alcohol."
+        },
+        {
+          "id": "c",
+          "text": "Hydrolysis of an ester into an acid and alcohol",
+          "correct": false,
+          "why": "Acetaldehyde is not an ester."
+        },
+        {
+          "id": "d",
+          "text": "Condensation forming an amide with release of water",
+          "correct": false,
+          "why": "No amine is involved."
+        }
+      ]
+    },
+    {
+      "id": "u2-q007",
+      "type": "mcq",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Carboxylic acids and their derivatives",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "general",
+      "stem": "Lactic acid has a pKa of about 3.9. In which form is it mainly found in blood at pH 7.4?",
+      "options": [
+        {
+          "id": "a",
+          "text": "As the lactate anion (–COO⁻)",
+          "correct": true,
+          "why": "When pH is far above the pKa, the carboxyl group is almost entirely deprotonated."
+        },
+        {
+          "id": "b",
+          "text": "As undissociated lactic acid (–COOH)",
+          "correct": false,
+          "why": "That form predominates only when pH is below the pKa."
+        },
+        {
+          "id": "c",
+          "text": "As a 50:50 mixture of the two",
+          "correct": false,
+          "why": "A 50:50 mixture occurs only at pH = pKa (≈ 3.9)."
+        },
+        {
+          "id": "d",
+          "text": "As a positively charged ion",
+          "correct": false,
+          "why": "Loss of H⁺ from a carboxyl group gives a negative ion."
+        }
+      ]
+    },
+    {
+      "id": "u2-q008",
+      "type": "mcq",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Carboxylic acids and their derivatives",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "general",
+      "stem": "Triacylglycerols, the main storage fats, contain which type of bond between glycerol and the fatty acids?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ester bonds, formed between a carboxylic acid and an alcohol",
+          "correct": true,
+          "why": "Glycerol's three –OH groups are esterified; lipases hydrolyse these bonds."
+        },
+        {
+          "id": "b",
+          "text": "Amide bonds, formed between a carboxylic acid and an amine",
+          "correct": false,
+          "why": "Amides need an amine; glycerol has none."
+        },
+        {
+          "id": "c",
+          "text": "Phosphoanhydride bonds, formed between two phosphate groups",
+          "correct": false,
+          "why": "Those join phosphate groups, as in ATP."
+        },
+        {
+          "id": "d",
+          "text": "Glycosidic bonds, formed between a sugar and another alcohol",
+          "correct": false,
+          "why": "Glycosidic bonds join sugars."
+        }
+      ]
+    },
+    {
+      "id": "u2-q009",
+      "type": "mcq",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Carboxylic acids and their derivatives",
+      "bloom": "understand",
+      "difficulty": 3,
+      "source": "general",
+      "stem": "Acetyl groups are carried as the thioester acetyl-CoA rather than as an oxygen ester. Why is a thioester a better acyl donor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The C–S bond is less resonance-stabilised than an oxygen ester, so acyl transfer releases more energy",
+          "correct": true,
+          "why": "The poorly stabilised ground state gives thioesters a high acyl-group transfer potential."
+        },
+        {
+          "id": "b",
+          "text": "Sulphur is more electronegative than oxygen, so it pulls electrons away from the carbonyl carbon",
+          "correct": false,
+          "why": "Sulphur is less electronegative than oxygen."
+        },
+        {
+          "id": "c",
+          "text": "Thioesters are far less reactive in water, so the acetyl group cannot be lost before it is used",
+          "correct": false,
+          "why": "Thioesters are reactive; that is why they are useful as donors."
+        },
+        {
+          "id": "d",
+          "text": "A thioester contains a phosphoanhydride bond, which stores the energy needed to transfer the acetyl",
+          "correct": false,
+          "why": "Acetyl-CoA's energy-rich bond is the thioester itself."
+        }
+      ]
+    },
+    {
+      "id": "u2-q010",
+      "type": "mcq",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Carboxylic acids and their derivatives",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "general",
+      "stem": "The bonds linking the α, β and γ phosphate groups of ATP are which type of bond?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phosphoanhydride bonds",
+          "correct": true,
+          "why": "Two phosphoric acid groups joined with loss of water form an anhydride, which releases a lot of energy on hydrolysis."
+        },
+        {
+          "id": "b",
+          "text": "Phosphoester bonds",
+          "correct": false,
+          "why": "The bond joining the α-phosphate to ribose is a phosphoester; the bonds between phosphates are anhydrides."
+        },
+        {
+          "id": "c",
+          "text": "Phosphodiester bonds",
+          "correct": false,
+          "why": "Phosphodiester bonds link nucleotides in DNA and RNA (and close the ring of cAMP); ATP's phosphates are joined by anhydrides."
+        },
+        {
+          "id": "d",
+          "text": "N-glycosidic bonds",
+          "correct": false,
+          "why": "The N-glycosidic bond links adenine to ribose, not the phosphate groups to each other."
+        }
+      ]
+    },
+    {
+      "id": "u2-q011",
+      "type": "mcq",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Nitrogen compounds and heterocycles",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Lysine's side-chain amine is protonated at pH 7, but the nitrogen of a peptide bond is not basic. Why?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In an amide the nitrogen lone pair is delocalised onto the carbonyl, so it can't accept a proton",
+          "correct": true,
+          "why": "Resonance also gives the peptide bond partial double-bond character, making it planar."
+        },
+        {
+          "id": "b",
+          "text": "Amide nitrogens have no lone pair, because their outer electrons are used in bonds to carbon",
+          "correct": false,
+          "why": "The lone pair exists but is delocalised."
+        },
+        {
+          "id": "c",
+          "text": "The peptide nitrogen is already permanently positively charged, so it cannot take another proton",
+          "correct": false,
+          "why": "It is neutral at physiological pH."
+        },
+        {
+          "id": "d",
+          "text": "Amines are acids and amides are bases, so only the amine side chain gives up a proton at pH 7",
+          "correct": false,
+          "why": "Amines are bases; amides are essentially neutral."
+        }
+      ]
+    },
+    {
+      "id": "u2-q012",
+      "type": "mcq",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Nitrogen compounds and heterocycles",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Proline's amino nitrogen is bonded to two carbon atoms within a ring. How is this amine classified?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A secondary amine",
+          "correct": true,
+          "why": "N bonded to two C atoms (and one H) is secondary; it is often called an imino acid."
+        },
+        {
+          "id": "b",
+          "text": "A primary amine",
+          "correct": false,
+          "why": "A primary amine's N is bonded to one carbon, as in the other standard amino acids."
+        },
+        {
+          "id": "c",
+          "text": "A tertiary amine",
+          "correct": false,
+          "why": "A tertiary amine's N is bonded to three carbons; this happens only when proline forms a peptide bond."
+        },
+        {
+          "id": "d",
+          "text": "A quaternary ammonium",
+          "correct": false,
+          "why": "A quaternary ammonium nitrogen carries four carbons and a permanent positive charge; proline's nitrogen has two carbons."
+        }
+      ]
+    },
+    {
+      "id": "u2-q013",
+      "type": "mcq",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Nitrogen compounds and heterocycles",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Cattle grazing wilted or frost-damaged sorghum can die suddenly. The plant contains cyanogenic glycosides, which carry a nitrile (–C≡N) group. What is released, and what does it inhibit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hydrogen cyanide (HCN), which inhibits cytochrome c oxidase in mitochondria",
+          "correct": true,
+          "why": "Damage to the plant releases HCN from the glycoside, which blocks the respiratory chain and causes acute cellular hypoxia."
+        },
+        {
+          "id": "b",
+          "text": "Ammonia, which inhibits glycolysis and causes hepatic encephalopathy in the brain",
+          "correct": false,
+          "why": "The toxic product of the nitrile group is cyanide."
+        },
+        {
+          "id": "c",
+          "text": "Nitrite, which forms carboxyhaemoglobin and so blocks oxygen transport in the blood",
+          "correct": false,
+          "why": "Nitrite forms methaemoglobin, and it comes from nitrate, not from cyanogenic glycosides."
+        },
+        {
+          "id": "d",
+          "text": "Free glucose, which causes severe hyperglycaemia and inhibits insulin secretion",
+          "correct": false,
+          "why": "The sugar released is not the toxic part."
+        }
+      ]
+    },
+    {
+      "id": "u2-q014",
+      "type": "mcq",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Nitrogen compounds and heterocycles",
+      "bloom": "remember",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Which pairing of heterocycle and biomolecule is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Imidazole: the histidine side chain",
+          "correct": true,
+          "why": "His's imidazole ring (pKa ≈ 6) makes it a key acid–base catalyst and buffer."
+        },
+        {
+          "id": "b",
+          "text": "Pyrimidine: adenine (a DNA base)",
+          "correct": false,
+          "why": "Adenine and guanine are purines; cytosine, thymine and uracil are pyrimidines."
+        },
+        {
+          "id": "c",
+          "text": "Indole: the histidine side chain",
+          "correct": false,
+          "why": "Indole is the side chain of tryptophan."
+        },
+        {
+          "id": "d",
+          "text": "Thiazole: the tyrosine side chain",
+          "correct": false,
+          "why": "The thiazole ring is in thiamine (vitamin B1); tyrosine contains a phenol."
+        }
+      ]
+    },
+    {
+      "id": "u2-q015",
+      "type": "mcq",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Carboxylic acids and their derivatives",
+      "bloom": "analyse",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Pyruvate is CH3–CO–COO⁻. Which functional groups does it contain?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A ketone and a carboxylate",
+          "correct": true,
+          "why": "The middle carbon is a carbonyl between two carbons (ketone); the end carbon is a deprotonated carboxyl."
+        },
+        {
+          "id": "b",
+          "text": "An aldehyde and an alcohol",
+          "correct": false,
+          "why": "There is no –CHO and no –OH."
+        },
+        {
+          "id": "c",
+          "text": "An ester and a ketone",
+          "correct": false,
+          "why": "An ester would need C–O–C linking an acyl group to an alcohol part."
+        },
+        {
+          "id": "d",
+          "text": "An amide and a carboxylate",
+          "correct": false,
+          "why": "Pyruvate contains no nitrogen."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "u2-f001",
+      "type": "flashcard",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Hydrocarbons, alcohols, ethers and phenols",
+      "source": "general",
+      "front": "Alcohol vs phenol?",
+      "back": "Alcohol: –OH on an sp³ carbon (pKa ≈ 16). Phenol: –OH on an aromatic ring, more acidic (pKa ≈ 10), e.g. Tyr."
+    },
+    {
+      "id": "u2-f002",
+      "type": "flashcard",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Hydrocarbons, alcohols, ethers and phenols",
+      "source": "general",
+      "front": "Ether vs epoxide?",
+      "back": "Ether: R–O–R′, fairly unreactive. Epoxide: strained 3-membered C–C–O ring, very reactive."
+    },
+    {
+      "id": "u2-f003",
+      "type": "flashcard",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Carbonyl compounds: aldehydes and ketones",
+      "source": "general",
+      "front": "Aldehyde vs ketone?",
+      "back": "Aldehyde: terminal –CHO (aldoses, e.g. glucose). Ketone: C=O between two carbons (ketoses, e.g. fructose)."
+    },
+    {
+      "id": "u2-f004",
+      "type": "flashcard",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Carbonyl compounds: aldehydes and ketones",
+      "source": "general",
+      "front": "Typical reaction of a carbonyl carbon?",
+      "back": "Nucleophilic addition: it is electrophilic (δ⁺). Alcohol + aldehyde gives a hemiacetal (sugar ring formation)."
+    },
+    {
+      "id": "u2-f005",
+      "type": "flashcard",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Carboxylic acids and their derivatives",
+      "source": "general",
+      "front": "Form of –COOH at pH 7.4?",
+      "back": "Carboxylate –COO⁻, because pKa ≈ 2–5."
+    },
+    {
+      "id": "u2-f006",
+      "type": "flashcard",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Carboxylic acids and their derivatives",
+      "source": "general",
+      "front": "Ester vs thioester vs amide?",
+      "back": "Ester R–CO–O–R′ (fats). Thioester R–CO–S–R′ (acetyl-CoA, high transfer potential). Amide R–CO–NR′2 (peptide bond, most stable)."
+    },
+    {
+      "id": "u2-f007",
+      "type": "flashcard",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Carboxylic acids and their derivatives",
+      "source": "general",
+      "front": "Biological acid anhydrides?",
+      "back": "Phosphoanhydride bonds in ATP; the mixed acyl–phosphate anhydride in 1,3-bisphosphoglycerate."
+    },
+    {
+      "id": "u2-f008",
+      "type": "flashcard",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Nitrogen compounds and heterocycles",
+      "source": "general",
+      "front": "Amine vs amide basicity?",
+      "back": "Amines are basic (–NH3⁺ at pH 7). Amides are not basic: the lone pair is delocalised onto C=O."
+    },
+    {
+      "id": "u2-f009",
+      "type": "flashcard",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Nitrogen compounds and heterocycles",
+      "source": "general",
+      "front": "Purines vs pyrimidines?",
+      "back": "Purines (two rings): adenine, guanine. Pyrimidines (one ring): cytosine, thymine, uracil."
+    },
+    {
+      "id": "u2-f010",
+      "type": "flashcard",
+      "unit": 2,
+      "part": 1,
+      "outcome": "Nitrogen compounds and heterocycles",
+      "source": "general",
+      "front": "Which heterocycle is in His, Trp and thiamine?",
+      "back": "His: imidazole. Trp: indole. Thiamine: thiazole (plus a pyrimidine)."
+    }
+  ]
+}

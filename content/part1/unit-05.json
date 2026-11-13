@@ -1,0 +1,707 @@
+{
+  "unit": 5,
+  "title": "Redox reactions",
+  "outcomes": [
+    "Redox pairs and biological oxidation",
+    "Reduction potentials and the direction of electron flow",
+    "Nernst equation and free energy from ΔE",
+    "Redox cofactors: NAD, NADP and flavins"
+  ],
+  "summary": {
+    "overview": "Cells get most of their energy by stripping electrons from reduced fuels and passing them, step by step, to O2. Each redox pair has a reduction potential; electrons flow from lower to higher E, and the difference (ΔE) sets the free energy available.",
+    "sections": [
+      {
+        "heading": "Redox basics",
+        "points": [
+          "Oxidation = loss of electrons; reduction = gain. They always occur together (a conjugate redox pair, e.g. NAD⁺/NADH).",
+          "Many biological oxidations are dehydrogenations: 2 electrons leave as a hydride ion (:H⁻) plus a proton.",
+          "Reduced organic compounds (fuels) are the electron donors; O2 is the final acceptor in aerobic organisms."
+        ]
+      },
+      {
+        "heading": "Reduction potential and electron flow",
+        "points": [
+          "The standard reduction potential E′° measures a pair's affinity for electrons: the higher (more positive) the E′°, the greater the affinity.",
+          "Electrons flow spontaneously from the pair with lower E′° to the pair with higher E′°.",
+          "Reference values: NAD⁺/NADH −0.320 V; FAD/FADH2 −0.219 V; pyruvate/lactate −0.185 V; cytochrome c +0.254 V; ½O2/H2O +0.816 V."
+        ]
+      },
+      {
+        "heading": "Nernst equation and ΔG",
+        "points": [
+          "Nernst: E = E′° + (RT/nF) ln([electron acceptor]/[electron donor]). At 25 °C, E = E′° + (0.059/n) log([ox]/[red]).",
+          "When [ox] = [red], E = E′°.",
+          "ΔE′° = E′°(acceptor) − E′°(donor), and ΔG′° = −nFΔE′° (F = 96.5 kJ/V·mol).",
+          "A positive ΔE gives a negative ΔG. NADH → O2: ΔE′° = 1.136 V, so ΔG′° ≈ −219 kJ/mol, enough to make several ATP."
+        ]
+      },
+      {
+        "heading": "Redox cofactors",
+        "points": [
+          "NAD⁺ and NADP⁺ (pyridine nucleotides) accept a hydride; they bind loosely and move between enzymes.",
+          "NADH mostly carries electrons from catabolism to the respiratory chain; NADPH supplies reducing power for biosynthesis.",
+          "NADH absorbs light at 340 nm (NAD⁺ does not), so dehydrogenase reactions are followed spectrophotometrically, e.g. in clinical enzyme assays.",
+          "FAD and FMN (flavins) are bound tightly and can transfer one or two electrons, which lets flavin oxidases use O2."
+        ]
+      }
+    ],
+    "keyTerms": [
+      {
+        "term": "Redox pair",
+        "definition": "Electron donor and its oxidised form, e.g. NADH/NAD⁺."
+      },
+      {
+        "term": "Reduction potential (E′°)",
+        "definition": "Affinity of a redox pair for electrons under standard conditions at pH 7."
+      },
+      {
+        "term": "Nernst equation",
+        "definition": "E = E′° + (RT/nF) ln([ox]/[red]), the potential at actual concentrations."
+      },
+      {
+        "term": "Faraday constant (F)",
+        "definition": "96.5 kJ/V·mol, the charge of one mole of electrons."
+      },
+      {
+        "term": "Hydride ion",
+        "definition": ":H⁻, a proton with two electrons, transferred to NAD(P)⁺."
+      },
+      {
+        "term": "Dehydrogenase",
+        "definition": "Enzyme that oxidises a substrate by removing hydrogen (H⁺ + hydride)."
+      },
+      {
+        "term": "Flavoprotein",
+        "definition": "Enzyme with tightly bound FAD or FMN."
+      }
+    ],
+    "examTips": [
+      "Electrons flow towards the MORE POSITIVE E′°.",
+      "ΔE′° = E(acceptor) − E(donor); then ΔG′° = −nFΔE′° (watch the sign and n).",
+      "NADH is for energy (catabolism); NADPH is for biosynthesis.",
+      "The A340 of NADH is the basis of many laboratory enzyme assays."
+    ]
+  },
+  "questions": [
+    {
+      "id": "u5-q001",
+      "type": "mcq",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Redox pairs and biological oxidation",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "In the reaction ethanol + NAD⁺ → acetaldehyde + NADH + H⁺, which species is oxidised?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ethanol, which loses two electrons (a hydride plus a proton)",
+          "correct": true,
+          "why": "Oxidation is loss of electrons; ethanol is the electron donor (reducing agent)."
+        },
+        {
+          "id": "b",
+          "text": "NAD⁺, which gives up electrons to ethanol as it becomes NADH",
+          "correct": false,
+          "why": "NAD⁺ gains electrons, so it is reduced to NADH."
+        },
+        {
+          "id": "c",
+          "text": "Acetaldehyde, which is formed by removing hydrogen from NADH",
+          "correct": false,
+          "why": "Acetaldehyde is the product of the oxidation, not the species being oxidised."
+        },
+        {
+          "id": "d",
+          "text": "No species, because it is a hydrolysis in which water is added",
+          "correct": false,
+          "why": "Electrons are transferred, so it is a redox reaction."
+        }
+      ]
+    },
+    {
+      "id": "u5-q002",
+      "type": "mcq",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Redox pairs and biological oxidation",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "When a dehydrogenase oxidises a secondary alcohol to a ketone using NAD⁺, how are the two electrons removed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "As a hydride ion (:H⁻) transferred to NAD⁺, with a proton released to the solvent",
+          "correct": true,
+          "why": "NAD⁺ accepts the hydride (2 e⁻ + 1 H⁺); the second H⁺ goes into solution."
+        },
+        {
+          "id": "b",
+          "text": "As two separate free electrons released into the water, where NAD⁺ later picks them up",
+          "correct": false,
+          "why": "Free electrons do not exist in solution; they move with H atoms or between cofactors."
+        },
+        {
+          "id": "c",
+          "text": "As molecular hydrogen gas (H2), which diffuses away from the enzyme's active site",
+          "correct": false,
+          "why": "Dehydrogenases don't release H2 gas."
+        },
+        {
+          "id": "d",
+          "text": "As an oxygen atom added to the alcohol carbon, which turns the C–OH group into C=O",
+          "correct": false,
+          "why": "That would be an oxygenase reaction, not a dehydrogenation."
+        }
+      ]
+    },
+    {
+      "id": "u5-q003",
+      "type": "mcq",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Reduction potentials and the direction of electron flow",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "What does a highly positive standard reduction potential (E′°) tell you about a redox pair?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Its oxidised form has a high affinity for electrons, so it tends to be reduced",
+          "correct": true,
+          "why": "Higher E′° means a stronger electron acceptor, e.g. O2/H2O at +0.816 V."
+        },
+        {
+          "id": "b",
+          "text": "Its reduced form readily donates electrons, so it is a strong reducing agent in cells",
+          "correct": false,
+          "why": "Good donors have very negative E′°, e.g. NADH at −0.320 V."
+        },
+        {
+          "id": "c",
+          "text": "It cannot take part in biological reactions, because it holds its electrons too tightly",
+          "correct": false,
+          "why": "O2, the most positive biological pair, is the final acceptor of respiration."
+        },
+        {
+          "id": "d",
+          "text": "It reacts quickly, because a large potential means a low activation energy",
+          "correct": false,
+          "why": "E′° is thermodynamic; it says nothing about rate."
+        }
+      ]
+    },
+    {
+      "id": "u5-q004",
+      "type": "mcq",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Reduction potentials and the direction of electron flow",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "E′° values: NAD⁺/NADH −0.320 V; fumarate/succinate +0.031 V. Under standard conditions, which way do electrons flow?",
+      "options": [
+        {
+          "id": "a",
+          "text": "From NADH to fumarate, producing NAD⁺ and succinate",
+          "correct": true,
+          "why": "Electrons move from the lower (more negative) E′° to the higher one."
+        },
+        {
+          "id": "b",
+          "text": "From succinate to NAD⁺, producing fumarate and NADH",
+          "correct": false,
+          "why": "That is uphill (ΔE′° negative), so it is not spontaneous under standard conditions."
+        },
+        {
+          "id": "c",
+          "text": "There is no flow, because both values are close to zero",
+          "correct": false,
+          "why": "The difference of 0.351 V is substantial."
+        },
+        {
+          "id": "d",
+          "text": "From fumarate to NADH",
+          "correct": false,
+          "why": "Fumarate is the oxidised form; it accepts rather than donates electrons."
+        }
+      ]
+    },
+    {
+      "id": "u5-q005",
+      "type": "mcq",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Nernst equation and free energy from ΔE",
+      "bloom": "apply",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "E′° (½O2/H2O) = +0.816 V and E′° (NAD⁺/NADH) = −0.320 V. What is ΔG′° for the oxidation of NADH by O2 (n = 2, F = 96.5 kJ/V·mol)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "About −219 kJ/mol",
+          "correct": true,
+          "why": "ΔE′° = 0.816 − (−0.320) = 1.136 V; ΔG′° = −nFΔE′° = −2 × 96.5 × 1.136 ≈ −219 kJ/mol."
+        },
+        {
+          "id": "b",
+          "text": "About +219 kJ/mol",
+          "correct": false,
+          "why": "A positive ΔE′° gives a negative ΔG′°."
+        },
+        {
+          "id": "c",
+          "text": "About −95 kJ/mol",
+          "correct": false,
+          "why": "This subtracts the potentials the wrong way (0.816 − 0.320 = 0.496 V)."
+        },
+        {
+          "id": "d",
+          "text": "About −110 kJ/mol",
+          "correct": false,
+          "why": "This forgets that n = 2 electrons are transferred."
+        }
+      ]
+    },
+    {
+      "id": "u5-q006",
+      "type": "mcq",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Nernst equation and free energy from ΔE",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Lactate dehydrogenase uses NADH (E′° −0.320 V) to reduce pyruvate (pyruvate/lactate E′° −0.185 V). What is ΔG′° for pyruvate + NADH + H⁺ → lactate + NAD⁺?",
+      "options": [
+        {
+          "id": "a",
+          "text": "About −26 kJ/mol, so the reaction is favourable",
+          "correct": true,
+          "why": "ΔE′° = −0.185 − (−0.320) = +0.135 V; ΔG′° = −2 × 96.5 × 0.135 ≈ −26 kJ/mol."
+        },
+        {
+          "id": "b",
+          "text": "About +26 kJ/mol, so the reaction is unfavourable",
+          "correct": false,
+          "why": "The acceptor (pyruvate) has the higher E′°, so ΔE′° is positive and ΔG′° negative."
+        },
+        {
+          "id": "c",
+          "text": "About −97 kJ/mol",
+          "correct": false,
+          "why": "This adds the magnitudes (0.505 V) instead of subtracting."
+        },
+        {
+          "id": "d",
+          "text": "0 kJ/mol",
+          "correct": false,
+          "why": "The two E′° values differ, so ΔG′° is not zero."
+        }
+      ]
+    },
+    {
+      "id": "u5-q007",
+      "type": "mcq",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Nernst equation and free energy from ΔE",
+      "bloom": "apply",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "In a cell compartment, [NAD⁺]/[NADH] = 10. Using E = E′° + (0.059/n) log([ox]/[red]) with E′° = −0.320 V and n = 2, what is the actual E?",
+      "options": [
+        {
+          "id": "a",
+          "text": "About −0.290 V",
+          "correct": true,
+          "why": "E = −0.320 + (0.059/2) × log 10 = −0.320 + 0.0295 ≈ −0.290 V."
+        },
+        {
+          "id": "b",
+          "text": "About −0.350 V",
+          "correct": false,
+          "why": "Excess oxidised form makes E more positive, not more negative."
+        },
+        {
+          "id": "c",
+          "text": "About −0.261 V",
+          "correct": false,
+          "why": "This forgets to divide by n = 2."
+        },
+        {
+          "id": "d",
+          "text": "Exactly −0.320 V",
+          "correct": false,
+          "why": "E = E′° only when [ox] = [red]."
+        }
+      ]
+    },
+    {
+      "id": "u5-q008",
+      "type": "mcq",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Nernst equation and free energy from ΔE",
+      "bloom": "remember",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "In the Nernst equation, when does the actual reduction potential E equal the standard value E′°?",
+      "options": [
+        {
+          "id": "a",
+          "text": "When the concentrations of the oxidised and reduced forms are equal",
+          "correct": true,
+          "why": "The log term is log 1 = 0, so E = E′°."
+        },
+        {
+          "id": "b",
+          "text": "When only the reduced form is present in the solution",
+          "correct": false,
+          "why": "Then [ox]/[red] → 0 and E becomes very negative."
+        },
+        {
+          "id": "c",
+          "text": "At any concentration, because E is a constant for a pair",
+          "correct": false,
+          "why": "E varies with concentration; E′° is the constant."
+        },
+        {
+          "id": "d",
+          "text": "Only at 0 °C, when the RT/nF term is equal to zero",
+          "correct": false,
+          "why": "Temperature affects the RT/nF factor, but the condition is [ox] = [red]."
+        }
+      ]
+    },
+    {
+      "id": "u5-q009",
+      "type": "mcq",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Reduction potentials and the direction of electron flow",
+      "bloom": "analyse",
+      "difficulty": 3,
+      "source": "slides",
+      "stem": "In the respiratory chain, electrons pass from NADH (−0.320 V) through ubiquinone (+0.045 V) and cytochrome c (+0.254 V) to O2 (+0.816 V). Why are they passed in small steps rather than directly to O2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Each step releases a manageable share of free energy, which is captured by pumping protons, not lost as heat",
+          "correct": true,
+          "why": "The total ΔG is the same, but stepwise transfer along increasing E lets the cell harvest it efficiently."
+        },
+        {
+          "id": "b",
+          "text": "The direct reaction of NADH with O2 would be endergonic, so it needs intermediate carriers to go forward",
+          "correct": false,
+          "why": "NADH → O2 is strongly exergonic (≈ −219 kJ/mol)."
+        },
+        {
+          "id": "c",
+          "text": "Stepwise transfer makes more total free energy available than the single direct transfer to oxygen would",
+          "correct": false,
+          "why": "Total ΔG depends only on the start and end pairs."
+        },
+        {
+          "id": "d",
+          "text": "Electrons flow from a higher to a lower E′°, so they need carriers in descending order",
+          "correct": false,
+          "why": "Electrons flow from lower to higher E."
+        }
+      ]
+    },
+    {
+      "id": "u5-q010",
+      "type": "mcq",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Redox cofactors: NAD, NADP and flavins",
+      "bloom": "apply",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Serum ALT and AST activities are measured in many veterinary laboratories by following the change in absorbance at 340 nm. What is actually being measured?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Conversion of NADH to NAD⁺ in a linked dehydrogenase reaction, as only NADH absorbs at 340 nm",
+          "correct": true,
+          "why": "The transaminase product is coupled to an NADH-dependent dehydrogenase, and the fall in A340 tracks the reaction rate."
+        },
+        {
+          "id": "b",
+          "text": "The absorbance of the transaminase protein itself, which rises as more enzyme becomes active",
+          "correct": false,
+          "why": "Proteins absorb mainly at 280 nm, and their amount does not change during the assay."
+        },
+        {
+          "id": "c",
+          "text": "The absorbance of NAD⁺, which is strongest at 340 nm and increases as the reaction proceeds",
+          "correct": false,
+          "why": "NAD⁺ does not absorb at 340 nm; that is why the assay works."
+        },
+        {
+          "id": "d",
+          "text": "Haemoglobin released from red cells damaged by the enzyme, which absorbs strongly at 340 nm",
+          "correct": false,
+          "why": "Haemolysis can interfere with assays but is not what is measured."
+        }
+      ]
+    },
+    {
+      "id": "u5-q011",
+      "type": "mcq",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Redox cofactors: NAD, NADP and flavins",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "general",
+      "stem": "Cells keep NAD⁺/NADH and NADP⁺/NADPH as separate pools. What is the main role of each?",
+      "options": [
+        {
+          "id": "a",
+          "text": "NAD⁺ mainly accepts electrons in catabolism; NADPH mainly donates them for reductive biosynthesis",
+          "correct": true,
+          "why": "A high NAD⁺/NADH ratio favours oxidation; a high NADPH/NADP⁺ ratio favours biosynthesis (e.g. fatty acids)."
+        },
+        {
+          "id": "b",
+          "text": "They are interchangeable in most enzymes, and are kept separate only so they can be stored in different organelles",
+          "correct": false,
+          "why": "Most dehydrogenases are specific for one or the other."
+        },
+        {
+          "id": "c",
+          "text": "NADPH is used only to make ATP in the mitochondria, while NAD⁺ accepts electrons in biosynthesis",
+          "correct": false,
+          "why": "NADPH supplies reducing power for biosynthesis and antioxidant defence."
+        },
+        {
+          "id": "d",
+          "text": "NADH is used only in DNA synthesis, while NADP⁺ accepts electrons from glycolysis and the TCA cycle",
+          "correct": false,
+          "why": "NADH feeds electrons into the respiratory chain."
+        }
+      ]
+    },
+    {
+      "id": "u5-q012",
+      "type": "mcq",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Redox cofactors: NAD, NADP and flavins",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "How do flavin cofactors (FAD, FMN) differ from NAD⁺?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Flavins are tightly bound to their proteins and can move one or two electrons, so oxidases can use O2",
+          "correct": true,
+          "why": "The stable semiquinone form allows single-electron steps; NAD⁺ transfers only a hydride (two electrons)."
+        },
+        {
+          "id": "b",
+          "text": "Flavins diffuse freely between many dehydrogenases, just like NAD⁺, carrying a hydride ion each time",
+          "correct": false,
+          "why": "Flavins are usually tightly or covalently bound (flavoproteins)."
+        },
+        {
+          "id": "c",
+          "text": "Flavins cannot accept electrons themselves; they only position the substrate for NAD⁺ to oxidise",
+          "correct": false,
+          "why": "FAD is reduced to FADH2."
+        },
+        {
+          "id": "d",
+          "text": "Flavins are inorganic metal ions, such as Fe²⁺ and Cu⁺, that sit in the active site of the enzyme",
+          "correct": false,
+          "why": "They are organic cofactors derived from riboflavin (vitamin B2)."
+        }
+      ]
+    },
+    {
+      "id": "u5-q013",
+      "type": "mcq",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Nernst equation and free energy from ΔE",
+      "bloom": "understand",
+      "difficulty": 2,
+      "source": "slides",
+      "stem": "For an electron transfer from donor to acceptor to be spontaneous, what must be true?",
+      "options": [
+        {
+          "id": "a",
+          "text": "E(acceptor) > E(donor), so ΔE is positive and ΔG = −nFΔE is negative",
+          "correct": true,
+          "why": "A positive potential difference drives electrons 'downhill' to the acceptor."
+        },
+        {
+          "id": "b",
+          "text": "E(acceptor) < E(donor), so electrons fall from the higher to the lower E",
+          "correct": false,
+          "why": "That gives a negative ΔE and a positive ΔG."
+        },
+        {
+          "id": "c",
+          "text": "ΔE must equal zero, so that no energy is lost during the transfer",
+          "correct": false,
+          "why": "ΔE = 0 means equilibrium, with no net flow."
+        },
+        {
+          "id": "d",
+          "text": "n must be larger than 2, so that enough electrons move to make ΔG negative",
+          "correct": false,
+          "why": "The number of electrons scales ΔG but does not set its sign."
+        }
+      ]
+    },
+    {
+      "id": "u5-q014",
+      "type": "mcq",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Redox pairs and biological oxidation",
+      "bloom": "understand",
+      "difficulty": 1,
+      "source": "slides",
+      "stem": "Why are reduced organic compounds such as fatty acids and glucose described as metabolic fuels?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Their electrons are removed in oxidation and passed to O2, releasing free energy the cell captures",
+          "correct": true,
+          "why": "Electrons flow from fuels (low E) to O2 (high E), releasing energy along the way."
+        },
+        {
+          "id": "b",
+          "text": "They are already fully oxidised, so their carbon atoms can be stored safely without reacting",
+          "correct": false,
+          "why": "Fully oxidised carbon (CO2) has no energy left to release."
+        },
+        {
+          "id": "c",
+          "text": "They accept electrons from O2 when they are broken down, which releases free energy as heat",
+          "correct": false,
+          "why": "O2 is the electron acceptor; fuels are donors."
+        },
+        {
+          "id": "d",
+          "text": "They contain stored ATP molecules, which are released when the fuel is broken down in cells",
+          "correct": false,
+          "why": "ATP is made from the energy of their oxidation."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "u5-f001",
+      "type": "flashcard",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Redox pairs and biological oxidation",
+      "source": "slides",
+      "front": "Oxidation vs reduction?",
+      "back": "Oxidation = loss of electrons; reduction = gain. The donor is oxidised, the acceptor is reduced."
+    },
+    {
+      "id": "u5-f002",
+      "type": "flashcard",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Reduction potentials and the direction of electron flow",
+      "source": "slides",
+      "front": "Which way do electrons flow between redox pairs?",
+      "back": "From lower (more negative) E′° to higher (more positive) E′°."
+    },
+    {
+      "id": "u5-f003",
+      "type": "flashcard",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Reduction potentials and the direction of electron flow",
+      "source": "slides",
+      "front": "E′° of NAD⁺/NADH and ½O2/H2O?",
+      "back": "−0.320 V and +0.816 V (ΔE′° = 1.136 V)."
+    },
+    {
+      "id": "u5-f004",
+      "type": "flashcard",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Nernst equation and free energy from ΔE",
+      "source": "slides",
+      "front": "ΔG from ΔE?",
+      "back": "ΔG′° = −nFΔE′°, with F = 96.5 kJ/V·mol and ΔE′° = E(acceptor) − E(donor)."
+    },
+    {
+      "id": "u5-f005",
+      "type": "flashcard",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Nernst equation and free energy from ΔE",
+      "source": "slides",
+      "front": "Nernst equation?",
+      "back": "E = E′° + (RT/nF) ln([ox]/[red]); at 25 °C, E = E′° + (0.059/n) log([ox]/[red])."
+    },
+    {
+      "id": "u5-f006",
+      "type": "flashcard",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Nernst equation and free energy from ΔE",
+      "source": "slides",
+      "front": "ΔG′° for NADH → O2?",
+      "back": "≈ −219 kJ/mol (−2 × 96.5 × 1.136)."
+    },
+    {
+      "id": "u5-f007",
+      "type": "flashcard",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Redox cofactors: NAD, NADP and flavins",
+      "source": "slides",
+      "front": "What does NAD⁺ accept?",
+      "back": "A hydride ion (:H⁻ = 2 e⁻ + H⁺); a second H⁺ is released into solution."
+    },
+    {
+      "id": "u5-f008",
+      "type": "flashcard",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Redox cofactors: NAD, NADP and flavins",
+      "source": "general",
+      "front": "NADH vs NADPH roles?",
+      "back": "NADH: catabolism → respiratory chain (energy). NADPH: reductive biosynthesis and antioxidant defence."
+    },
+    {
+      "id": "u5-f009",
+      "type": "flashcard",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Redox cofactors: NAD, NADP and flavins",
+      "source": "slides",
+      "front": "Why measure A340 in dehydrogenase assays?",
+      "back": "NADH absorbs at 340 nm and NAD⁺ does not, so the change in A340 follows the reaction."
+    },
+    {
+      "id": "u5-f010",
+      "type": "flashcard",
+      "unit": 5,
+      "part": 1,
+      "outcome": "Redox cofactors: NAD, NADP and flavins",
+      "source": "slides",
+      "front": "Flavin cofactors?",
+      "back": "FAD and FMN (from riboflavin): tightly bound, can carry 1 or 2 electrons, which lets flavin oxidases use O2."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "part": 1,
+  "title": "Part 1 · The chemistry of living beings",
+  "topics": [
+    {
+      "id": "chemistry-of-life", "title": "Chemistry of life", "emoji": "🧪", "color": "mint",
+      "units": [
+        { "unit": 1, "title": "Chemistry of living beings & water" },
+        { "unit": 2, "title": "Organic compounds & functional groups" },
+        { "unit": 3, "title": "Chemical equilibrium, pH & buffers" }
+      ]
+    },
+    {
+      "id": "energy-redox", "title": "Energy & redox", "emoji": "⚡", "color": "lemon",
+      "units": [
+        { "unit": 4, "title": "Thermodynamics & ATP" },
+        { "unit": 5, "title": "Redox reactions" }
+      ]
+    },
+    {
+      "id": "protein-structure", "title": "Amino acids & protein structure", "emoji": "🔗", "color": "lilac",
+      "units": [
+        { "unit": 6, "title": "Amino acids" },
+        { "unit": 7, "title": "Peptide bond & primary structure" },
+        { "unit": 8, "title": "3D structure of proteins" }
+      ]
+    },
+    {
+      "id": "fibrous-proteins", "title": "Fibrous proteins", "emoji": "🧶", "color": "peach",
+      "units": [{ "unit": 9, "title": "Keratin, fibroin & collagen" }]
+    },
+    {
+      "id": "oxygen-binding", "title": "Oxygen-binding proteins", "emoji": "🩸", "color": "rose",
+      "units": [{ "unit": 10, "title": "Myoglobin & haemoglobin" }]
+    },
+    {
+      "id": "enzymes", "title": "Enzymes", "emoji": "⚙️", "color": "sky",
+      "units": [
+        { "unit": 11, "title": "Enzyme properties & catalysis" },
+        { "unit": 12, "title": "Enzyme kinetics & inhibition" },
+        { "unit": 13, "title": "Regulation of enzyme activity" }
+      ]
+    },
+    {
+      "id": "vitamins", "title": "Vitamins", "emoji": "🍊", "color": "apricot",
+      "units": [{ "unit": 14, "title": "Vitamins & deficiencies" }]
+    }
+  ]
+}
