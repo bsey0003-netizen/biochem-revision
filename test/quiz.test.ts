@@ -72,3 +72,19 @@ test("scoreExam counts correct answers overall and per unit, as a mark out of 10
   assert.equal(score.mark, 5);
   assert.deepEqual(score.byUnit, { 10: { correct: 1, total: 2 }, 12: { correct: 1, total: 2 } });
 });
+
+test("buildMockExam prefers unseen questions within each unit when given a seen set", () => {
+  const bank = [1, 2].flatMap((unit) => [1, 2, 3, 4].map((n) => makeQuestion(unit, n)));
+  const seen = new Set(bank.filter((q) => !q.id.endsWith("4")).map((q) => q.id));
+  for (let seed = 0; seed < 20; seed += 1) {
+    const exam = buildMockExam(bank, 2, createRng(seed), seen);
+    assert.deepEqual(exam.map((q) => q.id).sort(), ["u1-q004", "u2-q004"]);
+  }
+});
+
+test("buildMockExam falls back to seen questions once unseen ones run out", () => {
+  const bank = [1, 2, 3].map((n) => makeQuestion(1, n));
+  const exam = buildMockExam(bank, 3, createRng(1), new Set(["u1-q001", "u1-q002"]));
+  assert.equal(exam.length, 3);
+  assert.equal(new Set(exam.map((q) => q.id)).size, 3);
+});

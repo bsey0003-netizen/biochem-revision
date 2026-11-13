@@ -33,9 +33,21 @@ const groupByUnit = (questions: readonly Question[]): Map<number, Question[]> =>
   return groups;
 };
 
-/** Picks `count` questions spread evenly across units (round-robin), then shuffles order and options. */
-export const buildMockExam = (questions: readonly Question[], count: number, rng: Rng = Math.random): Question[] => {
-  const pools = [...groupByUnit(questions).values()].map((pool) => shuffle(pool, rng));
+/**
+ * Picks `count` questions spread evenly across units (round-robin), then shuffles order and options.
+ * With `seen`, each unit offers its unseen questions first, so repeated mocks show new questions.
+ */
+export const buildMockExam = (
+  questions: readonly Question[],
+  count: number,
+  rng: Rng = Math.random,
+  seen: ReadonlySet<string> = new Set(),
+): Question[] => {
+  const unseenFirst = (pool: Question[]): Question[] => [
+    ...shuffle(pool.filter((q) => !seen.has(q.id)), rng),
+    ...shuffle(pool.filter((q) => seen.has(q.id)), rng),
+  ];
+  const pools = [...groupByUnit(questions).values()].map(unseenFirst);
   const picked: Question[] = [];
   while (picked.length < count && pools.some((pool) => pool.length > 0)) {
     for (const pool of shuffle(pools, rng)) {
