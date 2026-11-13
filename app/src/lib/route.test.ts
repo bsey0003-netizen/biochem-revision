@@ -5,6 +5,7 @@ describe("route", () => {
   test("parses known views and arguments", () => {
     expect(parseHash("#practice")).toEqual({ name: "practice", arg: null });
     expect(parseHash("#topic/enzymes")).toEqual({ name: "topic", arg: "enzymes" });
+    expect(parseHash("#about")).toEqual({ name: "about", arg: null });
   });
 
   test("falls back to home for unknown or malformed hashes", () => {

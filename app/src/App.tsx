@@ -11,6 +11,7 @@ import { PracticeView } from "./views/PracticeView.tsx";
 import { MockView } from "./views/MockView.tsx";
 import { CardsView } from "./views/CardsView.tsx";
 import { ExploreView } from "./views/ExploreView.tsx";
+import { AboutView } from "./views/AboutView.tsx";
 
 type Props = { catalog: Catalog; pathways: Pathway[]; store: KeyValueStore; updateBanner?: ReactNode };
 
@@ -20,6 +21,7 @@ const TABS: { view: ViewName; icon: string; label: string }[] = [
   { view: "mock", icon: "⏱️", label: "Mock" },
   { view: "cards", icon: "🃏", label: "Cards" },
   { view: "explore", icon: "🔬", label: "Explore" },
+  { view: "about", icon: "💜", label: "About" },
 ];
 
 const VIEW_COMPONENTS: Record<ViewName, () => ReactNode> = {
@@ -29,6 +31,7 @@ const VIEW_COMPONENTS: Record<ViewName, () => ReactNode> = {
   mock: MockView,
   cards: CardsView,
   explore: ExploreView,
+  about: AboutView,
 };
 
 export const App = ({ catalog, pathways, store, updateBanner }: Props) => {

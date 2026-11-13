@@ -130,3 +130,16 @@ describe("tab bar", () => {
     expect(screen.getByRole("heading", { level: 1, name: /Mock exam/ })).toBeInTheDocument();
   });
 });
+
+describe("about", () => {
+  test("the About tab credits the lecturer and says the app was built with Claude Code", async () => {
+    const { user } = setup();
+    const nav = screen.getByRole("navigation", { name: "Sections" });
+    await user.click(within(nav).getByRole("button", { name: /About/ }));
+    expect(screen.getByRole("heading", { level: 1, name: /Acknowledgements/ })).toBeInTheDocument();
+    expect(screen.getByText(/Dr Brandon Charles Seychell/)).toBeInTheDocument();
+    expect(screen.getByText(/Claude Code/)).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: /Suggestions/ })).toBeInTheDocument();
+    expect(document.body.textContent).not.toMatch(/@/);
+  });
+});

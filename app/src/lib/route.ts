@@ -1,5 +1,5 @@
-/** Hash routes: #home, #topic/<id>, #practice, #mock, #cards, #explore. */
-export const VIEWS = ["home", "topic", "practice", "mock", "cards", "explore"] as const;
+/** Hash routes: #home, #topic/<id>, #practice, #mock, #cards, #explore, #about. */
+export const VIEWS = ["home", "topic", "practice", "mock", "cards", "explore", "about"] as const;
 export type ViewName = (typeof VIEWS)[number];
 export type Route = { name: ViewName; arg: string | null };
 
